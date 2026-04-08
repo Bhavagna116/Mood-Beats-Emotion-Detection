@@ -6,13 +6,12 @@ import tensorflow as tf
 from .config import EMOTION_LABELS
 
 def load_emotion_model():
-    """Load the pre-trained Keras model."""
-    model_path = "fer2013_emotion_model.h5"
-    if not os.path.exists(model_path):
-        # Fallback to copy if first one missing (based on list_dir results)
-        model_path = "fer2013_emotion_model (1).h5"
+    # We now strictly load the TFLite ultra-lightweight model to prevent Render RAM crashes!
+    model_path = os.path.join(os.path.dirname(__file__), '..', 'fer2013_emotion_model.tflite')
     
-    return tf.keras.models.load_model(model_path, compile=False)
+    interpreter = tf.lite.Interpreter(model_path=model_path)
+    interpreter.allocate_tensors()
+    return interpreter
 
 def preprocess_frame(frame):
     """
@@ -80,7 +79,13 @@ def predict_emotion(model, frame):
             face_roi = frame[y1:y2, x1:x2]
             processed = preprocess_frame(face_roi)
             
-            raw_preds = model.predict(processed, verbose=0)
+            input_details = model.get_input_details()
+            output_details = model.get_output_details()
+            
+            # Predict using ultra-light interpreter
+            model.set_tensor(input_details[0]['index'], processed)
+            model.invoke()
+            raw_preds = model.get_tensor(output_details[0]['index'])
             
             # Safely cast preds to standard numpy array
             preds = np.array(raw_preds[0], dtype=np.float32)

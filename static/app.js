@@ -41,25 +41,37 @@ document.querySelectorAll('.toggle-btn').forEach(btn => {
 document.getElementById('startBtn').addEventListener('click', async () => {
     if (isStreaming) return;
     
+    // Check if browser supports mediaDevices
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+        alert("Your browser does not support camera access or you are not on a secure HTTPS connection.");
+        return;
+    }
+    
     try {
-        const stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: "user" } });
+        const stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: "user" }, audio: false });
         video.srcObject = stream;
         video.classList.remove('hidden');
         processedFrame.classList.add('hidden');
         isStreaming = true;
         videoContainer.classList.add('active-stream');
         
-        video.onloadedmetadata = () => {
+        video.onloadedmetadata = async () => {
             canvas.width = video.videoWidth;
             canvas.height = video.videoHeight;
+            try {
+                // Mobile Safari strongly requires an explicit .play() call after metadata is loaded
+                await video.play(); 
+            } catch (e) {
+                console.error("Autoplay prevented by mobile browser:", e);
+            }
         };
 
-        // Poll frames every 400ms (approx 2.5 FPS) to save bandwidth but respond fast
+        // Poll frames every 400ms (approx 2.5 FPS)
         streamingInterval = setInterval(processFrame, 400);
         
     } catch (err) {
         console.error("Error accessing camera:", err);
-        alert("Camera access is required for live detection.");
+        alert("Camera access was denied or failed. Please allow camera permissions in your settings.");
     }
 });
 

@@ -42,9 +42,16 @@ def predict_emotion(model, frame):
     # Load cascade for face detection
     face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
     
+    # If the frame is massively large (e.g., from a phone camera), shrink it down to prevent total server timeout
+    if frame.shape[1] > 1000:
+        scale_percent = 1000 / frame.shape[1]
+        width = int(frame.shape[1] * scale_percent)
+        height = int(frame.shape[0] * scale_percent)
+        frame = cv2.resize(frame, (width, height), interpolation=cv2.INTER_AREA)
+
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-    # Tweak parameters for better detection in low light
-    faces = face_cascade.detectMultiScale(gray, scaleFactor=1.05, minNeighbors=3, minSize=(30, 30))
+    # Reverting to safer scaleFactor to prevent 100% CPU lock or Render gateway timeouts on huge images
+    faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=4, minSize=(30, 30))
     
     detected_emotion = "neutral"
     confidence = 0.0

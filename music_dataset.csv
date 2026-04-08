@@ -1,0 +1,19 @@
+emotion,song_title,artist,path
+angry,Break Stuff,Limp Bizkit,local_music/angry_1.mp3
+angry,Killing in the Name,Rage Against The Machine,local_music/angry_2.mp3
+angry,Down with the Sickness,Disturbed,local_music/angry_3.mp3
+disgust,Toxic,Britney Spears,local_music/disgust_1.mp3
+disgust,Bad Guy,Billie Eilish,local_music/disgust_2.mp3
+fear,Thriller,Michael Jackson,local_music/fear_1.mp3
+fear,Somebody's Watching Me,Rockwell,local_music/fear_2.mp3
+happy,Happy,Pharrell Williams,local_music/happy_1.mp3
+happy,Walking on Sunshine,Katrina & The Waves,local_music/happy_2.mp3
+happy,Don't Stop Me Now,Queen,local_music/happy_3.mp3
+neutral,Weightless,Marconi Union,local_music/neutral_1.mp3
+neutral,Clair de Lune,Claude Debussy,local_music/neutral_2.mp3
+neutral,Gymnopédie No.1,Erik Satie,local_music/neutral_3.mp3
+sad,Someone Like You,Adele,local_music/sad_1.mp3
+sad,Fix You,Coldplay,local_music/sad_2.mp3
+sad,The Sound of Silence,Simon & Garfunkel,local_music/sad_3.mp3
+surprise,Bohemian Rhapsody,Queen,local_music/surprise_1.mp3
+surprise,Take On Me,a-ha,local_music/surprise_2.mp3

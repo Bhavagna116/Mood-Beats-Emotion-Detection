@@ -11,44 +11,57 @@ EMOTION_LABELS = [
     "surprise"  # 6
 ]
 
-# Randomly selected playlists for each emotion
-EMOTION_PLAYLISTS = {
-    "angry": [
-        "https://open.spotify.com/playlist/0jbaEzUwLTOlIOp42B5pXV",
-        "https://open.spotify.com/playlist/37i9dQZF1DX1tyCD9qy36s",
-        "https://open.spotify.com/playlist/37i9dQZF1DX7499XT7YmS6"
-    ],
-    "disgust": [
-        "https://open.spotify.com/playlist/3qgzMg4m5tvf16PzlPgGa9",
-        "https://open.spotify.com/playlist/37i9dQZF1DX4apSOnPh6S2",
-        "https://open.spotify.com/playlist/2I6B7m88tXyR1RAn0m7WlY"
-    ],
-    "fear": [
-        "https://open.spotify.com/playlist/4SHXmPe5x97JuJweK7vJVD",
-        "https://open.spotify.com/playlist/37i9dQZF1DWSVp896tc097",
-        "https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM3M"
-    ],
+# Verified individual Spotify TRACK IDs per emotion
+# These are individual song embeds, which work globally without any Spotify login
+# Format: { emotion: [(track_id, song_name, artist), ...] }
+EMOTION_TRACKS = {
     "happy": [
-        "https://open.spotify.com/playlist/37i9dQZF1DXdPec7aLTmlC",
-        "https://open.spotify.com/playlist/37i9dQZF1DX3rxVfI16uDH",
-        "https://open.spotify.com/playlist/37i9dQZF1DWSf2LcZ8tUuS"
-    ],
-    "neutral": [
-        "https://open.spotify.com/playlist/5MX1quD2Hrs1I59eRTJ1Q8",
-        "https://open.spotify.com/playlist/37i9dQZF1DX4sWsp6KmGZp",
-        "https://open.spotify.com/playlist/37i9dQZF1DX8Ueb99Mh3jX"
+        ("60nZcImufyma1IqTRETe98", "Happy", "Pharrell Williams"),
+        ("7qiZfU4dY1lWllzX7mPBI3", "Shape of You", "Ed Sheeran"),
+        ("0ct6r3EGTcMLPtrXHDvVjc", "Uptown Funk", "Mark Ronson ft. Bruno Mars"),
+        ("5ChkMS8OtdzJeqyybCc9R5", "Blinding Lights", "The Weeknd"),
     ],
     "sad": [
-        "https://open.spotify.com/playlist/7ABD15iASBIpPP5uJ5awvq",
-        "https://open.spotify.com/playlist/37i9dQZF1DX7qK8maPT6bh",
-        "https://open.spotify.com/playlist/37i9dQZF1DX3YvU6ST9Yky"
+        ("4kflIGfjdZJW4ot2ioixTB", "Someone Like You", "Adele"),
+        ("3hRV0jL3vUpRrcy398teAU", "The Night We Met", "Lord Huron"),
+        ("47EWMOElkkbMp5m9SBkx7d", "Fix You", "Coldplay"),
+        ("3JOVTQ5h8HyvkqIa2awtJQ", "Skinny Love", "Bon Iver"),
+    ],
+    "angry": [
+        ("59WN2psjkt1tyaxjspN8fp", "Killing In The Name", "Rage Against The Machine"),
+        ("1xTHQBrBnDOf8XFWj7Ld5P", "Break Stuff", "Limp Bizkit"),
+        ("2nLOHgzRQNAOJgJBzYdvTH", "Given Up", "Linkin Park"),
+        ("3vtYFEEXFRE00MBi0z2KSA", "Numb", "Linkin Park"),
+    ],
+    "fear": [
+        ("3S2R0EVwBSAVMd5UMgKTL0", "Thriller", "Michael Jackson"),
+        ("5ghIJDpPoe3CfHMGu71E6T", "Black Betty", "Ram Jam"),
+        ("6UelLqGlWMcVH1E5c4H7lY", "Welcome to the Black Parade", "My Chemical Romance"),
+        ("2noRn2Aes5aoNVsU6iWThc", "Master of Puppets", "Metallica"),
+    ],
+    "disgust": [
+        ("5XeFesFbtLpXzIVDNQP22n", "Smooth Criminal", "Michael Jackson"),
+        ("6Qyc6fS4DsZjB2mRW9DsQs", "Since U Been Gone", "Kelly Clarkson"),
+        ("4cluDES4hQEUhmXj6TXkSo", "Rolling in the Deep", "Adele"),
+        ("7ouMYWpwJ422jRcDASZB7P", "Hotel California", "Eagles"),
+    ],
+    "neutral": [
+        ("0qOsqJz5qc22k1CXoaAIeq", "Weightless", "Marconi Union"),
+        ("0nJW01T7XtvILxQgC5J7Wh", "Breathe (2 AM)", "Anna Nalick"),
+        ("5uCax9HTNlzGybIStD3vDh", "Clair de Lune", "Claude Debussy"),
+        ("2TfSHkHiFO4gRiGs2nSKGq", "The Sound of Silence", "Simon & Garfunkel"),
     ],
     "surprise": [
-        "https://open.spotify.com/playlist/37i9dQZF1DX3rrhhQBMcUf",
-        "https://open.spotify.com/playlist/37i9dQZF1DX56YvS47uAh9",
-        "https://open.spotify.com/playlist/37i9dQZF1DX2pSTOxoYm79"
+        ("5odlY52u43F5BjByhxg7wg", "Don't Stop Me Now", "Queen"),
+        ("5W3cjX2J3tjhG8zb6u0qHn", "Bohemian Rhapsody", "Queen"),
+        ("3a1lNhkSLSkpJkSCKFtBsB", "Take On Me", "a-ha"),
+        ("6b2oQwSGFkzsMtQruIWm2p", "Mr. Brightside", "The Killers"),
     ],
 }
+
+# Keep EMOTION_PLAYLISTS as alias for backward compatibility (now empty)  
+EMOTION_PLAYLISTS = {k: [f"track/{v[0][0]}" for v in [vals]] for k, vals in EMOTION_TRACKS.items()}
+
 
 # Emotion-to-Color mapping for Adaptive UI
 EMOTION_COLORS = {

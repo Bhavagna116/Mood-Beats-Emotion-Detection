@@ -17,29 +17,13 @@ def apply_styles(current_emotion="neutral"):
             font-family: 'Outfit', sans-serif;
         }}
 
-        /* Main app background with Adaptive Aurora effect */
+        /* Main app background with Calm Dark Blue theme */
         .stApp {{
-            background: #050505;
-            overflow: hidden;
+            background: #0a1128 !important; /* Deep Dark Blue */
         }}
 
         .stApp::before {{
-            content: "";
-            position: fixed;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: radial-gradient(circle at 30% 30%, {accent_color}22 0%, transparent 40%),
-                        radial-gradient(circle at 70% 70%, {accent_color}11 0%, transparent 40%);
-            filter: blur(80px);
-            z-index: -1;
-            animation: aurora 20s infinite alternate;
-        }}
-
-        @keyframes aurora {{
-            0% {{ transform: translate(0, 0) rotate(0deg); }}
-            100% {{ transform: translate(5%, 5%) rotate(5deg); }}
+            display: none !important; /* Disable radial pulse */
         }}
 
         /* Typography reboot */

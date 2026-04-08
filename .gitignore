@@ -3,6 +3,14 @@ __pycache__/
 .ipynb_checkpoints/
 .streamlit/
 .vercel/
-*.txt
-!requirements.txt
-!readme.md
+vercel.json
+local_music/
+*.ipynb
+
+# Keep these out of git
+inspect_*.txt
+verify_output*.txt
+model_info.txt
+download_test_songs.py
+verify_accuracy.py
+inspect_model.py

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎭 Live Mood Beats</title>
+    <meta name="description" content="Real-time Emotion Prediction & Personalized Music">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="mood-badge" id="globalMoodBadge">neutral</div>
+            <h1>🎭 Live Mood Beats</h1>
+            <div class="subtitle">Real-time Emotion Prediction & Personalized Music</div>
+        </header>
+
+        <div class="layout">
+            <!-- Left Side: Interactive Area -->
+            <div class="glass-panel main-panel">
+                <div class="tabs">
+                    <button class="tab-btn active" data-tab="live">📽️ Live Detection</button>
+                    <button class="tab-btn" data-tab="photo">🖼️ Photo Upload</button>
+                </div>
+
+                <!-- Tab 1: Live Video -->
+                <div id="tab-live" class="tab-content active">
+                    <h3>Live Stream</h3>
+                    <div class="video-container" id="videoContainer">
+                        <video id="videoElement" autoplay playsinline></video>
+                        <img id="processedFrame" class="hidden" alt="Live Emotion Processing">
+                    </div>
+                    <div class="controls">
+                        <button class="btn primary" id="startBtn">▶ Start Camera</button>
+                        <button class="btn" id="stopBtn">⏹ Stop Camera</button>
+                    </div>
+                </div>
+
+                <!-- Tab 2: Photo Upload -->
+                <div id="tab-photo" class="tab-content">
+                    <h3>Image Analysis</h3>
+                    <div class="file-upload" id="fileUploadContainer" onclick="document.getElementById('fileInput').click()">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--accent-color); margin-bottom:10px;">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="17 8 12 3 7 8"></polyline>
+                            <line x1="12" y1="3" x2="12" y2="15"></line>
+                        </svg>
+                        <h4 style="margin:0; color:white;">Click to Upload Photo</h4>
+                        <p>Supported: JPG, JPEG, PNG</p>
+                    </div>
+                    <input type="file" id="fileInput" accept="image/*">
+                    <div class="video-container hidden" id="photoResultContainer">
+                        <img id="photoResultFrame" alt="Processed Photo">
+                    </div>
+                    <div class="controls hidden" id="photoControls">
+                        <button class="btn" id="clearPhotoBtn">❌ Clear Photo</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side: Music & Results -->
+            <div class="glass-panel sidebar-panel">
+                <!-- Modes Toggle -->
+                <div class="mode-toggle">
+                    <button class="toggle-btn active" data-mode="online">Spotify (Online)</button>
+                    <button class="toggle-btn" data-mode="offline">Local (Offline)</button>
+                </div>
+
+                <h3>🎧 Harmony Pick</h3>
+                <p id="musicStatusText">Your Neutral Mix:</p>
+
+                <!-- Music Display -->
+                <div id="musicContainer">
+                    <!-- Default loading state -->
+                    <div class="music-card">
+                        <div class="song-label">🎵 Waiting for mood</div>
+                        <div class="song-title">Ready to play...</div>
+                        <div class="song-artist">Start camera or upload a photo</div>
+                    </div>
+                </div>
+
+                <div class="controls" style="margin-top: 20px;">
+                    <button class="btn" id="nextTrackBtn" style="width: 100%; justify-content: center;">⏭️ Next Track</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden canvas for scraping video frames securely -->
+    <canvas id="canvasElement" style="display:none;"></canvas>
+
+    <script src="app.js"></script>
+</body>
+</html>

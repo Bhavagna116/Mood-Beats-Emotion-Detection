@@ -8,7 +8,7 @@ import numpy as np
 from PIL import Image
 from flask import Flask, request, jsonify, send_from_directory
 
-from src.config import EMOTION_TRACKS, EMOTION_COLORS, EMOTION_LABELS
+from src.config import EMOTION_TRACKS, EMOTION_COLORS, EMOTION_LABELS, LANGUAGE_EMOTION_TRACKS
 from src.model_utils import load_emotion_model, predict_emotion
 
 app = Flask(__name__, static_folder="static", static_url_path="")
@@ -31,24 +31,33 @@ def load_music_dataset():
 MUSIC_DATA = load_music_dataset()
 
 
-def emotion_response(emotion: str, confidence: float):
+def emotion_response(emotion: str, confidence: float, language: str = "english"):
     """Build the JSON payload returned to the frontend."""
     color = EMOTION_COLORS.get(emotion, "#60a5fa")
-    tracks = EMOTION_TRACKS.get(emotion, EMOTION_TRACKS.get("neutral", []))
+    # Pick the correct language track set; fall back to English
+    lang_tracks = LANGUAGE_EMOTION_TRACKS.get(language.lower(), LANGUAGE_EMOTION_TRACKS["english"])
+    tracks = lang_tracks.get(emotion, lang_tracks.get("neutral", []))
     track_id, song_name, artist = random.choice(tracks) if tracks else ("", "Unknown", "Unknown")
 
     offline_songs = MUSIC_DATA.get(emotion, [])
     offline_song = random.choice(offline_songs) if offline_songs else None
 
+    # Build a direct audio URL for the in-page player
+    audio_url = None
+    if offline_song and offline_song.get("song_title"):
+        audio_url = f"/api/audio/{offline_song['song_title']}"
+
     return {
         "emotion": emotion,
         "confidence": round(confidence * 100, 1),
         "color": color,
+        "language": language.lower(),
         "spotify": {
             "track_id": track_id,
             "song_name": song_name,
             "artist": artist,
         },
+        "audio_url": audio_url,
         "offline": offline_song,
     }
 
@@ -75,7 +84,8 @@ def detect_photo():
     _, buf = cv2.imencode(".jpg", processed)
     img_b64 = base64.b64encode(buf).decode()
 
-    result = emotion_response(emotion, confidence)
+    language = request.form.get("language", "english")
+    result = emotion_response(emotion, confidence, language)
     result["processed_image"] = f"data:image/jpeg;base64,{img_b64}"
     return jsonify(result)
 
@@ -96,7 +106,8 @@ def detect_frame():
     _, buf = cv2.imencode(".jpg", processed)
     img_b64 = base64.b64encode(buf).decode()
 
-    result = emotion_response(emotion, confidence)
+    language = data.get("language", "english")
+    result = emotion_response(emotion, confidence, language)
     result["processed_image"] = f"data:image/jpeg;base64,{img_b64}"
     return jsonify(result)
 
@@ -104,7 +115,8 @@ def detect_frame():
 def next_track():
     data = request.get_json(force=True)
     emotion = data.get("emotion", "neutral")
-    result = emotion_response(emotion, 1.0)
+    language = data.get("language", "english")
+    result = emotion_response(emotion, 1.0, language)
     return jsonify(result)
 
 @app.route("/api/audio/<path:song_title>")

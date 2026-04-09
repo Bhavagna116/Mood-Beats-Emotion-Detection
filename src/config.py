@@ -11,53 +11,48 @@ EMOTION_LABELS = [
     "surprise"  # 6
 ]
 
-# Verified individual Spotify TRACK IDs per emotion
-# These are individual song embeds, which work globally without any Spotify login
-# Format: { emotion: [(track_id, song_name, artist), ...] }
-EMOTION_TRACKS = {
-    "happy": [
-        ("60nZcImufyma1IqTRETe98", "Happy", "Pharrell Williams"),
-        ("7qiZfU4dY1lWllzX7mPBI3", "Shape of You", "Ed Sheeran"),
-        ("0ct6r3EGTcMLPtrXHDvVjc", "Uptown Funk", "Mark Ronson ft. Bruno Mars"),
-        ("5ChkMS8OtdzJeqyybCc9R5", "Blinding Lights", "The Weeknd"),
-    ],
-    "sad": [
-        ("4kflIGfjdZJW4ot2ioixTB", "Someone Like You", "Adele"),
-        ("3hRV0jL3vUpRrcy398teAU", "The Night We Met", "Lord Huron"),
-        ("47EWMOElkkbMp5m9SBkx7d", "Fix You", "Coldplay"),
-        ("3JOVTQ5h8HyvkqIa2awtJQ", "Skinny Love", "Bon Iver"),
-    ],
-    "angry": [
-        ("59WN2psjkt1tyaxjspN8fp", "Killing In The Name", "Rage Against The Machine"),
-        ("1xTHQBrBnDOf8XFWj7Ld5P", "Break Stuff", "Limp Bizkit"),
-        ("2nLOHgzRQNAOJgJBzYdvTH", "Given Up", "Linkin Park"),
-        ("3vtYFEEXFRE00MBi0z2KSA", "Numb", "Linkin Park"),
-    ],
-    "fear": [
-        ("3S2R0EVwBSAVMd5UMgKTL0", "Thriller", "Michael Jackson"),
-        ("5ghIJDpPoe3CfHMGu71E6T", "Black Betty", "Ram Jam"),
-        ("6UelLqGlWMcVH1E5c4H7lY", "Welcome to the Black Parade", "My Chemical Romance"),
-        ("2noRn2Aes5aoNVsU6iWThc", "Master of Puppets", "Metallica"),
-    ],
-    "disgust": [
-        ("5XeFesFbtLpXzIVDNQP22n", "Smooth Criminal", "Michael Jackson"),
-        ("6Qyc6fS4DsZjB2mRW9DsQs", "Since U Been Gone", "Kelly Clarkson"),
-        ("4cluDES4hQEUhmXj6TXkSo", "Rolling in the Deep", "Adele"),
-        ("7ouMYWpwJ422jRcDASZB7P", "Hotel California", "Eagles"),
-    ],
-    "neutral": [
-        ("0qOsqJz5qc22k1CXoaAIeq", "Weightless", "Marconi Union"),
-        ("0nJW01T7XtvILxQgC5J7Wh", "Breathe (2 AM)", "Anna Nalick"),
-        ("5uCax9HTNlzGybIStD3vDh", "Clair de Lune", "Claude Debussy"),
-        ("2TfSHkHiFO4gRiGs2nSKGq", "The Sound of Silence", "Simon & Garfunkel"),
-    ],
-    "surprise": [
-        ("5odlY52u43F5BjByhxg7wg", "Don't Stop Me Now", "Queen"),
-        ("5W3cjX2J3tjhG8zb6u0qHn", "Bohemian Rhapsody", "Queen"),
-        ("3a1lNhkSLSkpJkSCKFtBsB", "Take On Me", "a-ha"),
-        ("6b2oQwSGFkzsMtQruIWm2p", "Mr. Brightside", "The Killers"),
-    ],
+# ─── English (International) Tracks ───────────────────────────────────────────
+EMOTION_TRACKS_ENGLISH = {
+    'happy': [('7qiZfU4dY1lWllzX7mPBI3', 'Shape of You', 'Unknown Artist')], 
+    'sad': [('4kflIGfjdZJW4ot2ioixTB', 'Someone Like You', 'Unknown Artist')], 
+    'angry': [('59WN2psjkt1tyaxjspN8fp', 'Killing In The Name', 'Unknown Artist')], 
+    'fear': [('3S2R0EVwBSAVMd5UMgKTL0', 'Thriller', 'Unknown Artist')], 
+    'disgust': [('5XeFesFbtLpXzIVDNQP22n', 'I Wanna Be Yours', 'Unknown Artist')], 
+    'neutral': [('0nJW01T7XtvILxQgC5J7Wh', 'When I Was Your Man', 'Unknown Artist')], 
+    'surprise': [('5odlY52u43F5BjByhxg7wg', 'golden hour', 'Unknown Artist')]
 }
+
+# ─── Hindi (Bollywood) Tracks ──────────────────────────────────────────────────
+EMOTION_TRACKS_HINDI = {
+    'happy': [('0RsH8g8DxdYZgdGcod5I36', 'Bairan', 'Unknown Artist')], 
+    'sad': [('6xwKNAUHeo2DbWNAPi8aEy', 'Jaiye Sajana', 'Unknown Artist')], 
+    'angry': [('5MCbGWnNLLjoHpbDO3BOgi', 'Gehra Hua', 'Unknown Artist')], 
+    'fear': [('412poAqbwD8OC0dYD1nBkV', 'Sheesha - Aakhya Mai Aakh Ghali Jo Bairan', 'Unknown Artist')], 
+    'disgust': [('3gixnmepHSsyAuho34rprN', 'Khat', 'Unknown Artist')], 
+    'neutral': [('157BtwkY54FQ3Xl8DsTso1', 'Dhurandhar The Revenge - Aari Aari', 'Unknown Artist')], 
+    'surprise': [('0eLtIxPRNJfsmehITZ1qaJ', 'Sahiba', 'Unknown Artist')]
+}
+
+# ─── Telugu (Tollywood) Tracks (with verified fallbacks) ───────────────────────
+EMOTION_TRACKS_TELUGU = {
+    'happy': [('0q5e5KtUOhYQujmhLP0pKd', 'Dooron Dooron', 'Unknown Artist')], 
+    'sad': [('1hA697u7e1jX2XM8sWA6Uy', 'Apna Bana Le', 'Unknown Artist')], 
+    'angry': [('6WlARP6h4CDVOcY386wW0W', 'Sitaare (From "Ikkis")', 'Unknown Artist')], 
+    'fear': [('4aWTPC6cuebk9zSpW1PY1Y', 'Jaan Se Guzarte Hain', 'Unknown Artist')], 
+    'disgust': [('0rk2X5TAhraBC5aCIXK2Rq', 'Samjhawan', 'Unknown Artist')], 
+    'neutral': [('5ThyDv6aRVU8AH4vXQNldF', 'Finding Her', 'Unknown Artist')], 
+    'surprise': [('4yur1GSBfuS1VADyUYocqd', 'Pavazha Malli - From "Think Indie"', 'Unknown Artist')]
+}
+
+# Unified access: language -> emotion -> tracks
+LANGUAGE_EMOTION_TRACKS = {
+    "english": EMOTION_TRACKS_ENGLISH,
+    "hindi":   EMOTION_TRACKS_HINDI,
+    "telugu":  EMOTION_TRACKS_TELUGU,
+}
+
+# Default backward-compat alias (English)
+EMOTION_TRACKS = EMOTION_TRACKS_ENGLISH
 
 # Keep EMOTION_PLAYLISTS as alias for backward compatibility (now empty)  
 EMOTION_PLAYLISTS = {k: [f"track/{v[0][0]}" for v in [vals]] for k, vals in EMOTION_TRACKS.items()}

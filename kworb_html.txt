@@ -1,0 +1,2060 @@
+<!DOCTYPE html>
+<html lang="en"><head><title>Spotify Daily Chart - India</title>
+<link rel="stylesheet" type="text/css" href="/css/standard0002.css" />
+<link rel="stylesheet" type="text/css" href="/css/tables0010.css" />
+<link rel="stylesheet" type="text/css" href="/css/menus0001.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="A website that collects and analyzes music data from around the world. All of the charts, sales and streams, constantly updated.">
+<meta name="keywords" content="music, charts, iTunes, Spotify, YouTube, artists, radio, popularity, sales, streaming, views, certifications">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="/sorttable.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-9102029-6', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KT17KMYDCD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KT17KMYDCD');
+</script>
+</head><body><div class="container">
+<div id="mainmenu" class="subcontainer">
+<ul>
+<li class="top"><a href="/pop">ITUNES</a></li>
+<li class="top"><a href="/ww">WORLDWIDE</a></li>
+<li class="top"><a href="/itunes">ARTISTS</a></li>
+<li class="top"><a href="/charts">CHARTS</a></li>
+<li class="top right"><a href="https://www.youtube.com/watch?v=w1v3Zwy622Q">BETTER LOVE</a></li>
+<li><a href="/radio">RADIO</a></li>
+<li><a href="/spotify">SPOTIFY</a></li>
+<li><a href="/youtube">YOUTUBE</a></li>
+<li><a href="/youtube/trending.html">TRENDING</a></li>
+<li class="right"><a href="/">HOME</a></li>
+</ul>
+</div>
+<div id="submenu" class="subcontainer"><ul class="spotifymenu"><li><a class="chosen" href="/spotify/">Countries</a></li><li><a href="/spotify/artists.html">Artists</a></li><li><a href="/spotify/listeners.html">Listeners</a></li><li><a href="/spotify/toplists.html">Top Lists</a></li></ul></div>
+<div class="subcontainer" id="topbannerad"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Spotify top banner - main pages -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-3576242505804573"
+     data-ad-slot="4233093285"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<div class="subcontainer"><span class="pagetitle">Spotify Daily Chart - India - 2026/04/07 | <a href="in_daily_totals.html">Totals</a></span><br><br>
+<table class="sortable" id="spotifydaily">
+<colgroup><col class="col-pos"><col class="col-pos"><col class="col-title"><col class="col-period"><col class="col-peak"><col class="col-peak2"><col class="col-streams"><col class="col-streams"><col class="col-streams"><col class="col-streams"><col class="col-total"></colgroup>
+<thead><tr><th class="np">Pos</th><th class="np">P+</th><th class="mp text col-title">Artist and Title</th><th>Days</th><th>Pk</th><th class="mini text">(x?)</th><th>Streams</th><th>Streams+</th><th>7Day</th><th>7Day+</th><th>Total</th></tr></thead>
+<tbody>
+<tr><td class="np">1</td>
+<td class="np">=</td>
+<td class="text mp"><div><a href="../artist/7IbxsPdlYelceWNyHAor55.html">Banjaare</a> - <a href="../track/0RsH8g8DxdYZgdGcod5I36.html">Bairan</a></div></td>
+<td>41</td>
+<td>1</td><td class="np mini text">(x31)</td>
+<td>2,159,795</td>
+<td>-5,638</td>
+<td class="smaller">15,493,062</td>
+<td class="smaller">-73,500</td>
+<td>68,176,608</td></tr>
+<tr><td class="np">2</td>
+<td class="np">=</td>
+<td class="text mp"><div><a href="../artist/465OXuCU8YZNmVG1leLwQ9.html">Shashwat Sachdev</a> - <a href="../track/6xwKNAUHeo2DbWNAPi8aEy.html">Jaiye Sajana</a> (w/ <a href="../artist/0mJDQBWytBhOh5JB1DOQ1c.html">Jasmine Sandlas</a>, <a href="../artist/4rgw8A5vcYinpZLDKHrEdV.html">Satinder Sartaaj</a>)</div></td>
+<td>19</td>
+<td>2</td><td class="np mini text">(x14)</td>
+<td>1,335,240</td>
+<td>-49,801</td>
+<td class="smaller">9,711,679</td>
+<td class="smaller">-123,385</td>
+<td>23,564,130</td></tr>
+<tr><td class="np">3</td>
+<td class="np">=</td>
+<td class="text mp"><div><a href="../artist/465OXuCU8YZNmVG1leLwQ9.html">Shashwat Sachdev</a> - <a href="../track/5MCbGWnNLLjoHpbDO3BOgi.html">Gehra Hua</a> (w/ <a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a>, <a href="../artist/3GdSQUH1BRtl9UrrtuwJlP.html">Irshad Kamil</a>, <a href="../artist/68CFADZWUwvJMqkCeqmxMJ.html">Armaan Khan</a>)</div></td>
+<td>123</td>
+<td>1</td><td class="np mini text">(x69)</td>
+<td>1,195,652</td>
+<td>-9,698</td>
+<td class="smaller">8,555,300</td>
+<td class="smaller">-42,477</td>
+<td>140,581,986</td></tr>
+<tr><td class="np">4</td>
+<td class="np">=</td>
+<td class="text mp"><div><a href="../artist/3qWCWW0lyHpnj6E1cYwtKV.html">Mitta Ror</a> - <a href="../track/412poAqbwD8OC0dYD1nBkV.html">Sheesha</a> (w/ <a href="../artist/1p8AG9V0Y60vhvdYdRbxqn.html">Swara Verma</a>)</div></td>
+<td>80</td>
+<td>2</td><td class="np mini text">(x19)</td>
+<td>1,171,059</td>
+<td>+25,466</td>
+<td class="smaller">8,423,643</td>
+<td class="smaller">-38,407</td>
+<td>59,366,630</td></tr>
+<tr><td class="np">5</td>
+<td class="np">=</td>
+<td class="text mp"><div><a href="../artist/7pVf872VEuJQBwiuRFSg4w.html">Navjot Ahuja</a> - <a href="../track/3gixnmepHSsyAuho34rprN.html">Khat</a></div></td>
+<td>82</td>
+<td>3</td><td class="np mini text">(x1)</td>
+<td>993,079</td>
+<td>-4,517</td>
+<td class="smaller">7,073,259</td>
+<td class="smaller">-8,631</td>
+<td>54,871,285</td></tr>
+<tr><td class="np">6</td>
+<td class="np">=</td>
+<td class="text mp"><div><a href="../artist/465OXuCU8YZNmVG1leLwQ9.html">Shashwat Sachdev</a> - <a href="../track/157BtwkY54FQ3Xl8DsTso1.html">Dhurandhar The Revenge - Aari Aari</a> (w/ <a href="../artist/1bLQBuSop3ekE5Qustj5nP.html">Bombay Rockers</a>, <a href="../artist/3GdSQUH1BRtl9UrrtuwJlP.html">Irshad Kamil</a>, <a href="../artist/5Uo28tAylVBPPW2Cs8LFwN.html">Khan Saab</a>, <a href="../artist/3MsxNLVtDVGxjEaxgKAoi0.html">Reble</a>, <a href="../artist/4cUfFbVZGSsJWdbfmkdxYq.html">Token</a>, <a href="../artist/0mJDQBWytBhOh5JB1DOQ1c.html">Jasmine Sandlas</a>, <a href="../artist/586UieDtNlK2F8hEMayYbb.html">Sudhir Yaduvanshi</a>)</div></td>
+<td>14</td>
+<td>5</td><td class="np mini text"></td>
+<td>850,111</td>
+<td>-28,576</td>
+<td class="smaller">6,285,817</td>
+<td class="smaller">-121,310</td>
+<td>13,665,343</td></tr>
+<tr><td class="np">7</td>
+<td class="np">+1</td>
+<td class="text mp"><div><a href="../artist/3ozYqVCLohfpXIhalkhM8D.html">Aditya Rikhari</a> - <a href="../track/0eLtIxPRNJfsmehITZ1qaJ.html">Sahiba</a></div></td>
+<td>280</td>
+<td>1</td><td class="np mini text">(x124)</td>
+<td>806,256</td>
+<td>+33,276</td>
+<td class="smaller">5,620,887</td>
+<td class="smaller">+59,645</td>
+<td>377,449,032</td></tr>
+<tr><td class="np">8</td>
+<td class="np">-1</td>
+<td class="text mp"><div><a href="../artist/0DHOOKfXu4aU7LsWjTdrIN.html">Paresh Pahuja</a> - <a href="../track/0q5e5KtUOhYQujmhLP0pKd.html">Dooron Dooron</a> (w/ <a href="../artist/74wYoI5DV3XZGJri7l9cOP.html">Shiv Tandan</a>, <a href="../artist/1e3Yx1PLC5EP8lz0OFOHda.html">Meghdeep Bose</a>)</div></td>
+<td>187</td>
+<td>2</td><td class="np mini text">(x1)</td>
+<td>794,753</td>
+<td>-12,170</td>
+<td class="smaller">5,631,345</td>
+<td class="smaller">-7,102</td>
+<td>120,171,797</td></tr>
+<tr><td class="np">9</td>
+<td class="np">+2</td>
+<td class="text mp"><div><a href="../artist/1mBydYMVBECdDmMfE2sEUO.html">Sachin-Jigar</a> - <a href="../track/1hA697u7e1jX2XM8sWA6Uy.html">Apna Bana Le</a> (w/ <a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a>, <a href="../artist/2fMqTqiTxUDlmcOEPaQSsx.html">Amitabh Bhattacharya</a>)</div></td>
+<td>888</td>
+<td>1</td><td class="np mini text">(x14)</td>
+<td>792,036</td>
+<td>+46,422</td>
+<td class="smaller">5,314,479</td>
+<td class="smaller">+58,252</td>
+<td>485,949,050</td></tr>
+<tr><td class="np">10</td>
+<td class="np">=</td>
+<td class="text mp"><div><a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a> - <a href="../track/6WlARP6h4CDVOcY386wW0W.html">Sitaare (From "Ikkis")</a> (w/ <a href="../artist/73vvjIbxF9MP8VZG3tthUC.html">White Noise Collectives</a>, <a href="../artist/2fMqTqiTxUDlmcOEPaQSsx.html">Amitabh Bhattacharya</a>)</div></td>
+<td>123</td>
+<td>6</td><td class="np mini text"></td>
+<td>755,558</td>
+<td>-15,864</td>
+<td class="smaller">5,471,482</td>
+<td class="smaller">-61,497</td>
+<td>71,092,297</td></tr>
+<tr><td class="np">11</td>
+<td class="np">-2</td>
+<td class="text mp"><div><a href="../artist/465OXuCU8YZNmVG1leLwQ9.html">Shashwat Sachdev</a> - <a href="../track/4aWTPC6cuebk9zSpW1PY1Y.html">Jaan Se Guzarte Hain</a> (w/ <a href="../artist/5Uo28tAylVBPPW2Cs8LFwN.html">Khan Saab</a>)</div></td>
+<td>20</td>
+<td>6</td><td class="np mini text"></td>
+<td>752,355</td>
+<td>-19,696</td>
+<td class="smaller">5,578,901</td>
+<td class="smaller">-137,581</td>
+<td>14,952,332</td></tr>
+<tr><td class="np">12</td>
+<td class="np">=</td>
+<td class="text mp"><div><a href="../artist/2gXOOKY8mmJG6iwHrTq9gp.html">Jawad Ahmad</a> - <a href="../track/0rk2X5TAhraBC5aCIXK2Rq.html">Samjhawan</a> (w/ <a href="../artist/0FJz7XR37hH69traaHLijA.html">Shaarib Toshi</a>, <a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a>, <a href="../artist/0oOet2f43PA68X5RxKobEy.html">Shreya Ghoshal</a>)</div></td>
+<td>1652</td>
+<td>2</td><td class="np mini text">(x2)</td>
+<td>732,416</td>
+<td>+32,546</td>
+<td class="smaller">5,002,125</td>
+<td class="smaller">-23,076</td>
+<td>252,677,355</td></tr>
+<tr><td class="np">13</td>
+<td class="np">+1</td>
+<td class="text mp"><div><a href="../artist/2IKfr1JgPRXmXKAWwrABc6.html">Kushagra</a> - <a href="../track/5ThyDv6aRVU8AH4vXQNldF.html">Finding Her</a> (w/ <a href="../artist/1zD9gVg8wPOmVfYxTjMHaT.html">Bharath</a>)</div></td>
+<td>399</td>
+<td>1</td><td class="np mini text">(x54)</td>
+<td>714,826</td>
+<td>+35,623</td>
+<td class="smaller">4,859,595</td>
+<td class="smaller">+42,100</td>
+<td>353,992,674</td></tr>
+<tr><td class="np">14</td>
+<td class="np">-1</td>
+<td class="text mp"><div><a href="../artist/5jJrJU7VVmxQQLcLAmmxXc.html">Sai Abhyankkar</a> - <a href="../track/4yur1GSBfuS1VADyUYocqd.html">Pavazha Malli</a> (w/ <a href="../artist/06vOoTzj6cIac9FMbNXz9h.html">Shruti Haasan</a>, <a href="../artist/25Pa1Vz1ZuTHmXPiYeMcgx.html">Vivek</a>)</div></td>
+<td>33</td>
+<td>11</td><td class="np mini text"></td>
+<td>670,137</td>
+<td>-18,458</td>
+<td class="smaller">4,935,996</td>
+<td class="smaller">+23,689</td>
+<td>18,510,289</td></tr>
+<tr><td class="np">15</td>
+<td class="np">=</td>
+<td class="text mp"><div><a href="../artist/4gdMJYnopf2nEUcanAwstx.html">Anuv Jain</a> - <a href="../track/1bMkimTb47umgNP6xCi4A1.html">Arz Kiya Hai | Coke Studio Bharat</a></div></td>
+<td>226</td>
+<td>4</td><td class="np mini text"></td>
+<td>657,891</td>
+<td>-2,608</td>
+<td class="smaller">4,530,304</td>
+<td class="smaller">-674</td>
+<td>146,908,043</td></tr>
+<tr><td class="np">16</td>
+<td class="np">=</td>
+<td class="text mp"><div><a href="../artist/6DARBhWbfcS9E4yJzcliqQ.html">Karan Aujla</a> - <a href="../track/3ExgWVPWOQts9RVBkqpdic.html">Boyfriend</a> (w/ <a href="../artist/3nqS8jzqmsPKFJTp0BOIel.html">Ikky</a>)</div></td>
+<td>229</td>
+<td>7</td><td class="np mini text"></td>
+<td>639,023</td>
+<td>-18,998</td>
+<td class="smaller">4,426,020</td>
+<td class="smaller">+3,239</td>
+<td>116,725,205</td></tr>
+<tr><td class="np">17</td>
+<td class="np">=</td>
+<td class="text mp"><div><a href="../artist/05etL4pzWd6TSv1x5WrlG3.html">Faheem Abdullah</a> - <a href="../track/1hlbywc8Jhl1FFqJxAMabE.html">Ishq</a> (w/ <a href="../artist/22UtphG4LcwxlhhV0aP4js.html">Rauhan Malik</a>)</div></td>
+<td>683</td>
+<td>2</td><td class="np mini text">(x14)</td>
+<td>629,412</td>
+<td>+9,296</td>
+<td class="smaller">4,317,651</td>
+<td class="smaller">+38,164</td>
+<td>449,842,483</td></tr>
+<tr><td class="np">18</td>
+<td class="np">=</td>
+<td class="text mp"><div><a href="../artist/465OXuCU8YZNmVG1leLwQ9.html">Shashwat Sachdev</a> - <a href="../track/0R7grQWU1dRxiOQGIqZm0Z.html">Shararat</a> (w/ <a href="../artist/4ojkMVHjuDZgDXSJy5qs2h.html">Madhubanti Bagchi</a>, <a href="../artist/0mJDQBWytBhOh5JB1DOQ1c.html">Jasmine Sandlas</a>)</div></td>
+<td>120</td>
+<td>5</td><td class="np mini text"></td>
+<td>606,158</td>
+<td>-13,300</td>
+<td class="smaller">4,575,011</td>
+<td class="smaller">-82,957</td>
+<td>80,134,263</td></tr>
+<tr><td class="np">19</td>
+<td class="np">+1</td>
+<td class="text mp"><div><a href="../artist/465OXuCU8YZNmVG1leLwQ9.html">Shashwat Sachdev</a> - <a href="../track/5xKr4HfdnYLMDmAJZkOuBc.html">Dhurandhar - Title Track</a> (w/ <a href="../artist/4nVa6XlBFlIkF6msW57PHp.html">Hanumankind</a>, <a href="../artist/0mJDQBWytBhOh5JB1DOQ1c.html">Jasmine Sandlas</a>, <a href="../artist/586UieDtNlK2F8hEMayYbb.html">Sudhir Yaduvanshi</a>, <a href="../artist/5jI1jiicLnii7yjSbAj9xj.html">Charanjit Ahuja</a>, <a href="../artist/0Wrp7P9HV2JVEKAzU3tLSD.html">Muhammad Sadiq</a>, <a href="../artist/2RB4eCNO29DoHWqjLtPAFY.html">Ranjit Kaur</a>, <a href="../artist/0CrZKzYlBaQEXqXGNduM4d.html">Babu Singh Maan</a>)</div></td>
+<td>123</td>
+<td>3</td><td class="np mini text">(x20)</td>
+<td>576,942</td>
+<td>-12,443</td>
+<td class="smaller">4,320,472</td>
+<td class="smaller">-62,864</td>
+<td>88,035,563</td></tr>
+<tr><td class="np">20</td>
+<td class="np">+1</td>
+<td class="text mp"><div><a href="../artist/4f7KfxeHq9BiylGmyXepGt.html">Tanishk Bagchi</a> - <a href="../track/5SSZtFWdrmFV4MxtlRA13N.html">Saiyaara</a> (w/ <a href="../artist/05etL4pzWd6TSv1x5WrlG3.html">Faheem Abdullah</a>, <a href="../artist/5yzqUq3vXrMkmfcOwMY203.html">Arslan Nizami</a>, <a href="../artist/3GdSQUH1BRtl9UrrtuwJlP.html">Irshad Kamil</a>)</div></td>
+<td>173</td>
+<td>2</td><td class="np mini text">(x15)</td>
+<td>566,352</td>
+<td>-7,412</td>
+<td class="smaller">3,869,225</td>
+<td class="smaller">+22,888</td>
+<td>128,143,459</td></tr>
+<tr><td class="np">21</td>
+<td class="np">-2</td>
+<td class="text mp"><div><a href="../artist/1yzgJmZf5CxtFfGfRFm4Si.html">Gajendra Verma</a> - <a href="../track/3yV2c3cYhkAwSsxAq6nRiv.html">Mann Mera</a></div></td>
+<td>1354</td>
+<td>7</td><td class="np mini text"></td>
+<td>565,099</td>
+<td>-35,753</td>
+<td class="smaller">4,007,043</td>
+<td class="smaller">-4,040</td>
+<td>431,468,169</td></tr>
+<tr><td class="np">22</td>
+<td class="np">+8</td>
+<td class="text mp"><div><a href="../artist/1Bz46nDCMO1UOKp9GJjL92.html">Zeeshan Ali</a> - <a href="../track/0febwTwLDSZzrt46i1RBF5.html">Ishqa Ve</a></div></td>
+<td>135</td>
+<td>14</td><td class="np mini text"></td>
+<td>538,030</td>
+<td>+33,204</td>
+<td class="smaller">3,644,106</td>
+<td class="smaller">-9,048</td>
+<td>62,895,087</td></tr>
+<tr class="d2"><td class="np">23</td>
+<td class="np">+25</td>
+<td class="text mp"><div><a href="../artist/54BjV0qctcWp8xOip7uaJD.html">thiarajxtt</a> - <a href="../track/1XfBEzVsFJC0X8222Y6unk.html">Jogi</a> (w/ <a href="../artist/3R1penrqtuKNTeWABjKT5N.html">Bir</a>)</div></td>
+<td>52</td>
+<td class="newp">23</td><td class="np newp mini text"></td>
+<td>530,074</td>
+<td>+156,213</td>
+<td class="smaller">2,682,618</td>
+<td class="smaller">+126,729</td>
+<td>16,536,750</td></tr>
+<tr><td class="np">24</td>
+<td class="np">+2</td>
+<td class="text mp"><div><a href="../artist/1SyKki7JI1AZNKwgNMkn25.html">Sachet-Parampara</a> - <a href="../track/4vHRQnzGcKEtqsLH70tAms.html">Raanjhan (From "Do Patti")</a> (w/ <a href="../artist/1E6arsXf5Fgsnv9YpSzjpE.html">Parampara Tandon</a>, <a href="../artist/3GBSge8pq7mpezUQl0GAOA.html">Kausar Munir</a>)</div></td>
+<td>535</td>
+<td>1</td><td class="np mini text">(x42)</td>
+<td>526,012</td>
+<td>+9,861</td>
+<td class="smaller">3,499,993</td>
+<td class="smaller">+65,824</td>
+<td>391,422,215</td></tr>
+<tr><td class="np">25</td>
+<td class="np">-2</td>
+<td class="text mp"><div><a href="../artist/3uHCE9eimH5dJx7TLslsmE.html">Virat</a> - <a href="../track/1GfcRba0wGXDTtT4r8C65Z.html">Bairi</a> (w/ <a href="../artist/5kD46P0iLqWZtITQB9nmAn.html">Pradeep Solanki</a>, <a href="../artist/1mgNO6u7VjkWz3wWD7ZnkF.html">Heena</a>)</div></td>
+<td>44</td>
+<td>12</td><td class="np mini text"></td>
+<td>525,234</td>
+<td>-4,505</td>
+<td class="smaller">3,701,118</td>
+<td class="smaller">-20,808</td>
+<td>22,005,891</td></tr>
+<tr><td class="np">26</td>
+<td class="np">-4</td>
+<td class="text mp"><div><a href="../artist/6DARBhWbfcS9E4yJzcliqQ.html">Karan Aujla</a> - <a href="../track/0cYohCh24y1aMjJmcS9RBl.html">For A Reason</a> (w/ <a href="../artist/3nqS8jzqmsPKFJTp0BOIel.html">Ikky</a>)</div></td>
+<td>229</td>
+<td>2</td><td class="np mini text">(x5)</td>
+<td>524,217</td>
+<td>-8,697</td>
+<td class="smaller">3,721,381</td>
+<td class="smaller">-111,698</td>
+<td>193,510,804</td></tr>
+<tr><td class="np">27</td>
+<td class="np">+7</td>
+<td class="text mp"><div><a href="../artist/4gdMJYnopf2nEUcanAwstx.html">Anuv Jain</a> - <a href="../track/0eCajpR75pDW0r64U6hP2x.html">Jo Tum Mere Ho</a></div></td>
+<td>606</td>
+<td>1</td><td class="np mini text">(x105)</td>
+<td>510,000</td>
+<td>+53,127</td>
+<td class="smaller">3,282,981</td>
+<td class="smaller">+55,590</td>
+<td>462,186,441</td></tr>
+<tr><td class="np">28</td>
+<td class="np">-1</td>
+<td class="text mp"><div><a href="../artist/2oSONSC9zQ4UonDKnLqksx.html">Atif Aslam</a> - <a href="../track/0xlWd9o8yjKpJ02WJy79kZ.html">Tere Liye</a> (w/ <a href="../artist/0oOet2f43PA68X5RxKobEy.html">Shreya Ghoshal</a>)</div></td>
+<td>349</td>
+<td>8</td><td class="np mini text"></td>
+<td>504,261</td>
+<td>-10,214</td>
+<td class="smaller">3,498,911</td>
+<td class="smaller">-16,039</td>
+<td>135,071,252</td></tr>
+<tr><td class="np">29</td>
+<td class="np">-5</td>
+<td class="text mp"><div><a href="../artist/465OXuCU8YZNmVG1leLwQ9.html">Shashwat Sachdev</a> - <a href="../track/2NhPxmtxBFZQ8Nr583Iqqt.html">Phir Se</a> (w/ <a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a>, <a href="../artist/3GdSQUH1BRtl9UrrtuwJlP.html">Irshad Kamil</a>)</div></td>
+<td>14</td>
+<td>20</td><td class="np mini text"></td>
+<td>493,927</td>
+<td>-28,477</td>
+<td class="smaller">3,682,171</td>
+<td class="smaller">-75,361</td>
+<td>7,486,996</td></tr>
+<tr><td class="np">30</td>
+<td class="np">-2</td>
+<td class="text mp"><div><a href="../artist/465OXuCU8YZNmVG1leLwQ9.html">Shashwat Sachdev</a> - <a href="../track/2nnDPEbNxnBKq5RG6sObTg.html">Naal Nachna</a> (w/ <a href="../artist/4z0z82pXirH1TrygipQlOo.html">Afsana Khan</a>, <a href="../artist/3GdSQUH1BRtl9UrrtuwJlP.html">Irshad Kamil</a>, <a href="../artist/3MsxNLVtDVGxjEaxgKAoi0.html">Reble</a>)</div></td>
+<td>118</td>
+<td>21</td><td class="np mini text"></td>
+<td>490,221</td>
+<td>-22,691</td>
+<td class="smaller">3,634,453</td>
+<td class="smaller">-49,517</td>
+<td>49,010,641</td></tr>
+<tr><td class="np">31</td>
+<td class="np">=</td>
+<td class="text mp"><div><a href="../artist/09UmIX92EUH9hAK4bxvHx6.html">Mithoon</a> - <a href="../track/1awtp7rf6ajhGY9BgzCHeZ.html">Darkhaast</a> (w/ <a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a>, <a href="../artist/3eDT9fwXKuHWFvgZaaYC5v.html">Sunidhi Chauhan</a>)</div></td>
+<td>130</td>
+<td>25</td><td class="np mini text"></td>
+<td>488,022</td>
+<td>-3,331</td>
+<td class="smaller">3,428,645</td>
+<td class="smaller">-4,708</td>
+<td>45,236,079</td></tr>
+<tr><td class="np">32</td>
+<td class="np">-7</td>
+<td class="text mp"><div><a href="../artist/1mYsTxnqsietFxj1OgoGbG.html">A.R. Rahman</a> - <a href="../track/47RTQoh3pzjhWLUMllNRRJ.html">Deewaana Deewaana</a> (w/ <a href="../artist/3GdSQUH1BRtl9UrrtuwJlP.html">Irshad Kamil</a>)</div></td>
+<td>70</td>
+<td>22</td><td class="np mini text"></td>
+<td>480,868</td>
+<td>-36,617</td>
+<td class="smaller">3,559,417</td>
+<td class="smaller">-49,143</td>
+<td>27,458,483</td></tr>
+<tr><td class="np">33</td>
+<td class="np">+2</td>
+<td class="text mp"><div><a href="../artist/6QoCrBHsojKnOrsGNfRcTN.html">Talwiinder</a> - <a href="../track/08GYLNhKthS3arMdXsveRI.html">Haseen</a> (w/ <a href="../artist/5xh6szshoZ0UfZD1x6QzZG.html">NDS</a>, <a href="../artist/1RaZAbVB4yopz69N1XlZvj.html">Rippy Grewal</a>)</div></td>
+<td>313</td>
+<td>2</td><td class="np mini text">(x33)</td>
+<td>473,911</td>
+<td>+25,953</td>
+<td class="smaller">3,206,319</td>
+<td class="smaller">+39,395</td>
+<td>191,647,340</td></tr>
+<tr><td class="np">34</td>
+<td class="np">-2</td>
+<td class="text mp"><div><a href="../artist/465OXuCU8YZNmVG1leLwQ9.html">Shashwat Sachdev</a> - <a href="../track/5NK3IhIeIXQmOKK5EiSRra.html">Run Down The City - Monica</a> (w/ <a href="../artist/3MsxNLVtDVGxjEaxgKAoi0.html">Reble</a>, <a href="../artist/5as8A4G47Ohu9NSWs3Je8U.html">Asha Bhosle</a>, <a href="../artist/2JSYASbWU5Y0fVpts3Eq7g.html">R. D. Burman</a>, <a href="../artist/7ikcALJgPCvpL25820JNYR.html">Majrooh Sultanpuri</a>)</div></td>
+<td>121</td>
+<td>25</td><td class="np mini text"></td>
+<td>465,739</td>
+<td>-18,627</td>
+<td class="smaller">3,497,919</td>
+<td class="smaller">-20,665</td>
+<td>39,354,289</td></tr>
+<tr><td class="np">35</td>
+<td class="np">-6</td>
+<td class="text mp"><div><a href="../artist/5wJ1H6ud777odtZl5gG507.html">Vishal Mishra</a> - <a href="../track/6G8vN5EUtcDxOXOXadF6kp.html">Tum Ho Toh (From "Saiyaara")</a> (w/ <a href="../artist/0RVfcqug2nB820dxIGycIW.html">Hansika Pareek</a>, <a href="../artist/2DFCHTDIA0t638a4mm37dK.html">Raj Shekhar</a>)</div></td>
+<td>263</td>
+<td>3</td><td class="np mini text">(x7)</td>
+<td>463,047</td>
+<td>-42,362</td>
+<td class="smaller">3,462,633</td>
+<td class="smaller">-36,909</td>
+<td>154,019,752</td></tr>
+<tr><td class="np">36</td>
+<td class="np">-3</td>
+<td class="text mp"><div><a href="../artist/465OXuCU8YZNmVG1leLwQ9.html">Shashwat Sachdev</a> - <a href="../track/2dQMisG0lyz6Z8J4zYdAsG.html">Lutt Le Gaya</a> (w/ <a href="../artist/1eQsrFTW5NHQs1X7B0mImu.html">Simran Choudhary</a>)</div></td>
+<td>118</td>
+<td>24</td><td class="np mini text"></td>
+<td>453,471</td>
+<td>-11,116</td>
+<td class="smaller">3,244,853</td>
+<td class="smaller">-33,279</td>
+<td>50,652,952</td></tr>
+<tr><td class="np">37</td>
+<td class="np">=</td>
+<td class="text mp"><div><a href="../artist/3gBKY0y3dFFVRqicLnVZYz.html">Alka Yagnik</a> - <a href="../track/2FCXQHugkoHE1K3tiDu8pu.html">Agar Tum Saath Ho (From "Tamasha")</a> (w/ <a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a>)</div></td>
+<td>2379</td>
+<td>4</td><td class="np mini text"></td>
+<td>450,916</td>
+<td>+19,929</td>
+<td class="smaller">3,104,490</td>
+<td class="smaller">-5,791</td>
+<td>595,793,588</td></tr>
+<tr><td class="np">38</td>
+<td class="np">=</td>
+<td class="text mp"><div><a href="../artist/1mYsTxnqsietFxj1OgoGbG.html">A.R. Rahman</a> - <a href="../track/4FeczSomVWVyU4FW7xDeAI.html">Tere Bina</a> (w/ <a href="../artist/5UJ2sHO2ELrgW6aXeRLTQQ.html">Chinmayi</a>, <a href="../artist/3v8isPrc8btWVMF3bnOIcj.html">Murtuza Khan</a>, <a href="../artist/2gTPBFjo3M9rvMSZWTk9nT.html">Qadir Khan</a>, <a href="../artist/7e6AfoPhtlBJGQ9iNMAckD.html">Abhishek Bachchan</a>, <a href="../artist/17T5bMPKU7041jw5s2fFh4.html">Aishwarya Rai Bachchan</a>, <a href="../artist/5oQn8IgL9uZVApGe45Od8u.html">R. Madhavan</a>, <a href="../artist/7GY5AXa04umzdw8ovzqXuF.html">Vidya Balan</a>, <a href="../artist/0nOnIOaa1ntcbSfM5O1PzW.html">Mithun Chakraborty</a>, <a href="../artist/2Rr82cEmFUjaJjnk8pMVSZ.html">Arya Babbar</a>)</div></td>
+<td>597</td>
+<td>6</td><td class="np mini text"></td>
+<td>443,545</td>
+<td>+32,298</td>
+<td class="smaller">3,230,407</td>
+<td class="smaller">-54,650</td>
+<td>256,833,238</td></tr>
+<tr><td class="np">39</td>
+<td class="np">-3</td>
+<td class="text mp"><div><a href="../artist/0Eb38FY9vOjiRA10iXPGHI.html">The Rish</a> - <a href="../track/7Csa4PStpuYIfUqNMKQ4V8.html">Barbaad (From "Saiyaara")</a> (w/ <a href="../artist/1tqysapcCh1lWEAc9dIFpa.html">Jubin Nautiyal</a>)</div></td>
+<td>264</td>
+<td>5</td><td class="np mini text"></td>
+<td>429,031</td>
+<td>-9,521</td>
+<td class="smaller">2,958,123</td>
+<td class="smaller">+4,636</td>
+<td>143,730,675</td></tr>
+<tr><td class="np">40</td>
+<td class="np">+1</td>
+<td class="text mp"><div><a href="../artist/1wRPtKGflJrBx9BmLsSwlU.html">Pritam</a> - <a href="../track/2cPUB8EOT6AfJ8oxhyoNXL.html">Ye Tune Kya Kiya</a> (w/ <a href="../artist/5diMmmNkRVfgUnXJrzXzjZ.html">Javed Bashir</a>)</div></td>
+<td>789</td>
+<td>8</td><td class="np mini text"></td>
+<td>427,566</td>
+<td>+29,184</td>
+<td class="smaller">2,934,079</td>
+<td class="smaller">-88</td>
+<td>287,182,024</td></tr>
+<tr><td class="np">41</td>
+<td class="np">-2</td>
+<td class="text mp"><div><a href="../artist/4oVMLzAqW6qhRpZWt8fNw4.html">Kailash Kher</a> - <a href="../track/2iNqdCchlUZEgjJbQyZf8T.html">Teri Deewani</a> (w/ <a href="../artist/3PgeUFj9oHU4K4RGaITz2f.html">Paresh Kamath</a>, <a href="../artist/79sho4jpEGoCCC51KHnNSJ.html">Naresh Kamath</a>)</div></td>
+<td>608</td>
+<td>24</td><td class="np mini text"></td>
+<td>421,444</td>
+<td>+15,416</td>
+<td class="smaller">2,832,414</td>
+<td class="smaller">+37,921</td>
+<td>175,941,148</td></tr>
+<tr><td class="np">42</td>
+<td class="np">+23</td>
+<td class="text mp"><div><a href="../artist/2NoJ7NuNs9nyj8Thoh1kbu.html">Hariharan</a> - <a href="../track/6H7fLdt0AeWpuxUKXuXWrx.html">Shree Hanuman Chalisa</a></div></td>
+<td>1335</td>
+<td>5</td><td class="np mini text"></td>
+<td>401,952</td>
+<td>+82,340</td>
+<td class="smaller">2,674,551</td>
+<td class="smaller">+29,879</td>
+<td>330,735,399</td></tr>
+<tr><td class="np">43</td>
+<td class="np">+9</td>
+<td class="text mp"><div><a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a> - <a href="../track/4MU4Kfkd9EnkArK2ocQyqK.html">Zaalima</a> (w/ <a href="../artist/3xU8YsNNkmWSPewlB18NUz.html">Harshdeep Kaur</a>)</div></td>
+<td>1018</td>
+<td>25</td><td class="np mini text"></td>
+<td>392,833</td>
+<td>+39,074</td>
+<td class="smaller">2,516,416</td>
+<td class="smaller">+33,356</td>
+<td>191,084,125</td></tr>
+<tr><td class="np">44</td>
+<td class="np">-2</td>
+<td class="text mp"><div><a href="../artist/1yzgJmZf5CxtFfGfRFm4Si.html">Gajendra Verma</a> - <a href="../track/1As2Jo89VTF9V3D6GuOPr9.html">Mann Mera - Original Version</a></div></td>
+<td>284</td>
+<td>13</td><td class="np mini text"></td>
+<td>390,732</td>
+<td>-7,608</td>
+<td class="smaller">2,858,329</td>
+<td class="smaller">+13,737</td>
+<td>99,473,846</td></tr>
+<tr><td class="np">45</td>
+<td class="np">+2</td>
+<td class="text mp"><div><a href="../artist/465OXuCU8YZNmVG1leLwQ9.html">Shashwat Sachdev</a> - <a href="../track/7DonHcAdu5FHzLNESEEOuj.html">Ishq Jalakar - Karvaan</a> (w/ <a href="../artist/4asaIarkMcpkYhSiMn1Ed5.html">Shahzad Ali</a>, <a href="../artist/3biZl77VIJSHTnwBnEZkkd.html">Subhadeep Das Chowdhury</a>, <a href="../artist/68CFADZWUwvJMqkCeqmxMJ.html">Armaan Khan</a>, <a href="../artist/3GdSQUH1BRtl9UrrtuwJlP.html">Irshad Kamil</a>, <a href="../artist/6Wg3akugFVCH4iYhEKk0GM.html">Roshan</a>, <a href="../artist/1nLvkKjnfpnouM0Mpyd4cc.html">Sahir Ludhianvi</a>)</div></td>
+<td>123</td>
+<td>2</td><td class="np mini text">(x1)</td>
+<td>388,668</td>
+<td>+10,351</td>
+<td class="smaller">2,859,989</td>
+<td class="smaller">-56,562</td>
+<td>73,562,888</td></tr>
+<tr><td class="np">46</td>
+<td class="np">+5</td>
+<td class="text mp"><div><a href="../artist/6LEG9Ld1aLImEFEVHdWNSB.html">AP Dhillon</a> - <a href="../track/3JiLQJmVW7d4O8AQDFB3oj.html">Thodi Si Daaru</a> (w/ <a href="../artist/0oOet2f43PA68X5RxKobEy.html">Shreya Ghoshal</a>)</div></td>
+<td>252</td>
+<td>3</td><td class="np mini text">(x18)</td>
+<td>387,592</td>
+<td>+23,984</td>
+<td class="smaller">2,530,550</td>
+<td class="smaller">+40,083</td>
+<td>131,599,194</td></tr>
+<tr><td class="np">47</td>
+<td class="np">+2</td>
+<td class="text mp"><div><a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a> - <a href="../track/5bVmOD7UKfP2iLFUGMtdnS.html">Mast Magan (From "2 States)</a> (w/ <a href="../artist/5UJ2sHO2ELrgW6aXeRLTQQ.html">Chinmayi</a>)</div></td>
+<td>222</td>
+<td>23</td><td class="np mini text"></td>
+<td>385,245</td>
+<td>+14,864</td>
+<td class="smaller">2,609,276</td>
+<td class="smaller">+7,825</td>
+<td>90,256,488</td></tr>
+<tr><td class="np">48</td>
+<td class="np">-2</td>
+<td class="text mp"><div><a href="../artist/5VVN3xZw1i2qihfITZlvCZ.html">G. V. Prakash</a> - <a href="../track/3GNlsHDf3OH7V3LgccGAFc.html">Mutta Kalakki (From "Youth")</a> (w/ <a href="../artist/6f9pTlTRRreLGq9gIonZOA.html">Ken Karunaas</a>)</div></td>
+<td>49</td>
+<td>33</td><td class="np mini text"></td>
+<td>379,078</td>
+<td>+221</td>
+<td class="smaller">2,782,780</td>
+<td class="smaller">-35,308</td>
+<td>15,774,169</td></tr>
+<tr><td class="np">49</td>
+<td class="np">-6</td>
+<td class="text mp"><div><a href="../artist/465OXuCU8YZNmVG1leLwQ9.html">Shashwat Sachdev</a> - <a href="../track/5icrEfubHCXlHEue9YUT3q.html">Main Aur Tu</a> (w/ <a href="../artist/0mJDQBWytBhOh5JB1DOQ1c.html">Jasmine Sandlas</a>, <a href="../artist/3MsxNLVtDVGxjEaxgKAoi0.html">Reble</a>)</div></td>
+<td>11</td>
+<td>27</td><td class="np mini text"></td>
+<td>378,967</td>
+<td>-15,768</td>
+<td class="smaller">2,855,242</td>
+<td class="smaller">-105,936</td>
+<td>4,857,646</td></tr>
+<tr><td class="np">50</td>
+<td class="np">-5</td>
+<td class="text mp"><div><a href="../artist/4zCH9qm4R2DADamUHMCa6O.html">Anirudh Ravichander</a> - <a href="../track/4kV0ugCwyF7OAb3huIdThG.html">Aaya Sher (From "The Paradise") (Telugu)</a> (w/ <a href="../artist/576GMrbKBURxmaLAJXMqCp.html">Jangi Reddy</a>, <a href="../artist/4UCG3GFuPR4k19M40Mzxip.html">Arjun Chandy</a>, <a href="../artist/4wxBWsFkyA2K1BMBFj91qt.html">Kasarla Shyam</a>)</div></td>
+<td>42</td>
+<td>2</td><td class="np mini text">(x1)</td>
+<td>378,263</td>
+<td>-2,978</td>
+<td class="smaller">2,746,443</td>
+<td class="smaller">-23,934</td>
+<td>20,452,412</td></tr>
+<tr><td class="np">51</td>
+<td class="np">-7</td>
+<td class="text mp"><div><a href="../artist/05etL4pzWd6TSv1x5WrlG3.html">Faheem Abdullah</a> - <a href="../track/5PetOhEX9N0oyBB0Keqobv.html">Ehsaas</a> (w/ <a href="../artist/3l1qBa4ZTuNfYOap9WGbDQ.html">Duha Shah</a>, <a href="../artist/6FedIS4fevWR5JdQQvviFB.html">Vaibhav Pani</a>, <a href="../artist/7Khu2sHjq6VFAfiRLql5tt.html">Hyder Dar</a>)</div></td>
+<td>275</td>
+<td>8</td><td class="np mini text"></td>
+<td>374,981</td>
+<td>-19,628</td>
+<td class="smaller">2,703,093</td>
+<td class="smaller">-17,748</td>
+<td>128,465,954</td></tr>
+<tr><td class="np">52</td>
+<td class="np">-2</td>
+<td class="text mp"><div><a href="../artist/09UmIX92EUH9hAK4bxvHx6.html">Mithoon</a> - <a href="../track/1GFQthxDi4Tqe3wJ5j0G5S.html">Dhun (From "Saiyaara")</a> (w/ <a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a>)</div></td>
+<td>266</td>
+<td>3</td><td class="np mini text">(x10)</td>
+<td>374,502</td>
+<td>+5,950</td>
+<td class="smaller">2,522,419</td>
+<td class="smaller">+25,299</td>
+<td>133,443,778</td></tr>
+<tr><td class="np">53</td>
+<td class="np">-13</td>
+<td class="text mp"><div><a href="../artist/2rN8LHqK4TBI7y3d9POvJb.html">Dhanda Nyoliwala</a> - <a href="../track/4YPSg93DDJW9Uf4IgklCHc.html">Not Guilty</a></div></td>
+<td>88</td>
+<td>21</td><td class="np mini text"></td>
+<td>373,978</td>
+<td>-25,967</td>
+<td class="smaller">2,703,624</td>
+<td class="smaller">+10,281</td>
+<td>36,946,716</td></tr>
+<tr><td class="np">54</td>
+<td class="np">+2</td>
+<td class="text mp"><div><a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a> - <a href="../track/2PvaburAUlhNHxVhw5lvOq.html">Humdard (From "Ek Villain")</a></div></td>
+<td>2098</td>
+<td>13</td><td class="np mini text"></td>
+<td>362,427</td>
+<td>+15,339</td>
+<td class="smaller">2,450,636</td>
+<td class="smaller">+18,402</td>
+<td>445,288,212</td></tr>
+<tr><td class="np">55</td>
+<td class="np">+4</td>
+<td class="text mp"><div><a href="../artist/1wRPtKGflJrBx9BmLsSwlU.html">Pritam</a> - <a href="../track/6FjbAnaPRPwiP3sciEYctO.html">Raabta</a> (w/ <a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a>)</div></td>
+<td>1240</td>
+<td>27</td><td class="np mini text"></td>
+<td>359,456</td>
+<td>+26,593</td>
+<td class="smaller">2,382,688</td>
+<td class="smaller">+10,612</td>
+<td>263,041,363</td></tr>
+<tr><td class="np">56</td>
+<td class="np">+1</td>
+<td class="text mp"><div><a href="../artist/3scNK8e4mqnP6Rb8a3lwZY.html">Maanu</a> - <a href="../track/44LaY2y6wRRlSRjsqbKnuU.html">Jhol - Acoustic</a> (w/ <a href="../artist/1nCZUpBIcyOxufOx0lPeIW.html">Annural Khalid</a>, <a href="../artist/3PbkSdpJnYRF18jau74b7R.html">Abdullah Siddiqui</a>)</div></td>
+<td>362</td>
+<td>9</td><td class="np mini text"></td>
+<td>359,202</td>
+<td>+18,848</td>
+<td class="smaller">2,444,177</td>
+<td class="smaller">+21,020</td>
+<td>129,280,256</td></tr>
+<tr><td class="np">57</td>
+<td class="np">-3</td>
+<td class="text mp"><div><a href="../artist/5KmFbbptaZhEtmMibvibUE.html">Jind Universe</a> - <a href="../track/2eqUVYJVnlDs8PgOtuOlJm.html">High On You</a></div></td>
+<td>278</td>
+<td>20</td><td class="np mini text"></td>
+<td>348,666</td>
+<td>-2,429</td>
+<td class="smaller">2,398,569</td>
+<td class="smaller">+22,965</td>
+<td>103,187,150</td></tr>
+<tr><td class="np">58</td>
+<td class="np">-5</td>
+<td class="text mp"><div><a href="../artist/465OXuCU8YZNmVG1leLwQ9.html">Shashwat Sachdev</a> - <a href="../track/1I7yw0J5KpUaWhdBviGlON.html">Vaari Jaavan</a> (w/ <a href="../artist/7ezZ4ix4QBrKkvxanGClFB.html">Jyoti Nooran</a>, <a href="../artist/0mJDQBWytBhOh5JB1DOQ1c.html">Jasmine Sandlas</a>, <a href="../artist/3MsxNLVtDVGxjEaxgKAoi0.html">Reble</a>)</div></td>
+<td>14</td>
+<td>41</td><td class="np mini text"></td>
+<td>339,731</td>
+<td>-13,987</td>
+<td class="smaller">2,544,830</td>
+<td class="smaller">-68,868</td>
+<td>5,068,522</td></tr>
+<tr><td class="np">59</td>
+<td class="np">-1</td>
+<td class="text mp"><div><a href="../artist/465OXuCU8YZNmVG1leLwQ9.html">Shashwat Sachdev</a> - <a href="../track/09WTiAB81RmPHae2BPjtaQ.html">Hum Pyaar Karne Wale</a> (w/ <a href="../artist/4hkB2bR5ek6lJChj6aunCn.html">Anuradha Paudwal</a>, <a href="../artist/70B80Lwx2sxti0M1Ng9e8K.html">Udit Narayan</a>, <a href="../artist/2owjgBZQ70LoCNHIgW3gSk.html">Anand-Milind</a>, <a href="../artist/5sifufajls8Q6k04Y4F8mH.html">Sameer Anjaan</a>, <a href="../artist/4o4tLTIJ3eWMFerz73atcT.html">Qveen Herby</a>)</div></td>
+<td>14</td>
+<td>47</td><td class="np mini text"></td>
+<td>335,481</td>
+<td>-709</td>
+<td class="smaller">2,520,188</td>
+<td class="smaller">-49,398</td>
+<td>5,157,264</td></tr>
+<tr><td class="np">60</td>
+<td class="np">+8</td>
+<td class="text mp"><div><a href="../artist/1mBydYMVBECdDmMfE2sEUO.html">Sachin-Jigar</a> - <a href="../track/5lKE040hUfDAKOR8HLG92p.html">Jeena Jeena</a> (w/ <a href="../artist/2oSONSC9zQ4UonDKnLqksx.html">Atif Aslam</a>)</div></td>
+<td>160</td>
+<td>38</td><td class="np mini text"></td>
+<td>326,065</td>
+<td>+17,133</td>
+<td class="smaller">2,189,797</td>
+<td class="smaller">+34,987</td>
+<td>54,217,906</td></tr>
+<tr><td class="np">61</td>
+<td class="np">+2</td>
+<td class="text mp"><div><a href="../artist/5j2JTk8JqepIgv1zxYOuIi.html">ARJN</a> - <a href="../track/2Uyj6K6mSaFTZsPvov415i.html">KALYANI</a> (w/ <a href="../artist/41opZo9bHh8CZoIdR3IgP7.html">KDS</a>, <a href="../artist/1NApv6DzDP19uLuxJ0CuuP.html">FIFTY4</a>, <a href="../artist/6jw1jO7iGLcrQyXL1Ia0IW.html">RONN</a>)</div></td>
+<td>130</td>
+<td>17</td><td class="np mini text"></td>
+<td>324,366</td>
+<td>-2,796</td>
+<td class="smaller">2,410,705</td>
+<td class="smaller">-25,833</td>
+<td>53,791,551</td></tr>
+<tr><td class="np">62</td>
+<td class="np">-1</td>
+<td class="text mp"><div><a href="../artist/1SyKki7JI1AZNKwgNMkn25.html">Sachet-Parampara</a> - <a href="../track/0OLTYqD8FpjkLsxJmdWmgi.html">Humsafar (From "Saiyaara")</a> (w/ <a href="../artist/6WOdPJmexxFINcKMkP2jMG.html">Sachet Tandon</a>, <a href="../artist/1E6arsXf5Fgsnv9YpSzjpE.html">Parampara Tandon</a>, <a href="../artist/3GdSQUH1BRtl9UrrtuwJlP.html">Irshad Kamil</a>, <a href="../artist/0ggJT2f5xy19NXiwG9IgUC.html">Prashant Pandey</a>)</div></td>
+<td>264</td>
+<td>5</td><td class="np mini text"></td>
+<td>322,115</td>
+<td>-7,483</td>
+<td class="smaller">2,261,986</td>
+<td class="smaller">-11,826</td>
+<td>113,777,584</td></tr>
+<tr><td class="np">63</td>
+<td class="np">+12</td>
+<td class="text mp"><div><a href="../artist/3TOhzLRYnkkul71yRBxIoM.html">Akhil Sachdeva</a> - <a href="../track/7aE1lfskJLMHQnzCCP1zsV.html">Humsafar (From "Badrinath Ki Dulhania")</a> (w/ <a href="../artist/7zfceKY7I04Tc0J2o7043h.html">Mansheel Gujral</a>)</div></td>
+<td>798</td>
+<td>36</td><td class="np mini text"></td>
+<td>314,289</td>
+<td>+16,986</td>
+<td class="smaller">2,096,287</td>
+<td class="smaller">+10,354</td>
+<td>177,855,328</td></tr>
+<tr><td class="np">64</td>
+<td class="np">+3</td>
+<td class="text mp"><div><a href="../artist/1mYsTxnqsietFxj1OgoGbG.html">A.R. Rahman</a> - <a href="../track/5OMUXgfXsSukZ0zxelpC3b.html">Raanjhanaa</a> (w/ <a href="../artist/2IP4wcE4hRbDi1zdV8Si6g.html">Jaswinder Singh</a>, <a href="../artist/7DcUua74PM7MmBljTTjIyy.html">Shiraz Uppal</a>)</div></td>
+<td>594</td>
+<td>39</td><td class="np mini text"></td>
+<td>312,421</td>
+<td>-1,494</td>
+<td class="smaller">2,160,762</td>
+<td class="smaller">-7,560</td>
+<td>132,474,607</td></tr>
+<tr><td class="np">65</td>
+<td class="np">-10</td>
+<td class="text mp"><div><a href="../artist/2FKWNmZWDBZR4dE5KX4plR.html">Diljit Dosanjh</a> - <a href="../track/7k65xsOjTqONQhfpVWYAWG.html">Dealer</a> (w/ <a href="../artist/0JoJujh7AH388xjwLHe0IR.html">Da Future</a>, <a href="../artist/4jIIs4ktqKx3OJMbn7Xo7l.html">Virk Andaaz</a>)</div></td>
+<td>26</td>
+<td>48</td><td class="np mini text"></td>
+<td>312,202</td>
+<td>-35,640</td>
+<td class="smaller">2,358,963</td>
+<td class="smaller">-48,999</td>
+<td>8,246,785</td></tr>
+<tr><td class="np">66</td>
+<td class="np">+6</td>
+<td class="text mp"><div><a href="../artist/5jJrJU7VVmxQQLcLAmmxXc.html">Sai Abhyankkar</a> - <a href="../track/4pCXTYAPgdzMTCsDdDwjy3.html">Oorum Blood</a> (w/ <a href="../artist/0cQJg3qKYiogK9Qj1H0Qpx.html">Paal Dabba</a>, <a href="../artist/6ze415xN4HqPmAhj1P4pRl.html">Bhumi</a>, <a href="../artist/4PY2xnTu90K0hvkgcljRJl.html">Deepthi Suresh</a>)</div></td>
+<td>219</td>
+<td>3</td><td class="np mini text">(x1)</td>
+<td>309,281</td>
+<td>+8,787</td>
+<td class="smaller">2,233,688</td>
+<td class="smaller">-18,632</td>
+<td>113,165,380</td></tr>
+<tr><td class="np">67</td>
+<td class="np">-7</td>
+<td class="text mp"><div><a href="../artist/4auibajZua9Ld8sPMOmPYc.html">Harshit Saxena</a> - <a href="../track/6GQK4G5o60E8YA18DGpAzv.html">Hale Dil</a></div></td>
+<td>500</td>
+<td>48</td><td class="np mini text"></td>
+<td>308,473</td>
+<td>-21,877</td>
+<td class="smaller">2,090,456</td>
+<td class="smaller">+3,394</td>
+<td>119,490,193</td></tr>
+<tr><td class="np">68</td>
+<td class="np">+1</td>
+<td class="text mp"><div><a href="../artist/2THK0oboxhbn3I1qT7c1i4.html">Hellow Raja</a> - <a href="../track/10D3qd9UOjTlUwZ4rrsmzg.html">Tu Na Samjhe</a> (w/ <a href="../artist/3eP2k3lT7lySsRCSl8NLvr.html">MaxxTurnn</a>)</div></td>
+<td>33</td>
+<td>35</td><td class="np mini text"></td>
+<td>306,854</td>
+<td>+1,680</td>
+<td class="smaller">2,181,918</td>
+<td class="smaller">-19,137</td>
+<td>10,159,149</td></tr>
+<tr><td class="np">69</td>
+<td class="np">+4</td>
+<td class="text mp"><div><a href="../artist/0sSxphmGskGCKlwB9xa6WU.html">Himesh Reshammiya</a> - <a href="../track/0fU73va0bnroitbOzudBU4.html">Tera Chehra</a> (w/ <a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a>)</div></td>
+<td>194</td>
+<td>60</td><td class="np mini text"></td>
+<td>305,519</td>
+<td>+5,423</td>
+<td class="smaller">2,002,776</td>
+<td class="smaller">+30,021</td>
+<td>55,093,035</td></tr>
+<tr><td class="np">70</td>
+<td class="np">+7</td>
+<td class="text mp"><div><a href="../artist/5wJ1H6ud777odtZl5gG507.html">Vishal Mishra</a> - <a href="../track/1y1rQTkWmrZdJmjwuK07GC.html">Kaise Hua (From "Kabir Singh")</a></div></td>
+<td>2489</td>
+<td>4</td><td class="np mini text"></td>
+<td>304,679</td>
+<td>+8,102</td>
+<td class="smaller">2,102,999</td>
+<td class="smaller">+14,217</td>
+<td>476,686,600</td></tr>
+<tr><td class="np">71</td>
+<td class="np">-7</td>
+<td class="text mp"><div><a href="../artist/1wRPtKGflJrBx9BmLsSwlU.html">Pritam</a> - <a href="../track/18YHbIhrleUkKKj2DvEp79.html">Zara Sa</a> (w/ <a href="../artist/4fEkbug6kZzzJ8eYX6Kbbp.html">KK</a>)</div></td>
+<td>1105</td>
+<td>7</td><td class="np mini text"></td>
+<td>304,414</td>
+<td>-17,250</td>
+<td class="smaller">2,134,294</td>
+<td class="smaller">-46,773</td>
+<td>236,758,019</td></tr>
+<tr><td class="np">72</td>
+<td class="np">-6</td>
+<td class="text mp"><div><a href="../artist/5ixQ5hSywFLUaxoaA0uVaH.html">Anand Raj Anand</a> - <a href="../track/0YT1SVUhTE6HFFU4OHRalz.html">Ucha Lamba Kad</a> (w/ <a href="../artist/1RMmK2dEtVEbhSV7qvSXJ1.html">Kalpana Patowary</a>, <a href="../artist/2Bu3DMTHHdXW4jnhoWHhPa.html">Chorus</a>)</div></td>
+<td>65</td>
+<td>29</td><td class="np mini text"></td>
+<td>303,929</td>
+<td>-10,446</td>
+<td class="smaller">2,034,596</td>
+<td class="smaller">-15,052</td>
+<td>21,007,905</td></tr>
+<tr><td class="np">73</td>
+<td class="np">+10</td>
+<td class="text mp"><div><a href="../artist/3yMmYEklQ7gLOZXEFNd3xr.html">Palak Muchhal</a> - <a href="../track/7Imk0IG6S5GA5iYWkjmMW5.html">Chahun Main Ya Naa (From "Aashiqui 2")</a> (w/ <a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a>)</div></td>
+<td>892</td>
+<td>58</td><td class="np mini text"></td>
+<td>302,844</td>
+<td>+16,847</td>
+<td class="smaller">2,016,152</td>
+<td class="smaller">+16,627</td>
+<td>178,519,173</td></tr>
+<tr><td class="np">74</td>
+<td class="np">+4</td>
+<td class="text mp"><div><a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a> - <a href="../track/7LfIX3DCzl3AtGJWlCKOKK.html">Tum Hi Ho (From "Aashiqui 2)</a></div></td>
+<td>46</td>
+<td>48</td><td class="np mini text"></td>
+<td>302,518</td>
+<td>+9,311</td>
+<td class="smaller">2,030,982</td>
+<td class="smaller">+12,118</td>
+<td>13,504,283</td></tr>
+<tr><td class="np">75</td>
+<td class="np">+32</td>
+<td class="text mp"><div><a href="../artist/2oSONSC9zQ4UonDKnLqksx.html">Atif Aslam</a> - <a href="../track/3t3wsY5IdLVzB9WidegJSU.html">Jeene Laga Hoon</a> (w/ <a href="../artist/0oOet2f43PA68X5RxKobEy.html">Shreya Ghoshal</a>, <a href="../artist/1mBydYMVBECdDmMfE2sEUO.html">Sachin-Jigar</a>)</div></td>
+<td>572</td>
+<td>21</td><td class="np mini text"></td>
+<td>299,112</td>
+<td>+44,017</td>
+<td class="smaller">1,974,068</td>
+<td class="smaller">+9,476</td>
+<td>161,303,822</td></tr>
+<tr><td class="np">76</td>
+<td class="np">-2</td>
+<td class="text mp"><div><a href="../artist/5INjqkS1o8h1imAzPqGZBb.html">Tame Impala</a> - <a href="../track/5yvVYFDUpbnjcnRBgjwTzM.html">Dracula - JENNIE Remix</a> (w/ <a href="../artist/250b0Wlc5Vk0CoUsaCY84M.html">JENNIE</a>)</div></td>
+<td>17</td>
+<td>66</td><td class="np mini text"></td>
+<td>297,169</td>
+<td>-908</td>
+<td class="smaller">2,081,215</td>
+<td class="smaller">+25,187</td>
+<td>4,594,733</td></tr>
+<tr><td class="np">77</td>
+<td class="np">+4</td>
+<td class="text mp"><div><a href="../artist/0M4wzwZKh9SSHkOXYNvQlP.html">Zain Zohaib</a> - <a href="../track/5J9L7IbadCt0ivs9xmNrr0.html">Ranjheya Ve</a></div></td>
+<td>408</td>
+<td>18</td><td class="np mini text"></td>
+<td>295,859</td>
+<td>+8,975</td>
+<td class="smaller">2,066,346</td>
+<td class="smaller">-7,701</td>
+<td>136,968,294</td></tr>
+<tr><td class="np">78</td>
+<td class="np">-2</td>
+<td class="text mp"><div><a href="../artist/6Mv8GjQa7LKUGCAqa9qqdb.html">Vishal-Shekhar</a> - <a href="../track/1fkjRQA8wXPPyxqYLbxuqy.html">Ishq Bulaava</a> (w/ <a href="../artist/5kiKQJrz4BT7vFWVECAmHH.html">Sanam Puri</a>, <a href="../artist/7gOZcXPfLtLbFgUyHGV7cZ.html">Shipra Goyal</a>)</div></td>
+<td>362</td>
+<td>21</td><td class="np mini text"></td>
+<td>294,527</td>
+<td>-2,227</td>
+<td class="smaller">2,065,990</td>
+<td class="smaller">+19,363</td>
+<td>105,673,508</td></tr>
+<tr><td class="np">79</td>
+<td class="np">+11</td>
+<td class="text mp"><div><a href="../artist/3ZxZ03fj3tXBZHZWzvaLSM.html">Neeti Mohan</a> - <a href="../track/7oONSa0G2CvYQ0I7G02kgi.html">Kithe Reh Gaya</a> (w/ <a href="../artist/70voqWnL1gpuxodufMgBt4.html">Abhijit Vaghani</a>)</div></td>
+<td>71</td>
+<td>38</td><td class="np mini text"></td>
+<td>291,389</td>
+<td>+18,683</td>
+<td class="smaller">2,013,694</td>
+<td class="smaller">-36,727</td>
+<td>23,988,561</td></tr>
+<tr><td class="np">80</td>
+<td class="np">-1</td>
+<td class="text mp"><div><a href="../artist/3ozYqVCLohfpXIhalkhM8D.html">Aditya Rikhari</a> - <a href="../track/6nRGPf5tpeJtKpXZO5cgIT.html">Paro</a> (w/ <a href="../artist/3gKTtA1BK4pq1IIHXAyvgO.html">UNPLG'd</a>)</div></td>
+<td>401</td>
+<td>6</td><td class="np mini text"></td>
+<td>290,987</td>
+<td>+43</td>
+<td class="smaller">2,042,059</td>
+<td class="smaller">-8,545</td>
+<td>197,468,544</td></tr>
+<tr><td class="np">81</td>
+<td class="np">-19</td>
+<td class="text mp"><div><a href="../artist/07hzX8SH6CEg7B2yl4hoKs.html">Amanraj Gill</a> - <a href="../track/29f6IOg01XRLHKDhFjua1I.html">Hopeless</a> (w/ <a href="../artist/3ufBSdoViRPzJXqGPVy8rH.html">Prem Lata</a>)</div></td>
+<td>115</td>
+<td>45</td><td class="np mini text"></td>
+<td>286,950</td>
+<td>-41,194</td>
+<td class="smaller">2,136,922</td>
+<td class="smaller">+36,087</td>
+<td>35,606,736</td></tr>
+<tr><td class="np">82</td>
+<td class="np">+21</td>
+<td class="text mp"><div><a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a> - <a href="../track/4OEBP1iwGmLtcM8UKRLm80.html">Itni Si Baat Hain (From "Azhar")</a> (w/ <a href="../artist/2UwDJeoMqYers5Jmm75zm2.html">Antara Mitra</a>)</div></td>
+<td>518</td>
+<td>25</td><td class="np mini text"></td>
+<td>286,482</td>
+<td>+25,996</td>
+<td class="smaller">1,895,434</td>
+<td class="smaller">+26,453</td>
+<td>123,604,511</td></tr>
+<tr><td class="np">83</td>
+<td class="np">+4</td>
+<td class="text mp"><div><a href="../artist/1wRPtKGflJrBx9BmLsSwlU.html">Pritam</a> - <a href="../track/7eQl3Yqv35ioqUfveKHitE.html">Tum Se Hi</a> (w/ <a href="../artist/5GnnSrwNCGyfAU4zuIytiS.html">Mohit Chauhan</a>)</div></td>
+<td>2202</td>
+<td>7</td><td class="np mini text"></td>
+<td>285,189</td>
+<td>+6,962</td>
+<td class="smaller">1,979,886</td>
+<td class="smaller">+12,160</td>
+<td>463,783,777</td></tr>
+<tr><td class="np">84</td>
+<td class="np">-13</td>
+<td class="text mp"><div><a href="../artist/2kkQthS9OLpK4UqNWYqoVl.html">Jeet Gannguli</a> - <a href="../track/0kYBzFJ5a2Jozi6cI4y9Bp.html">Jo Tere Sang</a> (w/ <a href="../artist/71oGOxg5ez52Hh1Ye41A98.html">Mustafa Zahid</a>)</div></td>
+<td>341</td>
+<td>19</td><td class="np mini text"></td>
+<td>285,027</td>
+<td>-17,082</td>
+<td class="smaller">1,976,599</td>
+<td class="smaller">+2,321</td>
+<td>109,763,908</td></tr>
+<tr><td class="np">85</td>
+<td class="np">+11</td>
+<td class="text mp"><div><a href="../artist/4gdMJYnopf2nEUcanAwstx.html">Anuv Jain</a> - <a href="../track/4Qm7r3ImER8S2Ori1gLMAf.html">Afsos</a> (w/ <a href="../artist/6LEG9Ld1aLImEFEVHdWNSB.html">AP Dhillon</a>)</div></td>
+<td>432</td>
+<td>5</td><td class="np mini text"></td>
+<td>282,931</td>
+<td>+13,618</td>
+<td class="smaller">1,876,164</td>
+<td class="smaller">+30,973</td>
+<td>171,774,693</td></tr>
+<tr><td class="np">86</td>
+<td class="np">-16</td>
+<td class="text mp"><div><a href="../artist/74OaRjmyh0XyRZsQQQ5l7c.html">Jasleen Royal</a> - <a href="../track/45PA9lW7U5LYnlpGrdTyHY.html">Sang Rahiyo</a></div></td>
+<td>755</td>
+<td>14</td><td class="np mini text"></td>
+<td>282,724</td>
+<td>-21,170</td>
+<td class="smaller">2,142,552</td>
+<td class="smaller">-13,867</td>
+<td>256,180,134</td></tr>
+<tr><td class="np">87</td>
+<td class="np">-3</td>
+<td class="text mp"><div><a href="../artist/2rN8LHqK4TBI7y3d9POvJb.html">Dhanda Nyoliwala</a> - <a href="../track/1dFrZr9eMUsFqeag04ClqD.html">Russian Bandana</a></div></td>
+<td>551</td>
+<td>5</td><td class="np mini text"></td>
+<td>280,830</td>
+<td>-2,348</td>
+<td class="smaller">2,061,413</td>
+<td class="smaller">-14,742</td>
+<td>179,667,495</td></tr>
+<tr><td class="np">88</td>
+<td class="np">-8</td>
+<td class="text mp"><div><a href="../artist/3Nrfpe0tUJi4K4DXYWgMUX.html">BTS</a> - <a href="../track/68lbSrXDORS51pmyjZv712.html">SWIM</a></div></td>
+<td>19</td>
+<td>10</td><td class="np mini text"></td>
+<td>279,575</td>
+<td>-7,800</td>
+<td class="smaller">2,162,843</td>
+<td class="smaller">-107,015</td>
+<td>7,939,269</td></tr>
+<tr><td class="np">89</td>
+<td class="np">+8</td>
+<td class="text mp"><div><a href="../artist/5ugsiK49gIkIVh8U93EO0z.html">Ami Mishra</a> - <a href="../track/32765xcLM1fd6wQIpkN9A0.html">Hasi - Male Version</a></div></td>
+<td>1017</td>
+<td>48</td><td class="np mini text"></td>
+<td>273,388</td>
+<td>+7,609</td>
+<td class="smaller">1,821,379</td>
+<td class="smaller">+16,239</td>
+<td>219,214,954</td></tr>
+<tr><td class="np">90</td>
+<td class="np">+10</td>
+<td class="text mp"><div><a href="../artist/2oSONSC9zQ4UonDKnLqksx.html">Atif Aslam</a> - <a href="../track/4Tkb7zsDmsawB7S5TpKQV1.html">Pehli Dafa</a> (w/ <a href="../artist/7DcUua74PM7MmBljTTjIyy.html">Shiraz Uppal</a>)</div></td>
+<td>896</td>
+<td>34</td><td class="np mini text"></td>
+<td>271,858</td>
+<td>+7,685</td>
+<td class="smaller">1,836,697</td>
+<td class="smaller">+14,079</td>
+<td>211,219,774</td></tr>
+<tr><td class="np">91</td>
+<td class="np">-9</td>
+<td class="text mp"><div><a href="../artist/1bTROl5p3rGTpvKeWnGgrw.html">Sohail Sen</a> - <a href="../track/7FwYs4qSJCJi2Hd6ZV8Q3M.html">Aashiq Tera</a> (w/ <a href="../artist/38IHJBGBuaYXHEkIQd4DtF.html">Altamash Faridi</a>)</div></td>
+<td>190</td>
+<td>82</td><td class="np mini text"></td>
+<td>271,307</td>
+<td>-15,246</td>
+<td class="smaller">1,957,164</td>
+<td class="smaller">+22,263</td>
+<td>43,645,107</td></tr>
+<tr><td class="np">92</td>
+<td class="np">-1</td>
+<td class="text mp"><div><a href="../artist/3ozYqVCLohfpXIhalkhM8D.html">Aditya Rikhari</a> - <a href="../track/0hFkx6EoIRvNmEVXQIIJtk.html">Paaro</a></div></td>
+<td>388</td>
+<td>21</td><td class="np mini text"></td>
+<td>271,244</td>
+<td>-1,272</td>
+<td class="smaller">1,869,732</td>
+<td class="smaller">+10,459</td>
+<td>126,923,762</td></tr>
+<tr><td class="np">93</td>
+<td class="np">-5</td>
+<td class="text mp"><div><a href="../artist/5wJ1H6ud777odtZl5gG507.html">Vishal Mishra</a> - <a href="../track/3EKHZNd0qflQK8UImpUu3k.html">Deewaniyat (From "Ek Deewane Ki Deewaniyat") (Original Motion Picture Soundtrack)</a> (w/ <a href="../artist/7EiUTtmmkwGtbgR6gZaZzW.html">Kaushik-Guddu</a>, <a href="../artist/52XgeWw24o4klNdfwvB0Vx.html">Kunaal Vermaa</a>)</div></td>
+<td>215</td>
+<td>5</td><td class="np mini text"></td>
+<td>271,081</td>
+<td>-6,892</td>
+<td class="smaller">1,868,896</td>
+<td class="smaller">+7,419</td>
+<td>83,577,107</td></tr>
+<tr class="d2"><td class="np">94</td>
+<td class="np">+23</td>
+<td class="text mp"><div><a href="../artist/39mgwuYqL7g3Zad1ujSzMG.html">Mr Dutt</a> - <a href="../track/1mJnBzjELW1yNp99egsaIo.html">Kitab</a> (w/ <a href="../artist/6J3XckR4GkLalrBplmaqxd.html">Vipin Foji</a>)</div></td>
+<td>14</td>
+<td class="newp">94</td><td class="np newp mini text"></td>
+<td>270,820</td>
+<td>+26,648</td>
+<td class="smaller">1,713,019</td>
+<td class="smaller">+15,816</td>
+<td>3,324,720</td></tr>
+<tr><td class="np">95</td>
+<td class="np">-1</td>
+<td class="text mp"><div><a href="../artist/5rQoBDKFnd1n6BkdbgVaRL.html">Guru Randhawa</a> - <a href="../track/3dw558iZgDA2BIeVd0taMM.html">DOPAMINE</a> (w/ <a href="../artist/6LGVfT3wTKqzhx9RGvSvUd.html">Gurjit Gill</a>, <a href="../artist/0OZHEt7SMyC00w8xopYIcc.html">Lavish Dhiman</a>)</div></td>
+<td>50</td>
+<td>27</td><td class="np mini text"></td>
+<td>270,784</td>
+<td>-723</td>
+<td class="smaller">1,930,068</td>
+<td class="smaller">-2,874</td>
+<td>14,216,207</td></tr>
+<tr><td class="np">96</td>
+<td class="np">-10</td>
+<td class="text mp"><div><a href="../artist/1mYsTxnqsietFxj1OgoGbG.html">A.R. Rahman</a> - <a href="../track/6flQ5XJKj5qIhpxSHOd3jC.html">Aawaara Angaara</a> (w/ <a href="../artist/05etL4pzWd6TSv1x5WrlG3.html">Faheem Abdullah</a>, <a href="../artist/3GdSQUH1BRtl9UrrtuwJlP.html">Irshad Kamil</a>)</div></td>
+<td>136</td>
+<td>4</td><td class="np mini text"></td>
+<td>268,665</td>
+<td>-9,599</td>
+<td class="smaller">1,917,073</td>
+<td class="smaller">-901</td>
+<td>56,922,100</td></tr>
+<tr><td class="np">97</td>
+<td class="np">-8</td>
+<td class="text mp"><div><a href="../artist/74L1hcSZY4R6mo3yWNflRe.html">Bintu Pabra</a> - <a href="../track/4mQ01BgafWwF5gDeRh9P7x.html">Financer</a> (w/ <a href="../artist/7rgZG7aLO7ZLPZNxy08GRb.html">Bamboo Beat</a>, <a href="../artist/5TF8wtgrYplT0tJFjoV9Me.html">Pranjal Dahiya</a>, <a href="../artist/3KOSRNy74RLnTAFn0u1tmN.html">Shiva Choudhary</a>)</div></td>
+<td>134</td>
+<td>48</td><td class="np mini text"></td>
+<td>266,680</td>
+<td>-6,854</td>
+<td class="smaller">1,951,021</td>
+<td class="smaller">-16,181</td>
+<td>42,351,944</td></tr>
+<tr><td class="np">98</td>
+<td class="np">-6</td>
+<td class="text mp"><div><a href="../artist/2rN8LHqK4TBI7y3d9POvJb.html">Dhanda Nyoliwala</a> - <a href="../track/4hGLOuRhiVAZeOG4ZZc4a1.html">BLACK RIDE</a> (w/ <a href="../artist/7zzosAlsXxJJ5vXPymZZAj.html">Hammy Muzic</a>)</div></td>
+<td>178</td>
+<td>61</td><td class="np mini text"></td>
+<td>265,197</td>
+<td>-6,590</td>
+<td class="smaller">1,844,218</td>
+<td class="smaller">-8,352</td>
+<td>47,597,134</td></tr>
+<tr><td class="np">99</td>
+<td class="np">-6</td>
+<td class="text mp"><div><a href="../artist/5qOMhLYGpLWkX4yvBDfAxw.html">Manish Sonipat Aala</a> - <a href="../track/5yS0pxhp7gRtTke8YSg8q1.html">Aakh Ye Taalibaani</a> (w/ <a href="../artist/3lNCYjWO527Kii9tkqg7Wc.html">Bali Sharma</a>, <a href="../artist/12QL6cy6qvkF2olxJ6GcL2.html">Vampire</a>)</div></td>
+<td>147</td>
+<td>32</td><td class="np mini text"></td>
+<td>264,268</td>
+<td>-7,474</td>
+<td class="smaller">1,917,511</td>
+<td class="smaller">-26,032</td>
+<td>50,449,920</td></tr>
+<tr><td class="np">100</td>
+<td class="np">+4</td>
+<td class="text mp"><div><a href="../artist/6Mv8GjQa7LKUGCAqa9qqdb.html">Vishal-Shekhar</a> - <a href="../track/0gPgdRfB4jdGrlyXS0Vx78.html">Khuda Jaane</a> (w/ <a href="../artist/4fEkbug6kZzzJ8eYX6Kbbp.html">KK</a>, <a href="../artist/19LIHDDSHBD5NyYHI3gpzB.html">Shilpa Rao</a>)</div></td>
+<td>1265</td>
+<td>6</td><td class="np mini text"></td>
+<td>261,336</td>
+<td>+3,639</td>
+<td class="smaller">1,799,434</td>
+<td class="smaller">+7,952</td>
+<td>269,618,140</td></tr>
+<tr><td class="np">101</td>
+<td class="np">+13</td>
+<td class="text mp"><div><a href="../artist/4gdMJYnopf2nEUcanAwstx.html">Anuv Jain</a> - <a href="../track/0TL0LFcwIBF5eX7arDIKxY.html">Husn</a></div></td>
+<td>859</td>
+<td>1</td><td class="np mini text">(x23)</td>
+<td>260,532</td>
+<td>+14,860</td>
+<td class="smaller">1,709,587</td>
+<td class="smaller">+15,067</td>
+<td>410,435,078</td></tr>
+<tr><td class="np">102</td>
+<td class="np">+7</td>
+<td class="text mp"><div><a href="../artist/36iDrP3UnCxsSH9LuSdkDj.html">Masoom Sharma</a> - <a href="../track/7oFrQLTu7Bi1xmTYLbBxHf.html">Raat Ke Shikari</a></div></td>
+<td>304</td>
+<td>17</td><td class="np mini text"></td>
+<td>259,175</td>
+<td>+7,392</td>
+<td class="smaller">1,800,373</td>
+<td class="smaller">+319</td>
+<td>111,132,454</td></tr>
+<tr><td class="np">103</td>
+<td class="np">+5</td>
+<td class="text mp"><div><a href="../artist/6SWmwFBXIsxhIx5XPkYo0a.html">Josh Brar</a> - <a href="../track/0NXnuTqFQHDsbEIoKIAVCN.html">Tere Bina Na Guzara E</a></div></td>
+<td>501</td>
+<td>16</td><td class="np mini text"></td>
+<td>258,421</td>
+<td>+5,218</td>
+<td class="smaller">1,737,001</td>
+<td class="smaller">+10,294</td>
+<td>123,313,442</td></tr>
+<tr><td class="np">104</td>
+<td class="np">-3</td>
+<td class="text mp"><div><a href="../artist/465OXuCU8YZNmVG1leLwQ9.html">Shashwat Sachdev</a> - <a href="../track/0KjTF8c2qGUJBCuAskhsGT.html">Aakhri Ishq</a> (w/ <a href="../artist/1tqysapcCh1lWEAc9dIFpa.html">Jubin Nautiyal</a>, <a href="../artist/3GdSQUH1BRtl9UrrtuwJlP.html">Irshad Kamil</a>)</div></td>
+<td>14</td>
+<td>48</td><td class="np mini text"></td>
+<td>257,973</td>
+<td>-3,327</td>
+<td class="smaller">1,911,947</td>
+<td class="smaller">-58,969</td>
+<td>4,283,535</td></tr>
+<tr><td class="np">105</td>
+<td class="np">-3</td>
+<td class="text mp"><div><a href="../artist/66PGnr0hE7ZIcWir6IwitB.html">Sooraj Santhosh</a> - <a href="../track/6wqwVre9LoGnsUUzukxUy3.html">Neelothi (From "Sirai")</a> (w/ <a href="../artist/5UJ2sHO2ELrgW6aXeRLTQQ.html">Chinmayi</a>, <a href="../artist/3ocTwOjekTkFdD695eKuQr.html">Justin Prabhakaran</a>, <a href="../artist/1P4WoYT07QVoIKOenXFXur.html">Sarathi</a>)</div></td>
+<td>64</td>
+<td>65</td><td class="np mini text"></td>
+<td>256,871</td>
+<td>-3,848</td>
+<td class="smaller">1,860,992</td>
+<td class="smaller">-8,245</td>
+<td>15,848,387</td></tr>
+<tr><td class="np">106</td>
+<td class="np">+19</td>
+<td class="text mp"><div><a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a> - <a href="../track/2Fv2injs4qAm8mJBGaxVKU.html">Tujhe Kitna Chahne Lage (From "Kabir Singh")</a> (w/ <a href="../artist/09UmIX92EUH9hAK4bxvHx6.html">Mithoon</a>)</div></td>
+<td>2503</td>
+<td>2</td><td class="np mini text">(x50)</td>
+<td>254,271</td>
+<td>+12,001</td>
+<td class="smaller">1,741,962</td>
+<td class="smaller">+178</td>
+<td>576,170,646</td></tr>
+<tr><td class="np">107</td>
+<td class="np">+21</td>
+<td class="text mp"><div><a href="../artist/3Q10GP2eLMD5yS7sczpwju.html">Sabat Batin</a> - <a href="../track/0DCmf7066T5DAjiF8uahv1.html">Gal Sun</a> (w/ <a href="../artist/4g21Na8RW0XzhmKebNX5hY.html">Rackstar</a>)</div></td>
+<td>149</td>
+<td>26</td><td class="np mini text"></td>
+<td>254,095</td>
+<td>+17,161</td>
+<td class="smaller">1,642,727</td>
+<td class="smaller">+13,908</td>
+<td>48,340,812</td></tr>
+<tr class="d2"><td class="np">108</td>
+<td class="np">+23</td>
+<td class="text mp"><div><a href="../artist/5ixQ5hSywFLUaxoaA0uVaH.html">Anand Raj Anand</a> - <a href="../track/0YCPCY9WhQFMFtoSpj6dhL.html">Kiya Kiya</a> (w/ <a href="../artist/4L0JycQCCwKksT3G5SVApu.html">Shweta Pandit</a>)</div></td>
+<td>48</td>
+<td class="newp">108</td><td class="np newp mini text"></td>
+<td>253,935</td>
+<td>+20,344</td>
+<td class="smaller">1,674,453</td>
+<td class="smaller">+887</td>
+<td>10,551,290</td></tr>
+<tr><td class="np">109</td>
+<td class="np">-24</td>
+<td class="text mp"><div><a href="../artist/6DARBhWbfcS9E4yJzcliqQ.html">Karan Aujla</a> - <a href="../track/6PRFDCNAMLeSZimkPGrKMG.html">5-7</a> (w/ <a href="../artist/5Us2dsq4VHlfLbKOrskg7K.html">Mxrci</a>)</div></td>
+<td>48</td>
+<td>32</td><td class="np mini text"></td>
+<td>253,931</td>
+<td>-27,130</td>
+<td class="smaller">1,838,137</td>
+<td class="smaller">+26,920</td>
+<td>14,202,460</td></tr>
+<tr><td class="np">110</td>
+<td class="np">=</td>
+<td class="text mp"><div><a href="../artist/1mBydYMVBECdDmMfE2sEUO.html">Sachin-Jigar</a> - <a href="../track/6udC4b4jOSnHb9ItnXgKLR.html">Saibo</a> (w/ <a href="../artist/0oOet2f43PA68X5RxKobEy.html">Shreya Ghoshal</a>, <a href="../artist/6k6dimE4a6OFnD0HWmkIUW.html">Tochi Raina</a>)</div></td>
+<td>1990</td>
+<td>18</td><td class="np mini text"></td>
+<td>253,740</td>
+<td>+2,267</td>
+<td class="smaller">1,805,934</td>
+<td class="smaller">+26,567</td>
+<td>389,093,439</td></tr>
+<tr><td class="np">111</td>
+<td class="np">+2</td>
+<td class="text mp"><div><a href="../artist/7zFBW2JxM4bgTTKxCRcS8Q.html">Hiphop Tamizha</a> - <a href="../track/0xYYUicaDPp0VPyL0z7xzB.html">Aura 10/10 (From "Meesaya Murukku 2")</a> (w/ <a href="../artist/2naoxh21roEyvOd7NWwDUb.html">Thamizh Aadhavan</a>)</div></td>
+<td>22</td>
+<td>79</td><td class="np mini text"></td>
+<td>253,235</td>
+<td>+6,628</td>
+<td class="smaller">1,834,001</td>
+<td class="smaller">-28,045</td>
+<td>5,676,641</td></tr>
+<tr><td class="np">112</td>
+<td class="np">+18</td>
+<td class="text mp"><div><a href="../artist/6QtJ6BVdj43aDpgjnVp2tY.html">Mohammed Irfan</a> - <a href="../track/2b2HutIDmoeBnnKRWDLAtV.html">Phir Mohabbat</a> (w/ <a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a>, <a href="../artist/0HIpVOzrDwqiI5wP56soMK.html">Saim Bhat</a>, <a href="../artist/09UmIX92EUH9hAK4bxvHx6.html">Mithoon</a>, <a href="../artist/2pGRniGOJSOvYoK3dGaBb8.html">Sayeed Quadri</a>)</div></td>
+<td>71</td>
+<td>96</td><td class="np mini text"></td>
+<td>253,185</td>
+<td>+19,347</td>
+<td class="smaller">1,687,137</td>
+<td class="smaller">+5,823</td>
+<td>16,757,116</td></tr>
+<tr><td class="np">113</td>
+<td class="np">-18</td>
+<td class="text mp"><div><a href="../artist/74OaRjmyh0XyRZsQQQ5l7c.html">Jasleen Royal</a> - <a href="../track/4ulroyDK6rN73nVkCkWhur.html">Sahiba</a> (w/ <a href="../artist/1UAzmnFgjizIDvtHvnCdEq.html">Stebin Ben</a>, <a href="../artist/3k1eCPRO0dE0Q9YsRfh4vn.html">Vijay Deverakonda</a>, <a href="../artist/2zkXEdYr7MxUFhS9xF48UB.html">Radhikka Madan</a>, <a href="../artist/6q29t5RuXxlBuqIZsOMQss.html">Priya Saraiya</a>, <a href="../artist/70RAfkLNWG5J2bsnJqBpLQ.html">Aditya Sharma</a>)</div></td>
+<td>502</td>
+<td>1</td><td class="np mini text">(x21)</td>
+<td>252,347</td>
+<td>-17,910</td>
+<td class="smaller">1,876,627</td>
+<td class="smaller">-4,704</td>
+<td>230,586,511</td></tr>
+<tr><td class="np">114</td>
+<td class="np">+18</td>
+<td class="text mp"><div><a href="../artist/2msR4dHmBiBa99uLmuqFFk.html">Ashish Bhatia</a> - <a href="../track/3anHs4ijBd3Iw0E0fBPwtH.html">Kashish</a> (w/ <a href="../artist/6dk4snfeN31dQDbb03Wmmr.html">Omkar Singh</a>, <a href="../artist/5maYabmLqXL3Y5fhFaD3zk.html">Kashish Ratnani</a>)</div></td>
+<td>203</td>
+<td>6</td><td class="np mini text"></td>
+<td>252,086</td>
+<td>+18,508</td>
+<td class="smaller">1,682,156</td>
+<td class="smaller">+15,761</td>
+<td>87,379,609</td></tr>
+<tr><td class="np">115</td>
+<td class="np">+6</td>
+<td class="text mp"><div><a href="../artist/6DARBhWbfcS9E4yJzcliqQ.html">Karan Aujla</a> - <a href="../track/0YQJoDL6f46J0n1rOVkpxJ.html">Softly</a> (w/ <a href="../artist/3nqS8jzqmsPKFJTp0BOIel.html">Ikky</a>)</div></td>
+<td>962</td>
+<td>4</td><td class="np mini text"></td>
+<td>250,003</td>
+<td>+6,874</td>
+<td class="smaller">1,734,690</td>
+<td class="smaller">+1,116</td>
+<td>352,309,134</td></tr>
+<tr><td class="np">116</td>
+<td class="np">-5</td>
+<td class="text mp"><div><a href="../artist/4naSOUBsPQeISuibs56w6Y.html">Vikram Sarkar</a> - <a href="../track/6M6Jgms4Z3x5xYLbnMk5TU.html">Naam Chale</a></div></td>
+<td>265</td>
+<td>4</td><td class="np mini text"></td>
+<td>249,832</td>
+<td>-327</td>
+<td class="smaller">1,756,596</td>
+<td class="smaller">-10,479</td>
+<td>123,557,103</td></tr>
+<tr><td class="np">117</td>
+<td class="np">-12</td>
+<td class="text mp"><div><a href="../artist/2rN8LHqK4TBI7y3d9POvJb.html">Dhanda Nyoliwala</a> - <a href="../track/70YFXFbrvl5J3nUfqxTFue.html">Tension</a></div></td>
+<td>180</td>
+<td>64</td><td class="np mini text"></td>
+<td>248,159</td>
+<td>-8,426</td>
+<td class="smaller">1,736,149</td>
+<td class="smaller">-8,388</td>
+<td>42,810,247</td></tr>
+<tr><td class="np">118</td>
+<td class="np">-20</td>
+<td class="text mp"><div><a href="../artist/36iDrP3UnCxsSH9LuSdkDj.html">Masoom Sharma</a> - <a href="../track/2ZxFXUnvprVMI9IXBcnnAk.html">Yaari</a></div></td>
+<td>194</td>
+<td>42</td><td class="np mini text"></td>
+<td>247,306</td>
+<td>-18,185</td>
+<td class="smaller">1,856,951</td>
+<td class="smaller">+10,117</td>
+<td>55,166,328</td></tr>
+<tr><td class="np">119</td>
+<td class="np">-4</td>
+<td class="text mp"><div><a href="../artist/4rgw8A5vcYinpZLDKHrEdV.html">Satinder Sartaaj</a> - <a href="../track/3K3mo4LoxPKk18oqIC3hQC.html">Udaarian</a></div></td>
+<td>85</td>
+<td>67</td><td class="np mini text"></td>
+<td>246,821</td>
+<td>+1,571</td>
+<td class="smaller">1,761,737</td>
+<td class="smaller">-3,115</td>
+<td>21,194,051</td></tr>
+<tr><td class="np">120</td>
+<td class="np">+6</td>
+<td class="text mp"><div><a href="../artist/2oSONSC9zQ4UonDKnLqksx.html">Atif Aslam</a> - <a href="../track/0FBQ4NrrHUbR9kus7rzrOj.html">Dil Diyan Gallan</a></div></td>
+<td>2223</td>
+<td>20</td><td class="np mini text"></td>
+<td>246,060</td>
+<td>+5,364</td>
+<td class="smaller">1,613,223</td>
+<td class="smaller">+8,654</td>
+<td>337,393,918</td></tr>
+<tr><td class="np">121</td>
+<td class="np">-22</td>
+<td class="text mp"><div><a href="../artist/1wRPtKGflJrBx9BmLsSwlU.html">Pritam</a> - <a href="../track/1CVqr5LImdmJ1Upt4z08Pm.html">Tu Hi Mera</a> (w/ <a href="../artist/5SuRAj1A9FEHj5NxS86YAm.html">Shafqat Amanat Ali</a>)</div></td>
+<td>250</td>
+<td>58</td><td class="np mini text"></td>
+<td>245,721</td>
+<td>-18,895</td>
+<td class="smaller">1,720,502</td>
+<td class="smaller">+13,514</td>
+<td>58,958,612</td></tr>
+<tr><td class="np">122</td>
+<td class="np">-16</td>
+<td class="text mp"><div><a href="../artist/0L5GV6LN8SWWUWIdBbTLTZ.html">Shankar-Ehsaan-Loy</a> - <a href="../track/7AAap8D4C4pTyNoMkM9vjG.html">Ishq Di Baajiyaan</a> (w/ <a href="../artist/2FKWNmZWDBZR4dE5KX4plR.html">Diljit Dosanjh</a>)</div></td>
+<td>580</td>
+<td>46</td><td class="np mini text"></td>
+<td>245,426</td>
+<td>-10,819</td>
+<td class="smaller">1,769,035</td>
+<td class="smaller">-9,908</td>
+<td>139,887,133</td></tr>
+<tr><td class="np">123</td>
+<td class="np">+10</td>
+<td class="text mp"><div><a href="../artist/2oSONSC9zQ4UonDKnLqksx.html">Atif Aslam</a> - <a href="../track/5vGiuYFSGekGLgbxhV1rD5.html">Tu Jaane Na</a> (w/ <a href="../artist/1wRPtKGflJrBx9BmLsSwlU.html">Pritam</a>)</div></td>
+<td>1608</td>
+<td>35</td><td class="np mini text"></td>
+<td>245,388</td>
+<td>+12,887</td>
+<td class="smaller">1,653,266</td>
+<td class="smaller">+14,401</td>
+<td>272,091,744</td></tr>
+<tr><td class="np">124</td>
+<td class="np">+21</td>
+<td class="text mp"><div><a href="../artist/6WOdPJmexxFINcKMkP2jMG.html">Sachet Tandon</a> - <a href="../track/2IoZMG3RqiTmsy7Li3zGFg.html">Mere Sohneya (From "Kabir Singh")</a> (w/ <a href="../artist/1E6arsXf5Fgsnv9YpSzjpE.html">Parampara Tandon</a>, <a href="../artist/1SyKki7JI1AZNKwgNMkn25.html">Sachet-Parampara</a>)</div></td>
+<td>2176</td>
+<td>4</td><td class="np mini text"></td>
+<td>242,421</td>
+<td>+17,878</td>
+<td class="smaller">1,606,743</td>
+<td class="smaller">+23,974</td>
+<td>353,339,891</td></tr>
+<tr><td class="np">125</td>
+<td class="np">+41</td>
+<td class="text mp"><div><a href="../artist/6QoCrBHsojKnOrsGNfRcTN.html">Talwiinder</a> - <a href="../track/4D8eFUu6Hvulrq6CGqGaLR.html">Khayaal</a> (w/ <a href="../artist/5xh6szshoZ0UfZD1x6QzZG.html">NDS</a>)</div></td>
+<td>360</td>
+<td>3</td><td class="np mini text">(x1)</td>
+<td>241,315</td>
+<td>+29,474</td>
+<td class="smaller">1,505,203</td>
+<td class="smaller">-8,326</td>
+<td>122,672,423</td></tr>
+<tr><td class="np">126</td>
+<td class="np">-10</td>
+<td class="text mp"><div><a href="../artist/3eDT9fwXKuHWFvgZaaYC5v.html">Sunidhi Chauhan</a> - <a href="../track/4pXw2nCeT1GVKGVb1OiE3a.html">Lae Dooba</a> (w/ <a href="../artist/4cAERazLlAzVGA10ORWaUP.html">Manoj Muntashir</a>)</div></td>
+<td>27</td>
+<td>104</td><td class="np mini text"></td>
+<td>240,460</td>
+<td>-4,411</td>
+<td class="smaller">1,651,512</td>
+<td class="smaller">+16,777</td>
+<td>6,105,287</td></tr>
+<tr><td class="np">127</td>
+<td class="np">+23</td>
+<td class="text mp"><div><a href="../artist/4gdMJYnopf2nEUcanAwstx.html">Anuv Jain</a> - <a href="../track/3WLJ7D5kh44K5eJ1NqZQ6W.html">Baarishein</a></div></td>
+<td>1791</td>
+<td>15</td><td class="np mini text"></td>
+<td>240,422</td>
+<td>+19,256</td>
+<td class="smaller">1,558,177</td>
+<td class="smaller">+18,345</td>
+<td>406,327,835</td></tr>
+<tr><td class="np">128</td>
+<td class="np">-4</td>
+<td class="text mp"><div><a href="../artist/0uOUeC51AxGnP6hB8gurwt.html">Cheema Y</a> - <a href="../track/610keNiNVTIkYD0CqeSerg.html">California Love</a> (w/ <a href="../artist/0QntOArZgiNHoemAzwJPu5.html">Gur Sidhu</a>)</div></td>
+<td>722</td>
+<td>26</td><td class="np mini text"></td>
+<td>238,688</td>
+<td>-3,934</td>
+<td class="smaller">1,812,230</td>
+<td class="smaller">-33,162</td>
+<td>173,817,324</td></tr>
+<tr><td class="np">129</td>
+<td class="np">-9</td>
+<td class="text mp"><div><a href="../artist/1Xyo4u8uXC1ZmMpatF05PJ.html">The Weeknd</a> - <a href="../track/7MXVkk9YMctZqd1Srtv4MB.html">Starboy</a> (w/ <a href="../artist/4tZwfgrHOc3mvqYlEYSvVi.html">Daft Punk</a>)</div></td>
+<td>1711</td>
+<td>9</td><td class="np mini text"></td>
+<td>237,998</td>
+<td>-5,565</td>
+<td class="smaller">1,638,300</td>
+<td class="smaller">-2,927</td>
+<td>321,423,846</td></tr>
+<tr><td class="np">130</td>
+<td class="np">-8</td>
+<td class="text mp"><div><a href="../artist/05etL4pzWd6TSv1x5WrlG3.html">Faheem Abdullah</a> - <a href="../track/4BGfzLrK6lgvKDjKSU7wrN.html">Sajde</a> (w/ <a href="../artist/7bSCXFT0iT4kcgsAZ6h8Qy.html">Huzaif Nazar</a>)</div></td>
+<td>312</td>
+<td>7</td><td class="np mini text"></td>
+<td>237,719</td>
+<td>-5,176</td>
+<td class="smaller">1,667,842</td>
+<td class="smaller">+195</td>
+<td>108,215,022</td></tr>
+<tr><td class="np">131</td>
+<td class="np">-19</td>
+<td class="text mp"><div><a href="../artist/5HcunTidTUrOaf8V0iJcvl.html">Nusrat Fateh Ali Khan</a> - <a href="../track/0Dg23zVaNGqUpEtKq9yoVn.html">Dil Pe Zakham Khate Hain</a> (w/ <a href="../artist/2vgPHpzN3vUohpmQS7lNC7.html">Afternight Vibes</a>)</div></td>
+<td>17</td>
+<td>92</td><td class="np mini text"></td>
+<td>237,385</td>
+<td>-10,101</td>
+<td class="smaller">1,753,885</td>
+<td class="smaller">-20,398</td>
+<td>4,311,258</td></tr>
+<tr><td class="np">132</td>
+<td class="np">-13</td>
+<td class="text mp"><div><a href="../artist/4naSOUBsPQeISuibs56w6Y.html">Vikram Sarkar</a> - <a href="../track/0qNMptHdkQuZsWKxZ8rmW2.html">Gaadi 150</a> (w/ <a href="../artist/5GZklBtmZD8WZsLGVbHQqC.html">THOUGHT</a>)</div></td>
+<td>282</td>
+<td>32</td><td class="np mini text"></td>
+<td>237,048</td>
+<td>-6,721</td>
+<td class="smaller">1,662,899</td>
+<td class="smaller">+9,389</td>
+<td>85,104,985</td></tr>
+<tr><td class="np">133</td>
+<td class="np">+13</td>
+<td class="text mp"><div><a href="../artist/2zvJLk0gTH7r7A5Q6X5Bq8.html">Javed-Mohsin</a> - <a href="../track/79hQvdTHNBkq2fp2ZrM8b2.html">Pal</a> (w/ <a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a>, <a href="../artist/0oOet2f43PA68X5RxKobEy.html">Shreya Ghoshal</a>, <a href="../artist/52XgeWw24o4klNdfwvB0Vx.html">Kunaal Vermaa</a>, <a href="../artist/5DNHuR9u8DFVasxQZgREO5.html">Prashant Ingole</a>)</div></td>
+<td>470</td>
+<td>53</td><td class="np mini text"></td>
+<td>235,942</td>
+<td>+12,419</td>
+<td class="smaller">1,612,236</td>
+<td class="smaller">+12,501</td>
+<td>100,021,338</td></tr>
+<tr><td class="np">134</td>
+<td class="np">=</td>
+<td class="text mp"><div><a href="../artist/3PpjqSKBer3obW6lDflOBx.html">Ram Sampath</a> - <a href="../track/5zCnGtCl5Ac5zlFHXaZmhy.html">Sajni (From "Laapataa Ladies")</a> (w/ <a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a>, <a href="../artist/7vCsTTACb2iT4fvBMnwp5w.html">Prashant Pandey</a>)</div></td>
+<td>705</td>
+<td>1</td><td class="np mini text">(x59)</td>
+<td>234,492</td>
+<td>+2,157</td>
+<td class="smaller">1,726,458</td>
+<td class="smaller">-19,668</td>
+<td>369,016,740</td></tr>
+<tr class="d2"><td class="np">135</td>
+<td class="np">+23</td>
+<td class="text mp"><div><a href="../artist/3yMmYEklQ7gLOZXEFNd3xr.html">Palak Muchhal</a> - <a href="../track/0zQfcBB4obvYUrUNITmyyf.html">Teri Meri Kahaani</a> (w/ <a href="../artist/0qSfAhYhb7KWEuiLuooBaE.html">Manoj Yadav</a>, <a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a>)</div></td>
+<td>18</td>
+<td class="newp">135</td><td class="np newp mini text"></td>
+<td>233,818</td>
+<td>+15,764</td>
+<td class="smaller">1,509,572</td>
+<td class="smaller">+23,791</td>
+<td>3,720,669</td></tr>
+<tr><td class="np">136</td>
+<td class="np">-13</td>
+<td class="text mp"><div><a href="../artist/5jJrJU7VVmxQQLcLAmmxXc.html">Sai Abhyankkar</a> - <a href="../track/0pxE2MKJnBMR9c0giy7v5J.html">Singari</a> (w/ <a href="../artist/5Kx2ruxFSUGdqCG7kJtet1.html">Pradeep Ranganathan</a>, <a href="../artist/139FRgoVcJ82jogPttiWcc.html">Sai Smriti</a>, <a href="../artist/2O4fDX3s0c3JQsnxabRK8o.html">Semv.iii</a>)</div></td>
+<td>155</td>
+<td>45</td><td class="np mini text"></td>
+<td>233,508</td>
+<td>-9,192</td>
+<td class="smaller">1,666,954</td>
+<td class="smaller">-3,525</td>
+<td>39,745,097</td></tr>
+<tr><td class="np">137</td>
+<td class="np">-8</td>
+<td class="text mp"><div><a href="../artist/6USv9qhCn6zfxlBQIYJ9qs.html">Dominic Fike</a> - <a href="../track/7yNf9YjeO5JXUE3JEBgnYc.html">Babydoll</a></div></td>
+<td>9</td>
+<td>126</td><td class="np mini text"></td>
+<td>232,680</td>
+<td>-1,490</td>
+<td class="smaller">1,614,657</td>
+<td class="smaller">+955</td>
+<td>2,051,932</td></tr>
+<tr><td class="np">138</td>
+<td class="np">+11</td>
+<td class="text mp"><div><a href="../artist/4fEkbug6kZzzJ8eYX6Kbbp.html">KK</a> - <a href="../track/2RgvvnMwtP0R2OkVZmFvnV.html">Ajab Si (From "Om Shanti Om")</a></div></td>
+<td>950</td>
+<td>20</td><td class="np mini text"></td>
+<td>232,403</td>
+<td>+10,732</td>
+<td class="smaller">1,658,118</td>
+<td class="smaller">-3,524</td>
+<td>187,510,096</td></tr>
+<tr><td class="np">139</td>
+<td class="np">=</td>
+<td class="text mp"><div><a href="../artist/6DARBhWbfcS9E4yJzcliqQ.html">Karan Aujla</a> - <a href="../track/3FqtduiaqnFYvBgKuc6QWQ.html">Winning Speech</a> (w/ <a href="../artist/5Us2dsq4VHlfLbKOrskg7K.html">Mxrci</a>)</div></td>
+<td>689</td>
+<td>6</td><td class="np mini text"></td>
+<td>232,363</td>
+<td>+5,353</td>
+<td class="smaller">1,656,974</td>
+<td class="smaller">-26,748</td>
+<td>217,802,869</td></tr>
+<tr><td class="np">140</td>
+<td class="np">+17</td>
+<td class="text mp"><div><a href="../artist/3ozYqVCLohfpXIhalkhM8D.html">Aditya Rikhari</a> - <a href="../track/1d5lpW3gUyq537iuyrb9Lf.html">Samjho Na</a></div></td>
+<td>1082</td>
+<td>12</td><td class="np mini text"></td>
+<td>231,845</td>
+<td>+13,338</td>
+<td class="smaller">1,593,568</td>
+<td class="smaller">-4,686</td>
+<td>291,234,743</td></tr>
+<tr><td class="np">141</td>
+<td class="np">+14</td>
+<td class="text mp"><div><a href="../artist/1HY2Jd0NmPuamShAr6KMms.html">Lady Gaga</a> - <a href="../track/2plbrEY59IikOBgBGLjaoe.html">Die With A Smile</a> (w/ <a href="../artist/0du5cEVh5yTK9QJze8zA0C.html">Bruno Mars</a>)</div></td>
+<td>560</td>
+<td>3</td><td class="np mini text">(x2)</td>
+<td>226,757</td>
+<td>+6,995</td>
+<td class="smaller">1,550,487</td>
+<td class="smaller">+9,948</td>
+<td>200,374,526</td></tr>
+<tr><td class="np">142</td>
+<td class="np">+11</td>
+<td class="text mp"><div><a href="../artist/6DARBhWbfcS9E4yJzcliqQ.html">Karan Aujla</a> - <a href="../track/6ygiy70ujkNOYXM1tQuMNe.html">Admirin' You</a> (w/ <a href="../artist/3nqS8jzqmsPKFJTp0BOIel.html">Ikky</a>, <a href="../artist/5TvdGhdmRObqOkU6eGfXb5.html">Preston Pablo</a>)</div></td>
+<td>962</td>
+<td>21</td><td class="np mini text"></td>
+<td>226,174</td>
+<td>+5,849</td>
+<td class="smaller">1,510,330</td>
+<td class="smaller">+5,766</td>
+<td>226,608,006</td></tr>
+<tr><td class="np">143</td>
+<td class="np">-7</td>
+<td class="text mp"><div><a href="../artist/4aykldlxvwj6cRQfhbfNMO.html">Anand Bhaskar</a> - <a href="../track/4sgYmcu4FKb1ZC6qBlxMiw.html">Vaaroon</a> (w/ <a href="../artist/0bRPtPZQkWHeG7MGk9eWlh.html">Romy</a>, <a href="../artist/4EZ6GDVebknxx5Funcp0X2.html">Ginny Diwan</a>)</div></td>
+<td>281</td>
+<td>57</td><td class="np mini text"></td>
+<td>225,045</td>
+<td>-3,983</td>
+<td class="smaller">1,340,148</td>
+<td class="smaller">+2,226</td>
+<td>70,368,995</td></tr>
+<tr><td class="np">144</td>
+<td class="np">-9</td>
+<td class="text mp"><div><a href="../artist/07hzX8SH6CEg7B2yl4hoKs.html">Amanraj Gill</a> - <a href="../track/1QTMuhEex1q0od6wowb1EF.html">Gaadi Paache Gaadi</a> (w/ <a href="../artist/6wmebcPt18hHbgbyniTBmo.html">Bulbul</a>)</div></td>
+<td>99</td>
+<td>74</td><td class="np mini text"></td>
+<td>224,679</td>
+<td>-4,399</td>
+<td class="smaller">1,578,246</td>
+<td class="smaller">-9,900</td>
+<td>24,044,541</td></tr>
+<tr><td class="np">145</td>
+<td class="np">-1</td>
+<td class="text mp"><div><a href="../artist/76fuWYgIf3TVIopTs3vaJ6.html">Amaal Mallik</a> - <a href="../track/6mTvwBzWTGDOVeCNQEqtOE.html">Soch Na Sake</a> (w/ <a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a>, <a href="../artist/0T1CMVkqffHlqEk4BcAph1.html">Tulsi Kumar</a>)</div></td>
+<td>981</td>
+<td>44</td><td class="np mini text"></td>
+<td>224,287</td>
+<td>-264</td>
+<td class="smaller">1,548,829</td>
+<td class="smaller">-11,246</td>
+<td>189,705,277</td></tr>
+<tr class="d2"><td class="np">146</td>
+<td class="np">+26</td>
+<td class="text mp"><div><a href="../artist/0mJDQBWytBhOh5JB1DOQ1c.html">Jasmine Sandlas</a> - <a href="../track/0RWLe6Dx5cWyPuB1sw6eWf.html">LAAVAN</a> (w/ <a href="../artist/3JXcjiMGfbPsp7deM1JYIv.html">Mofusion</a>)</div></td>
+<td>12</td>
+<td class="newp">146</td><td class="np newp mini text"></td>
+<td>224,193</td>
+<td>+14,338</td>
+<td class="smaller">1,258,547</td>
+<td class="smaller">+4,092</td>
+<td>2,515,353</td></tr>
+<tr><td class="np">147</td>
+<td class="np">-29</td>
+<td class="text mp"><div><a href="../artist/6AnFaupnhQD1Ps8DX7Z7mV.html">Kunwarr</a> - <a href="../track/4ZWoJ4tRi74mHHnItB3k9h.html">Piche Tere</a> (w/ <a href="../artist/03NjaVnVwllxUUcSUDglNJ.html">Dishant</a>)</div></td>
+<td>67</td>
+<td>86</td><td class="np mini text"></td>
+<td>222,932</td>
+<td>-21,094</td>
+<td class="smaller">1,591,395</td>
+<td class="smaller">-5,571</td>
+<td>15,765,688</td></tr>
+<tr><td class="np">148</td>
+<td class="np">-21</td>
+<td class="text mp"><div><a href="../artist/0FJz7XR37hH69traaHLijA.html">Shaarib Toshi</a> - <a href="../track/4bIQXffbALkCC0Xo6aTicP.html">Maahi</a> (w/ <a href="../artist/0Dr1dEmiBkgZWPsc1j5oHV.html">Toshi Sabri</a>)</div></td>
+<td>317</td>
+<td>46</td><td class="np mini text"></td>
+<td>222,616</td>
+<td>-16,283</td>
+<td class="smaller">1,504,820</td>
+<td class="smaller">-1,651</td>
+<td>79,688,319</td></tr>
+<tr><td class="np">149</td>
+<td class="np">+35</td>
+<td class="text mp"><div><a href="../artist/4oVMLzAqW6qhRpZWt8fNw4.html">Kailash Kher</a> - <a href="../track/37AGZMVr5V8mEMcCmGHroZ.html">Saiyyan</a> (w/ <a href="../artist/3PgeUFj9oHU4K4RGaITz2f.html">Paresh Kamath</a>, <a href="../artist/79sho4jpEGoCCC51KHnNSJ.html">Naresh Kamath</a>)</div></td>
+<td>809</td>
+<td>49</td><td class="np mini text"></td>
+<td>222,431</td>
+<td>+20,104</td>
+<td class="smaller">1,025,282</td>
+<td class="smaller">+222,431</td>
+<td>171,311,791</td></tr>
+<tr><td class="np">150</td>
+<td class="np">+19</td>
+<td class="text mp"><div><a href="../artist/7IbxsPdlYelceWNyHAor55.html">Banjaare</a> - <a href="../track/20OBOXVJ131oNdLw6QIpuj.html">Haaye Re</a> (w/ <a href="../artist/3E8rRhZG4wLtjjoDEQUTM8.html">Swati Shukla</a>, <a href="../artist/3eP2k3lT7lySsRCSl8NLvr.html">MaxxTurnn</a>)</div></td>
+<td>11</td>
+<td>143</td><td class="np mini text"></td>
+<td>221,644</td>
+<td>+11,191</td>
+<td class="smaller">1,279,067</td>
+<td class="smaller">+22,326</td>
+<td>2,272,909</td></tr>
+<tr><td class="np">151</td>
+<td class="np">-11</td>
+<td class="text mp"><div><a href="../artist/1mBydYMVBECdDmMfE2sEUO.html">Sachin-Jigar</a> - <a href="../track/2ceeTJAzKy295Fm0VsaXtE.html">Tum Se (From "Teri Baaton Mein Aisa Uljha Jiya")</a> (w/ <a href="../artist/3qpyErDI4i90q5EGgSRmNK.html">Raghav Chaitanya</a>, <a href="../artist/4gzrZDyL5gYiROkv27pYKx.html">Varun Jain</a>, <a href="../artist/7xcbCUOXrxDyWxbYxPq60B.html">Indraneel</a>)</div></td>
+<td>778</td>
+<td>9</td><td class="np mini text"></td>
+<td>221,042</td>
+<td>-5,621</td>
+<td class="smaller">1,315,312</td>
+<td class="smaller">+221,042</td>
+<td>257,610,854</td></tr>
+<tr><td class="np">152</td>
+<td class="np">+2</td>
+<td class="text mp"><div><a href="../artist/1mBydYMVBECdDmMfE2sEUO.html">Sachin-Jigar</a> - <a href="../track/0q84FggW57NXGtLHoetS0Y.html">Pardesiya</a> (w/ <a href="../artist/1dVygo6tRFXC8CSWURQJq2.html">Sonu Nigam</a>, <a href="../artist/2L4PimBfxoTMZRp2SfVP5g.html">Krishnakali Saha</a>, <a href="../artist/2fMqTqiTxUDlmcOEPaQSsx.html">Amitabh Bhattacharya</a>)</div></td>
+<td>243</td>
+<td>4</td><td class="np mini text"></td>
+<td>220,658</td>
+<td>+630</td>
+<td class="smaller">1,508,085</td>
+<td class="smaller">+7,155</td>
+<td>93,767,295</td></tr>
+<tr><td class="np">153</td>
+<td class="np">-12</td>
+<td class="text mp"><div><a href="../artist/2UWTNi6LLK5lXNGzFWzIqT.html">Aparshakti Khurana</a> - <a href="../track/5thVzD79BxlDTYy0LfHzvu.html">Zaroor</a> (w/ <a href="../artist/6jvvFfe34NYXjWZMz7rExP.html">Savi Kahlon</a>)</div></td>
+<td>519</td>
+<td>13</td><td class="np mini text"></td>
+<td>220,441</td>
+<td>-5,097</td>
+<td class="smaller">1,657,782</td>
+<td class="smaller">-24,848</td>
+<td>130,213,505</td></tr>
+<tr><td class="np">154</td>
+<td class="np">-16</td>
+<td class="text mp"><div><a href="../artist/6DARBhWbfcS9E4yJzcliqQ.html">Karan Aujla</a> - <a href="../track/4d2jV5fmX6hbRwaRbY39dt.html">Wavy</a></div></td>
+<td>508</td>
+<td>4</td><td class="np mini text"></td>
+<td>220,055</td>
+<td>-7,025</td>
+<td class="smaller">1,549,343</td>
+<td class="smaller">+995</td>
+<td>199,818,104</td></tr>
+<tr><td class="np">155</td>
+<td class="np">-7</td>
+<td class="text mp"><div><a href="../artist/0H2Xt7XJQyDItXNN3j7F1F.html">sufr</a> - <a href="../track/0Q9rHyEG7lME4y2Fqtuxgl.html">bargad</a> (w/ <a href="../artist/6qtADmCOQ6a9NlpMULzJj9.html">Arpit Bala</a>, <a href="../artist/2K7LWCOiWME8Na9QWEbUwL.html">toorjo dey</a>)</div></td>
+<td>139</td>
+<td>19</td><td class="np mini text"></td>
+<td>218,820</td>
+<td>-3,274</td>
+<td class="smaller">1,564,319</td>
+<td class="smaller">-8,649</td>
+<td>55,547,571</td></tr>
+<tr><td class="np">156</td>
+<td class="np">-19</td>
+<td class="text mp"><div><a href="../artist/36iDrP3UnCxsSH9LuSdkDj.html">Masoom Sharma</a> - <a href="../track/3Iv9OUb4Oif9Cl0ZFMCky0.html">Madam Ji</a> (w/ <a href="../artist/1jVoT8RHZh4P4vTvuxJntR.html">Rekha Goswami</a>, <a href="../artist/6DAbqsPFnfdjW7qUtVW7wS.html">Amar Karnawal</a>)</div></td>
+<td>62</td>
+<td>106</td><td class="np mini text"></td>
+<td>217,504</td>
+<td>-11,108</td>
+<td class="smaller">1,548,085</td>
+<td class="smaller">-3,046</td>
+<td>13,296,475</td></tr>
+<tr><td class="np">157</td>
+<td class="np">-5</td>
+<td class="text mp"><div><a href="../artist/6hzngLO20cX5IGqT0hVv1G.html">Anurag Saikia</a> - <a href="../track/3vCzLB6kS2lGcIpm1OOUsy.html">Ishq Hai</a> (w/ <a href="../artist/2DFCHTDIA0t638a4mm37dK.html">Raj Shekhar</a>, <a href="../artist/0bRPtPZQkWHeG7MGk9eWlh.html">Romy</a>, <a href="../artist/2780kFYuvbwSLPJZ5faEDw.html">Amarabha Banerjee</a>, <a href="../artist/4gzrZDyL5gYiROkv27pYKx.html">Varun Jain</a>, <a href="../artist/4ojkMVHjuDZgDXSJy5qs2h.html">Madhubanti Bagchi</a>, <a href="../artist/0NbgKDsEHiPzZBZkqZGkXm.html">Mismatched - Cast</a>)</div></td>
+<td>479</td>
+<td>1</td><td class="np mini text">(x34)</td>
+<td>217,126</td>
+<td>-3,370</td>
+<td class="smaller">1,542,455</td>
+<td class="smaller">-5,176</td>
+<td>225,777,575</td></tr>
+<tr><td class="np">158</td>
+<td class="np">+1</td>
+<td class="text mp"><div><a href="../artist/03SZmfKAgYRQKUwy0EoJUa.html">Roop Kumar Rathod</a> - <a href="../track/5KNuHsIeFtD0oukst77hBi.html">Maula Mere Maula</a></div></td>
+<td>530</td>
+<td>53</td><td class="np mini text"></td>
+<td>216,485</td>
+<td>-1,408</td>
+<td class="smaller">1,257,658</td>
+<td class="smaller">+9,030</td>
+<td>115,854,216</td></tr>
+<tr><td class="np">159</td>
+<td class="np">-12</td>
+<td class="text mp"><div><a href="../artist/0uOUeC51AxGnP6hB8gurwt.html">Cheema Y</a> - <a href="../track/2KQBM1PYjg2ZpeA5xbTjrJ.html">Tutor</a> (w/ <a href="../artist/0QntOArZgiNHoemAzwJPu5.html">Gur Sidhu</a>)</div></td>
+<td>76</td>
+<td>35</td><td class="np mini text"></td>
+<td>215,535</td>
+<td>-7,384</td>
+<td class="smaller">1,560,915</td>
+<td class="smaller">-1,942</td>
+<td>18,904,894</td></tr>
+<tr><td class="np">160</td>
+<td class="np">+3</td>
+<td class="text mp"><div><a href="../artist/2oSONSC9zQ4UonDKnLqksx.html">Atif Aslam</a> - <a href="../track/5sUSbJo0brScvv48ZZ1HrQ.html">O'Meri Laila</a> (w/ <a href="../artist/5wQDQFm7Ku8WWGi5xqJ9lp.html">Jyotica Tangri</a>)</div></td>
+<td>501</td>
+<td>16</td><td class="np mini text"></td>
+<td>215,012</td>
+<td>+1,908</td>
+<td class="smaller">1,501,138</td>
+<td class="smaller">+950</td>
+<td>115,414,229</td></tr>
+<tr><td class="np">161</td>
+<td class="np">+9</td>
+<td class="text mp"><div><a href="../artist/3VkiCR2nuvfucpvFXdSVtx.html">Hunny</a> - <a href="../track/6egfWbtFFhMToV2DvmEzmo.html">Tu Hain Toh (From "Mr. And Mrs. Mahi")</a> (w/ <a href="../artist/0Or6EukLg1g2fTl08fPz2o.html">Bunny</a>, <a href="../artist/1uY9B9QroF5K8wPyeEO1QN.html">Sagar</a>)</div></td>
+<td>420</td>
+<td>8</td><td class="np mini text"></td>
+<td>214,303</td>
+<td>+3,953</td>
+<td class="smaller">1,252,391</td>
+<td class="smaller">+12,536</td>
+<td>106,089,478</td></tr>
+<tr><td class="np">162</td>
+<td class="np">+20</td>
+<td class="text mp"><div><a href="../artist/1mYsTxnqsietFxj1OgoGbG.html">A.R. Rahman</a> - <a href="../track/6bdpj89aYEBjhpsenXAsmO.html">Enna Sona</a> (w/ <a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a>)</div></td>
+<td>1171</td>
+<td>32</td><td class="np mini text"></td>
+<td>214,013</td>
+<td>+11,393</td>
+<td class="smaller">1,042,201</td>
+<td class="smaller">+16,746</td>
+<td>122,413,375</td></tr>
+<tr><td class="np">163</td>
+<td class="np">-1</td>
+<td class="text mp"><div><a href="../artist/0sSxphmGskGCKlwB9xa6WU.html">Himesh Reshammiya</a> - <a href="../track/6Wuj97Iy5tDUCng1PX9x5H.html">Sanam Teri Kasam</a> (w/ <a href="../artist/0E02VcvA5p1ndkLdqWD5JB.html">Ankit Tiwari</a>, <a href="../artist/3yMmYEklQ7gLOZXEFNd3xr.html">Palak Muchhal</a>)</div></td>
+<td>92</td>
+<td>127</td><td class="np mini text"></td>
+<td>212,220</td>
+<td>-1,805</td>
+<td class="smaller">1,236,414</td>
+<td class="smaller">+13,645</td>
+<td>19,275,966</td></tr>
+<tr><td class="np">164</td>
+<td class="np">-8</td>
+<td class="text mp"><div><a href="../artist/465OXuCU8YZNmVG1leLwQ9.html">Shashwat Sachdev</a> - <a href="../track/79WcL9b7spam7V0nBJNa6O.html">Destiny - Mann Atkeya</a> (w/ <a href="../artist/4cUfFbVZGSsJWdbfmkdxYq.html">Token</a>, <a href="../artist/72M9WwyFJkcQVhrun1xGTd.html">Vaibhav Gupta</a>, <a href="../artist/4asaIarkMcpkYhSiMn1Ed5.html">Shahzad Ali</a>)</div></td>
+<td>17</td>
+<td>76</td><td class="np mini text"></td>
+<td>211,257</td>
+<td>-7,985</td>
+<td class="smaller">1,552,208</td>
+<td class="smaller">-43,386</td>
+<td>4,256,751</td></tr>
+<tr><td class="np">165</td>
+<td class="np">RE</td>
+<td class="text mp"><div><a href="../artist/2oSONSC9zQ4UonDKnLqksx.html">Atif Aslam</a> - <a href="../track/6fScgF2Y63ScU73nYju0ny.html">O Saathi</a> (w/ <a href="../artist/6jf2eKjiPT6P18RbOSLzf0.html">Arko</a>, <a href="../artist/3fRSA5zbD43VMmgwW84rOo.html">Tiger Shroff</a>, <a href="../artist/0G14W4sYyxWBqmMzqBbUz7.html">Disha Patani</a>, <a href="../artist/69b9CXAywz4xvsECxw6HtD.html">Randeep Hooda</a>, <a href="../artist/63a9JDNG6nEVRPhQBIrJGT.html">Manoj Bajpayee</a>, <a href="../artist/3AY2B3gLcxi4xbNxlJTsHt.html">Prateik Babbar</a>)</div></td>
+<td>1317</td>
+<td>21</td><td class="np mini text"></td>
+<td>210,505</td>
+<td></td>
+<td class="smaller">401,816</td>
+<td class="smaller">+210,505</td>
+<td>217,458,521</td></tr>
+<tr><td class="np">166</td>
+<td class="np">+2</td>
+<td class="text mp"><div><a href="../artist/5rQoBDKFnd1n6BkdbgVaRL.html">Guru Randhawa</a> - <a href="../track/3QsGq1Xd1n8qc9hwSPzQgj.html">Sirra</a> (w/ <a href="../artist/3qmx2CGviBi21h58nDMJcs.html">Kiran Bajwa</a>, <a href="../artist/0N2lT1m7rG0klYHZrkyMPw.html">Rony Ajnali</a>)</div></td>
+<td>264</td>
+<td>4</td><td class="np mini text"></td>
+<td>210,294</td>
+<td>-836</td>
+<td class="smaller">1,495,047</td>
+<td class="smaller">-5,536</td>
+<td>112,141,154</td></tr>
+<tr><td class="np">167</td>
+<td class="np">RE</td>
+<td class="text mp"><div><a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a> - <a href="../track/2dOWkdPfiT9SU2Wm734Rh6.html">Kabhi Jo Baadal Barse (From "Jackpot)</a></div></td>
+<td>63</td>
+<td>141</td><td class="np mini text"></td>
+<td>209,645</td>
+<td></td>
+<td class="smaller">209,645</td>
+<td class="smaller">+209,645</td>
+<td>12,896,035</td></tr>
+<tr><td class="np">168</td>
+<td class="np">+5</td>
+<td class="text mp"><div><a href="../artist/7HCqGPJcQTyGJ2yqntbuyr.html">Amit Trivedi</a> - <a href="../track/0EwRpK9wY6lHfcJSt82w4x.html">Aaj Se Teri</a> (w/ <a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a>)</div></td>
+<td>91</td>
+<td>100</td><td class="np mini text"></td>
+<td>209,251</td>
+<td>+21</td>
+<td class="smaller">1,483,810</td>
+<td class="smaller">-15,138</td>
+<td>19,547,468</td></tr>
+<tr><td class="np">169</td>
+<td class="np">+12</td>
+<td class="text mp"><div><a href="../artist/6PdJJhJWHFRtoERTQ8JGq1.html">Navaan Sandhu</a> - <a href="../track/0S4PcH3EYQYIeLs6nLOpF1.html">Deewane</a> (w/ <a href="../artist/3R1penrqtuKNTeWABjKT5N.html">Bir</a>)</div></td>
+<td>161</td>
+<td>66</td><td class="np mini text"></td>
+<td>209,178</td>
+<td>+4,874</td>
+<td class="smaller">1,008,495</td>
+<td class="smaller">+209,178</td>
+<td>36,603,423</td></tr>
+<tr><td class="np">170</td>
+<td class="np">-27</td>
+<td class="text mp"><div><a href="../artist/465OXuCU8YZNmVG1leLwQ9.html">Shashwat Sachdev</a> - <a href="../track/12YztU3FVYQAio98iwGkVr.html">Rang De Lal (Oye Oye)</a> (w/ <a href="../artist/0mJDQBWytBhOh5JB1DOQ1c.html">Jasmine Sandlas</a>, <a href="../artist/4z0z82pXirH1TrygipQlOo.html">Afsana Khan</a>, <a href="../artist/5l1aGNGCRGomCMHVufh6xC.html">Amit Kumar</a>, <a href="../artist/2ME9akyjf2IaOM5DLTqHUS.html">Sapna Mukherjee</a>, <a href="../artist/7pWXlTjky0KXWgbdZi9ebq.html">Kalyanji-Anandji</a>, <a href="../artist/3Bku4b0uiR8KJSXu7U8Iyy.html">Anand Bakshi</a>, <a href="../artist/3MsxNLVtDVGxjEaxgKAoi0.html">Reble</a>)</div></td>
+<td>14</td>
+<td>60</td><td class="np mini text"></td>
+<td>209,109</td>
+<td>-15,870</td>
+<td class="smaller">1,592,278</td>
+<td class="smaller">-42,016</td>
+<td>3,622,312</td></tr>
+<tr><td class="np">171</td>
+<td class="np">-29</td>
+<td class="text mp"><div><a href="../artist/01DlVvmRpQFutrYzh0HmF8.html">Kamal Khan</a> - <a href="../track/5zcfnScTSFGCHGY1yeXWke.html">Ishq Sufiyana (Male)</a></div></td>
+<td>489</td>
+<td>31</td><td class="np mini text"></td>
+<td>208,699</td>
+<td>-16,807</td>
+<td class="smaller">1,293,963</td>
+<td class="smaller">-2,941</td>
+<td>120,064,912</td></tr>
+<tr><td class="np">172</td>
+<td class="np">+4</td>
+<td class="text mp"><div><a href="../artist/74KM79TiuVKeVCqs8QtB0B.html">Sabrina Carpenter</a> - <a href="../track/2HRqTpkrJO5ggZyyK6NPWz.html">Espresso</a></div></td>
+<td>465</td>
+<td>24</td><td class="np mini text"></td>
+<td>208,305</td>
+<td>+2,268</td>
+<td class="smaller">1,219,523</td>
+<td class="smaller">+208,305</td>
+<td>101,102,955</td></tr>
+<tr><td class="np">173</td>
+<td class="np">+17</td>
+<td class="text mp"><div><a href="../artist/2oSONSC9zQ4UonDKnLqksx.html">Atif Aslam</a> - <a href="../track/2IEhtVeM9TVql8fZdKdlo9.html">Main Rang Sharbaton Ka</a> (w/ <a href="../artist/5UJ2sHO2ELrgW6aXeRLTQQ.html">Chinmayi</a>, <a href="../artist/1wRPtKGflJrBx9BmLsSwlU.html">Pritam</a>)</div></td>
+<td>583</td>
+<td>66</td><td class="np mini text"></td>
+<td>207,410</td>
+<td>+7,668</td>
+<td class="smaller">1,008,389</td>
+<td class="smaller">+207,410</td>
+<td>115,315,738</td></tr>
+<tr><td class="np">174</td>
+<td class="np">+6</td>
+<td class="text mp"><div><a href="../artist/6WOdPJmexxFINcKMkP2jMG.html">Sachet Tandon</a> - <a href="../track/73K33p4Vyz9koXGqmL5eFs.html">Malang Sajna</a> (w/ <a href="../artist/1E6arsXf5Fgsnv9YpSzjpE.html">Parampara Tandon</a>, <a href="../artist/0m3D4grap8VFSzbJMqgNVk.html">Kumaar</a>)</div></td>
+<td>1031</td>
+<td>4</td><td class="np mini text"></td>
+<td>207,090</td>
+<td>+2,772</td>
+<td class="smaller">1,281,677</td>
+<td class="smaller">+9,992</td>
+<td>343,417,171</td></tr>
+<tr><td class="np">175</td>
+<td class="np">+13</td>
+<td class="text mp"><div><a href="../artist/5rQoBDKFnd1n6BkdbgVaRL.html">Guru Randhawa</a> - <a href="../track/1XwOA83wulFYtimOir6MUL.html">AZUL</a> (w/ <a href="../artist/6LGVfT3wTKqzhx9RGvSvUd.html">Gurjit Gill</a>, <a href="../artist/0OZHEt7SMyC00w8xopYIcc.html">Lavish Dhiman</a>)</div></td>
+<td>238</td>
+<td>6</td><td class="np mini text"></td>
+<td>207,088</td>
+<td>+5,560</td>
+<td class="smaller">1,419,207</td>
+<td class="smaller">+2,995</td>
+<td>87,944,736</td></tr>
+<tr><td class="np">176</td>
+<td class="np">+13</td>
+<td class="text mp"><div><a href="../artist/3lRhKw5gfTNnpnPFFE7TfQ.html">Maan Panu</a> - <a href="../track/0TsyaaM73GAKIxv38yzHV4.html">The Last Letter</a> (w/ <a href="../artist/01qn9kID2owHtQLAjKnQuz.html">Mazaak</a>)</div></td>
+<td>7</td>
+<td>146</td><td class="np mini text"></td>
+<td>206,457</td>
+<td>+6,122</td>
+<td class="smaller">1,450,046</td>
+<td class="smaller">+206,457</td>
+<td>1,450,046</td></tr>
+<tr><td class="np">177</td>
+<td class="np">+9</td>
+<td class="text mp"><div><a href="../artist/2oSONSC9zQ4UonDKnLqksx.html">Atif Aslam</a> - <a href="../track/48Ix6ReYdJf2H4mKb3TIpj.html">Tera Hone Laga Hoon</a> (w/ <a href="../artist/4mBxoO0pAcMbAwuTcrcLMc.html">Alisha Chinai</a>, <a href="../artist/1wRPtKGflJrBx9BmLsSwlU.html">Pritam</a>)</div></td>
+<td>1789</td>
+<td>20</td><td class="np mini text"></td>
+<td>204,664</td>
+<td>+2,375</td>
+<td class="smaller">813,838</td>
+<td class="smaller">-36,369</td>
+<td>359,710,864</td></tr>
+<tr><td class="np">178</td>
+<td class="np">-13</td>
+<td class="text mp"><div><a href="../artist/0GF4shudTAFv8ak9eWdd4Y.html">Kishore Kumar</a> - <a href="../track/6sF70gMVf9jg8QEogyVqBl.html">Pal Pal Dil Ke Paas</a></div></td>
+<td>292</td>
+<td>39</td><td class="np mini text"></td>
+<td>204,425</td>
+<td>-8,083</td>
+<td class="smaller">1,513,624</td>
+<td class="smaller">-21,357</td>
+<td>81,455,092</td></tr>
+<tr><td class="np">179</td>
+<td class="np">-28</td>
+<td class="text mp"><div><a href="../artist/5r3wPya2PpeTTsXsGhQU8O.html">Shubh</a> - <a href="../track/5ZLkihi6DVsHwDL3B8ym1t.html">One Love</a></div></td>
+<td>964</td>
+<td>3</td><td class="np mini text">(x36)</td>
+<td>204,350</td>
+<td>-16,810</td>
+<td class="smaller">1,587,126</td>
+<td class="smaller">-28,579</td>
+<td>381,979,491</td></tr>
+<tr><td class="np">180</td>
+<td class="np">-19</td>
+<td class="text mp"><div><a href="../artist/3lRhKw5gfTNnpnPFFE7TfQ.html">Maan Panu</a> - <a href="../track/0YRpv07J0y7J73X87efpia.html">I'M Done</a></div></td>
+<td>164</td>
+<td>5</td><td class="np mini text"></td>
+<td>203,916</td>
+<td>-10,842</td>
+<td class="smaller">1,475,805</td>
+<td class="smaller">-22,516</td>
+<td>63,446,013</td></tr>
+<tr><td class="np">181</td>
+<td class="np">RE</td>
+<td class="text mp"><div><a href="../artist/1wRPtKGflJrBx9BmLsSwlU.html">Pritam</a> - <a href="../track/1rEVydQSe04NJUqyyEyeEq.html">Afghan Jalebi (Film Version)</a> (w/ <a href="../artist/0rCstvhcy1BZyDomzN0YPE.html">Akhtar Chinnal</a>)</div></td>
+<td>98</td>
+<td>95</td><td class="np mini text"></td>
+<td>203,899</td>
+<td></td>
+<td class="smaller">830,930</td>
+<td class="smaller">-12,707</td>
+<td>22,339,895</td></tr>
+<tr><td class="np">182</td>
+<td class="np">+10</td>
+<td class="text mp"><div><a href="../artist/63QHbwCDdJ50C72D4ojeo1.html">Rito Riba</a> - <a href="../track/6gprR0rGv59wALbBU7yZkl.html">Meri Banogi Kya</a> (w/ <a href="../artist/4yxICw7joYAxRI2sTRldLB.html">Rajat Nagpal</a>)</div></td>
+<td>18</td>
+<td>126</td><td class="np mini text"></td>
+<td>203,303</td>
+<td>+4,564</td>
+<td class="smaller">1,438,359</td>
+<td class="smaller">+1,673</td>
+<td>3,576,541</td></tr>
+<tr><td class="np">183</td>
+<td class="np">-6</td>
+<td class="text mp"><div><a href="../artist/1ZChN8G1Y7CJ0TXbrvblwS.html">Asim Azhar</a> - <a href="../track/5RYXTC4G3RYYP6pUmaF6s2.html">Meri Zindagi Hai Tu</a> (w/ <a href="../artist/5LBIpDf0NQMSYa6O42d9Mn.html">Sabri Sisters</a>)</div></td>
+<td>79</td>
+<td>101</td><td class="np mini text"></td>
+<td>203,142</td>
+<td>-2,449</td>
+<td class="smaller">1,443,224</td>
+<td class="smaller">-24,619</td>
+<td>17,990,445</td></tr>
+<tr><td class="np">184</td>
+<td class="np">-13</td>
+<td class="text mp"><div><a href="../artist/3JGOBJUPbwIb3fri0dcqbt.html">Krish Mondal</a> - <a href="../track/3A3oq3VMSboPPWBYTRq0nX.html">Dil Lagana Mana Tha</a> (w/ <a href="../artist/6RHkm1pS4aeURu2w9jDaPX.html">Kishore Mondal</a>, <a href="../artist/7wIvebeuJfBQ2fVQmhk5kO.html">Devv Sadaana</a>, <a href="../artist/52XgeWw24o4klNdfwvB0Vx.html">Kunaal Vermaa</a>)</div></td>
+<td>73</td>
+<td>7</td><td class="np mini text"></td>
+<td>202,908</td>
+<td>-7,394</td>
+<td class="smaller">1,502,531</td>
+<td class="smaller">-21,181</td>
+<td>27,223,131</td></tr>
+<tr><td class="np">185</td>
+<td class="np">+8</td>
+<td class="text mp"><div><a href="../artist/1mBydYMVBECdDmMfE2sEUO.html">Sachin-Jigar</a> - <a href="../track/5AnWrUzsrFgBvhn6dUElnr.html">Aaj Ki Raat (From "Stree 2")</a> (w/ <a href="../artist/4ojkMVHjuDZgDXSJy5qs2h.html">Madhubanti Bagchi</a>, <a href="../artist/0NErdIJtuKBjtxKmlqaWdj.html">Divya Kumar</a>, <a href="../artist/2fMqTqiTxUDlmcOEPaQSsx.html">Amitabh Bhattacharya</a>)</div></td>
+<td>588</td>
+<td>1</td><td class="np mini text">(x28)</td>
+<td>202,459</td>
+<td>+4,211</td>
+<td class="smaller">1,262,996</td>
+<td class="smaller">+202,459</td>
+<td>268,353,777</td></tr>
+<tr><td class="np">186</td>
+<td class="np">+1</td>
+<td class="text mp"><div><a href="../artist/09UmIX92EUH9hAK4bxvHx6.html">Mithoon</a> - <a href="../track/1fcCPXmH4vUzG6UQTTjZp5.html">Phir Bhi Tumko Chaahunga</a> (w/ <a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a>, <a href="../artist/12CpR4SNDzVIlDoPSeNFeW.html">Shashaa Tirupati</a>)</div></td>
+<td>395</td>
+<td>79</td><td class="np mini text"></td>
+<td>202,292</td>
+<td>+486</td>
+<td class="smaller">1,414,510</td>
+<td class="smaller">+330</td>
+<td>73,320,414</td></tr>
+<tr><td class="np">187</td>
+<td class="np">RE</td>
+<td class="text mp"><div><a href="../artist/1wRPtKGflJrBx9BmLsSwlU.html">Pritam</a> - <a href="../track/5WncH5iZ5GFlnXm7jKEXVP.html">Labon Ko</a> (w/ <a href="../artist/4fEkbug6kZzzJ8eYX6Kbbp.html">KK</a>)</div></td>
+<td>139</td>
+<td>28</td><td class="np mini text"></td>
+<td>201,526</td>
+<td></td>
+<td class="smaller">607,108</td>
+<td class="smaller">-4,625</td>
+<td>28,259,399</td></tr>
+<tr><td class="np">188</td>
+<td class="np">+8</td>
+<td class="text mp"><div><a href="../artist/6LEG9Ld1aLImEFEVHdWNSB.html">AP Dhillon</a> - <a href="../track/2mt3QHYbKBMdSTIfzSFsYH.html">By My Side</a> (w/ <a href="../artist/6aQfrWHwAcuY8IYItbChZh.html">Shinda Kahlon</a>)</div></td>
+<td>109</td>
+<td>79</td><td class="np mini text"></td>
+<td>201,173</td>
+<td>+7,492</td>
+<td class="smaller">394,854</td>
+<td class="smaller">+201,173</td>
+<td>26,989,866</td></tr>
+<tr><td class="np">189</td>
+<td class="np">-11</td>
+<td class="text mp"><div><a href="../artist/2kkQthS9OLpK4UqNWYqoVl.html">Jeet Gannguli</a> - <a href="../track/3HiobOOpSpMsi95WBKPBYk.html">Hamari Adhuri Kahani (Title Track)</a> (w/ <a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a>)</div></td>
+<td>1548</td>
+<td>50</td><td class="np mini text"></td>
+<td>200,884</td>
+<td>-4,031</td>
+<td class="smaller">1,226,116</td>
+<td class="smaller">-13</td>
+<td>285,531,768</td></tr>
+<tr><td class="np">190</td>
+<td class="np">-26</td>
+<td class="text mp"><div><a href="../artist/1wRPtKGflJrBx9BmLsSwlU.html">Pritam</a> - <a href="../track/3x822BpQYSFMIB7P3uiJN0.html">Aavan Jaavan</a> (w/ <a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a>, <a href="../artist/3tPQOjkxO3mrYrrgkTeXgH.html">Nikhita Gandhi</a>, <a href="../artist/2fMqTqiTxUDlmcOEPaQSsx.html">Amitabh Bhattacharya</a>)</div></td>
+<td>196</td>
+<td>16</td><td class="np mini text"></td>
+<td>199,906</td>
+<td>-12,978</td>
+<td class="smaller">412,790</td>
+<td class="smaller">+199,906</td>
+<td>55,833,491</td></tr>
+<tr><td class="np">191</td>
+<td class="np">+3</td>
+<td class="text mp"><div><a href="../artist/6yMqTedMPaztNCXt74pVMI.html">Matthew Ifield</a> - <a href="../track/14mT8BCOXiUUcGlb7KujkT.html">I Think They Call This Love - Cover</a></div></td>
+<td>106</td>
+<td>90</td><td class="np mini text"></td>
+<td>199,194</td>
+<td>+2,907</td>
+<td class="smaller">395,481</td>
+<td class="smaller">+199,194</td>
+<td>24,540,861</td></tr>
+<tr><td class="np">192</td>
+<td class="np">RE</td>
+<td class="text mp"><div><a href="../artist/0E02VcvA5p1ndkLdqWD5JB.html">Ankit Tiwari</a> - <a href="../track/5PvwPy5eRO8BPwpRzCHK3D.html">Sunn Raha Hai (Male Version)</a></div></td>
+<td>186</td>
+<td>101</td><td class="np mini text"></td>
+<td>198,585</td>
+<td></td>
+<td class="smaller">803,829</td>
+<td class="smaller">-984</td>
+<td>34,422,364</td></tr>
+<tr><td class="np">193</td>
+<td class="np">-8</td>
+<td class="text mp"><div><a href="../artist/2ZRrPOjBIWoKK5rHedLijj.html">Abhijeet</a> - <a href="../track/3IZhkhpuGU7iNWDcQ30nZm.html">Dil Kaa Jo Haal Hai</a> (w/ <a href="../artist/0oOet2f43PA68X5RxKobEy.html">Shreya Ghoshal</a>)</div></td>
+<td>229</td>
+<td>36</td><td class="np mini text"></td>
+<td>198,060</td>
+<td>-4,246</td>
+<td class="smaller">1,002,680</td>
+<td class="smaller">+198,060</td>
+<td>63,271,607</td></tr>
+<tr><td class="np">194</td>
+<td class="np">RE</td>
+<td class="text mp"><div><a href="../artist/2oSONSC9zQ4UonDKnLqksx.html">Atif Aslam</a> - <a href="../track/0KSOLEBixnBYIKNHF1VbzF.html">Hona Tha Pyar</a> (w/ <a href="../artist/24X1z32aFn59XU4P9Vh9gP.html">Hadiqa Kiani</a>)</div></td>
+<td>296</td>
+<td>39</td><td class="np mini text"></td>
+<td>197,176</td>
+<td></td>
+<td class="smaller">197,176</td>
+<td class="smaller">+197,176</td>
+<td>69,338,299</td></tr>
+<tr><td class="np">195</td>
+<td class="np">+3</td>
+<td class="text mp"><div><a href="../artist/36iDrP3UnCxsSH9LuSdkDj.html">Masoom Sharma</a> - <a href="../track/4MtsPGGUTIs4qFD8gOSJ3D.html">Chambal K Dakku</a> (w/ <a href="../artist/4inUZ3cAdV2SA2JQ6AaL1J.html">Rahul Muana</a>, <a href="../artist/2wNJpS7km8BWqL18cYHrmK.html">Swara Verma</a>, <a href="../artist/45MgHpneIbqvEvC6h7f04o.html">Ruba Khan</a>)</div></td>
+<td>382</td>
+<td>19</td><td class="np mini text"></td>
+<td>196,951</td>
+<td>+4,228</td>
+<td class="smaller">1,220,766</td>
+<td class="smaller">-9,838</td>
+<td>97,191,866</td></tr>
+<tr><td class="np">196</td>
+<td class="np">RE</td>
+<td class="text mp"><div><a href="../artist/3iGhlvzpXc0UHBQ7klAItX.html">Mitraz</a> - <a href="../track/0M0ANKNzmM4Odd7FNKghzW.html">Akhiyaan Gulaab (From "Teri Baaton Mein Aisa Uljha Jiya")</a></div></td>
+<td>627</td>
+<td>2</td><td class="np mini text">(x25)</td>
+<td>196,816</td>
+<td></td>
+<td class="smaller">816,427</td>
+<td class="smaller">+196,816</td>
+<td>241,991,792</td></tr>
+<tr><td class="np">197</td>
+<td class="np">-22</td>
+<td class="text mp"><div><a href="../artist/7qHsapL39aTQsPhixtzVvy.html">Ayushmann Khurrana</a> - <a href="../track/0bLCiBR9AOtfp98dk7iCL5.html">Pani Da Rang - Male</a> (w/ <a href="../artist/3dN9MQpjIyNxyeRfz4EDZe.html">Rochak Kohli</a>)</div></td>
+<td>31</td>
+<td>112</td><td class="np mini text"></td>
+<td>196,160</td>
+<td>-10,967</td>
+<td class="smaller">1,459,737</td>
+<td class="smaller">-48,033</td>
+<td>6,599,894</td></tr>
+<tr><td class="np">198</td>
+<td class="np">RE</td>
+<td class="text mp"><div><a href="../artist/4MEdY6uFLSNWHq4kKrDx4j.html">Sumedha Karmahe</a> - <a href="../track/2xLaYf6XYIFz3tuUJjELAs.html">Toota Jo Kabhi Tara</a> (w/ <a href="../artist/2oSONSC9zQ4UonDKnLqksx.html">Atif Aslam</a>)</div></td>
+<td>106</td>
+<td>83</td><td class="np mini text"></td>
+<td>195,643</td>
+<td></td>
+<td class="smaller">397,775</td>
+<td class="smaller">+195,643</td>
+<td>26,487,402</td></tr>
+<tr class="d2"><td class="np">199</td>
+<td class="np">NEW</td>
+<td class="text mp"><div><a href="../artist/6HDjrqj5bbSESYOj89PtP9.html">Simiran Kaur Dhadli</a> - <a href="../track/4oxOrvv1qWTCaxmdrKtGaJ.html">Bairan - Duet Version</a> (w/ <a href="../artist/7IbxsPdlYelceWNyHAor55.html">Banjaare</a>)</div></td>
+<td>1</td>
+<td class="newp">199</td><td class="np newp mini text"></td>
+<td>195,527</td>
+<td></td>
+<td class="smaller">195,527</td>
+<td class="smaller">+195,527</td>
+<td>195,527</td></tr>
+<tr><td class="np">200</td>
+<td class="np">-9</td>
+<td class="text mp"><div><a href="../artist/1wRPtKGflJrBx9BmLsSwlU.html">Pritam</a> - <a href="../track/1UWacd8x8tPPwmrPB1MoBI.html">Ae Dil Hai Mushkil Title Track (From "Ae Dil Hai Mushkil")</a> (w/ <a href="../artist/4YRxDV8wJFPHPTeXepOstw.html">Arijit Singh</a>)</div></td>
+<td>2231</td>
+<td>56</td><td class="np mini text"></td>
+<td>195,428</td>
+<td>-4,140</td>
+<td class="smaller">999,279</td>
+<td class="smaller">-50,108</td>
+<td>298,403,167</td></tr>
+</tbody></table></div></body></html>

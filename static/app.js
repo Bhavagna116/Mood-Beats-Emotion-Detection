@@ -7,7 +7,7 @@ const fileInput = document.getElementById('fileInput');
 
 let currentMood = 'neutral';
 let currentLanguage = 'english';  // english | hindi | telugu
-let currentMusicMode = 'online'; // online | offline
+let currentMusicMode = 'online';  // online | offline
 let isStreaming = false;
 let streamingInterval = null;
 let lastResult = null;
@@ -23,17 +23,13 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
     });
 });
 
-// ── Mode Toggle ─────────────────────────────────────────────────────────────
+// ── Mode Toggle ──────────────────────────────────────────────────────────────
 document.querySelectorAll('.toggle-btn').forEach(btn => {
     btn.addEventListener('click', () => {
         document.querySelectorAll('.toggle-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         currentMusicMode = btn.dataset.mode;
-        
-        // Re-render music if we have a previous detection
-        if(lastResult) {
-            renderMusicDetails(lastResult);
-        }
+        if (lastResult) renderMusicDetails(lastResult);
     });
 });
 
@@ -48,7 +44,7 @@ document.querySelectorAll('.lang-btn').forEach(btn => {
     });
 });
 
-// ── Camera / Live Stream ─────────────────────────────────────────────────────
+// ── Camera / Live Stream ──────────────────────────────────────────────────────
 document.getElementById('startBtn').addEventListener('click', async () => {
     if (isStreaming) return;
     if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
@@ -56,7 +52,16 @@ document.getElementById('startBtn').addEventListener('click', async () => {
         return;
     }
     try {
-        const stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: "user" }, audio: false });
+        // On mobile, use the front-facing camera; desktop will use default
+        const constraints = {
+            video: {
+                facingMode: 'user',
+                width: { ideal: 640 },
+                height: { ideal: 480 }
+            },
+            audio: false
+        };
+        const stream = await navigator.mediaDevices.getUserMedia(constraints);
         video.srcObject = stream;
         video.classList.remove('hidden');
         processedFrame.classList.add('hidden');
@@ -67,10 +72,11 @@ document.getElementById('startBtn').addEventListener('click', async () => {
             canvas.height = video.videoHeight;
             try { await video.play(); } catch (e) { console.error("Autoplay prevented:", e); }
         };
-        streamingInterval = setInterval(processFrame, 400);
+        // Process every 500ms — more reliable on mobile
+        streamingInterval = setInterval(processFrame, 500);
     } catch (err) {
         console.error("Camera error:", err);
-        alert("Camera access was denied or failed. Please allow camera permissions.");
+        alert("Camera access was denied or failed. Please allow camera permissions in your browser settings.");
     }
 });
 
@@ -89,9 +95,10 @@ function stopCamera() {
 }
 
 async function processFrame() {
-    if (!isStreaming || video.paused || video.ended) return;
+    if (!isStreaming || video.paused || video.ended || video.readyState < 2) return;
+    if (canvas.width === 0 || canvas.height === 0) return;
     ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
-    const frameData = canvas.toDataURL('image/jpeg', 0.8);
+    const frameData = canvas.toDataURL('image/jpeg', 0.7);
     try {
         const response = await fetch('/api/detect/frame', {
             method: 'POST',
@@ -110,7 +117,7 @@ async function processFrame() {
     } catch (err) { console.error("Frame error:", err); }
 }
 
-// ── Photo Upload ─────────────────────────────────────────────────────────────
+// ── Photo Upload ──────────────────────────────────────────────────────────────
 fileInput.addEventListener('change', async (e) => {
     if (!e.target.files.length) return;
     const file = e.target.files[0];
@@ -144,25 +151,35 @@ document.getElementById('clearPhotoBtn')?.addEventListener('click', () => {
     fileInput.value = '';
 });
 
+// ── Emotion chip strip highlighter ───────────────────────────────────────────
+function highlightEmotionChip(emotion) {
+    document.querySelectorAll('.emotion-chip').forEach(chip => {
+        chip.classList.remove('detected');
+    });
+    const chip = document.getElementById(`chip-${emotion}`);
+    if (chip) chip.classList.add('detected');
+}
+
 // ── UI Update ────────────────────────────────────────────────────────────────
 function updateUI(result) {
     lastResult = result;
-    if (result.emotion !== currentMood) {
-        currentMood = result.emotion;
-        document.documentElement.style.setProperty('--accent-color', result.color);
-        document.getElementById('globalMoodBadge').textContent = currentMood;
-        document.getElementById('musicStatusText').textContent =
-            `Your ${currentMood.charAt(0).toUpperCase() + currentMood.slice(1)} Mix:`;
-        renderMusicDetails(result);
-    }
+    currentMood = result.emotion;
+    document.documentElement.style.setProperty('--accent-color', result.color);
+    document.getElementById('globalMoodBadge').textContent = currentMood;
+    document.getElementById('musicStatusText').textContent =
+        `Your ${currentMood.charAt(0).toUpperCase() + currentMood.slice(1)} Mix:`;
+    highlightEmotionChip(currentMood);
+    renderMusicDetails(result);
 }
 
-// ── Next Track ───────────────────────────────────────────────────────────────
+// ── Next Track ────────────────────────────────────────────────────────────────
 async function fetchNextTrack(emotion, excludeCurrent = false) {
     try {
         let excludeId = "";
-        if(excludeCurrent) {
-            excludeId = currentMusicMode === 'online' ? window._currentTrackId : window._currentAudioUrl;
+        if (excludeCurrent) {
+            excludeId = currentMusicMode === 'online'
+                ? (window._currentTrackId || "")
+                : (window._currentAudioUrl || "");
         }
 
         const resp = await fetch('/api/next-track', {
@@ -186,7 +203,7 @@ document.getElementById('nextTrackBtn').addEventListener('click', () => {
     fetchNextTrack(currentMood, true);
 });
 
-// ── Music Render + Custom Player ─────────────────────────────────────────────
+// ── Music Render + Custom Player ──────────────────────────────────────────────
 const MOOD_EMOJI = {
     happy: '😊', sad: '😢', angry: '😡', fear: '😨',
     disgust: '🤢', neutral: '😐', surprise: '😲'
@@ -207,18 +224,30 @@ function renderMusicDetails(data) {
 
     if (currentMusicMode === 'online') {
         const track = data.spotify;
-        if(track && track.track_id){
+        if (track && track.track_id) {
             container.innerHTML = `
                 <div class="music-card" style="border-left-color: ${data.color}">
-                    <div class="song-label">${langFlag} Spotify &nbsp;·&nbsp; <span style="text-transform:capitalize;">${data.language || 'english'}</span></div>
+                    <div class="song-label">${moodEmoji} ${langFlag} Spotify &nbsp;·&nbsp; <span style="text-transform:capitalize;">${data.language || 'english'}</span></div>
                     <div class="song-title">${track.song_name}</div>
                     <div class="song-artist">by ${track.artist}</div>
                 </div>
                 <div class="spotify-embed">
-                    <iframe src="https://open.spotify.com/embed/track/${track.track_id}?utm_source=generator&theme=0&autoplay=1" width="100%" height="152" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe
+                        src="https://open.spotify.com/embed/track/${track.track_id}?utm_source=generator&theme=0&autoplay=1"
+                        width="100%" height="152"
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy">
+                    </iframe>
                 </div>
             `;
             window._currentTrackId = track.track_id;
+        } else {
+            container.innerHTML = `
+                <div class="music-card" style="border-left-color:${data.color}">
+                    <div class="song-label">${moodEmoji} Spotify</div>
+                    <div class="song-title">No track available</div>
+                    <div class="song-artist">Try switching to Offline mode</div>
+                </div>`;
         }
     } else {
         // Offline Custom Player
@@ -228,16 +257,14 @@ function renderMusicDetails(data) {
 
         if (audioUrl) {
             window._currentAudioUrl = audioUrl;
-
             container.innerHTML = `
                 <div class="music-card offline" style="border-left-color:${data.color}">
-                    <div class="song-label">💿 Local Audio &nbsp;·&nbsp; <span style="text-transform:capitalize;">${data.language || 'english'}</span></div>
+                    <div class="song-label">${moodEmoji} 💿 Local Audio &nbsp;·&nbsp; <span style="text-transform:capitalize;">${data.language || 'english'}</span></div>
                     <div class="song-title">${songName}</div>
                     <div class="song-artist">by ${artist}</div>
                 </div>
 
                 <div class="custom-player" id="customPlayer">
-                    <!-- Mood Art + EQ Visualiser -->
                     <div class="player-art" style="background: radial-gradient(circle, ${data.color}30, transparent 70%);">
                         <span class="mood-emoji-big">${moodEmoji}</span>
                         <div class="eq-bars" id="eqBars">
@@ -245,39 +272,34 @@ function renderMusicDetails(data) {
                         </div>
                     </div>
 
-                    <!-- Progress Timeline -->
                     <div class="player-timeline">
                         <span class="player-time" id="timeCurrent">0:00</span>
                         <input type="range" class="player-progress" id="progressBar" value="0" min="0" max="100" step="0.1">
                         <span class="player-time" id="timeTotal">0:00</span>
                     </div>
 
-                    <!-- Control Buttons -->
                     <div class="player-btns">
                         <button class="player-btn" id="restartBtn" title="Restart">⏮</button>
                         <button class="player-btn play-btn" id="playPauseBtn" title="Play / Pause">▶</button>
                         <button class="player-btn" id="skipBtn" title="Next Track">⏭</button>
                     </div>
 
-                    <!-- Volume -->
                     <div class="player-volume">
                         <span>🔊</span>
                         <input type="range" class="volume-slider" id="volumeSlider" min="0" max="100" value="80">
                         <span id="volPct">80%</span>
                     </div>
 
-                    <!-- Hidden Audio Element -->
                     <audio id="inPageAudio" preload="auto">
                         <source src="${audioUrl}" type="audio/mpeg">
                     </audio>
                 </div>
             `;
-
             setupPlayer();
         } else {
             container.innerHTML = `
                 <div class="music-card offline" style="border-left-color:${data.color}">
-                    <div class="song-label">${langFlag} Mood Detected</div>
+                    <div class="song-label">${moodEmoji} Mood Detected</div>
                     <div class="song-title">${songName}</div>
                     <div class="song-artist">by ${artist}</div>
                 </div>
@@ -302,11 +324,9 @@ function setupPlayer() {
 
     if (!audio) return;
 
-    // Auto-play
     audio.volume = 0.8;
     audio.play().catch(() => {
-        // Browser blocked autoplay — user must click play
-        playBtn && (playBtn.textContent = '▶');
+        if (playBtn) playBtn.textContent = '▶';
     });
 
     audio.addEventListener('loadedmetadata', () => {
@@ -317,15 +337,18 @@ function setupPlayer() {
     audio.addEventListener('timeupdate', () => {
         progressBar.value = audio.currentTime;
         timeCurrent.textContent = fmt(audio.currentTime);
+        // Update progress fill for mobile visual feedback
+        const pct = (audio.currentTime / (audio.duration || 1)) * 100;
+        progressBar.style.background = `linear-gradient(to right, var(--accent-color) ${pct}%, rgba(255,255,255,0.15) ${pct}%)`;
     });
 
     audio.addEventListener('play', () => {
-        playBtn.textContent = '⏸';
+        if (playBtn) playBtn.textContent = '⏸';
         eqBars?.classList.add('playing');
     });
 
     audio.addEventListener('pause', () => {
-        playBtn.textContent = '▶';
+        if (playBtn) playBtn.textContent = '▶';
         eqBars?.classList.remove('playing');
     });
 
@@ -334,29 +357,24 @@ function setupPlayer() {
         fetchNextTrack(currentMood, true);
     });
 
-    // Play / Pause
     playBtn?.addEventListener('click', () => {
         audio.paused ? audio.play() : audio.pause();
     });
 
-    // Seek
     progressBar?.addEventListener('input', () => {
         audio.currentTime = parseFloat(progressBar.value);
     });
 
-    // Volume
     volumeSlider?.addEventListener('input', () => {
         audio.volume = volumeSlider.value / 100;
-        volPct.textContent = volumeSlider.value + '%';
+        if (volPct) volPct.textContent = volumeSlider.value + '%';
     });
 
-    // Restart current track
     document.getElementById('restartBtn')?.addEventListener('click', () => {
         audio.currentTime = 0;
         audio.play();
     });
 
-    // Skip to next
     document.getElementById('skipBtn')?.addEventListener('click', () => {
         fetchNextTrack(currentMood, true);
     });

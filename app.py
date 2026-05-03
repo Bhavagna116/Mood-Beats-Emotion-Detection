@@ -2,10 +2,8 @@ import os
 import csv
 import base64
 import random
-import tempfile
 import cv2
 import numpy as np
-from PIL import Image
 from flask import Flask, request, jsonify, send_from_directory
 
 from src.config import EMOTION_TRACKS, EMOTION_COLORS, EMOTION_LABELS, LANGUAGE_EMOTION_TRACKS
@@ -14,7 +12,6 @@ from src.model_utils import load_emotion_model, predict_emotion
 app = Flask(__name__, static_folder="static", static_url_path="")
 
 # Pre-load model once at startup
-# We bypass streamlit caching logic since this is now Flask
 model = load_emotion_model()
 
 
@@ -31,14 +28,24 @@ def load_music_dataset():
 MUSIC_DATA = load_music_dataset()
 
 
-def emotion_response(emotion: str, confidence: float, language: str = "english"):
+def emotion_response(emotion: str, confidence: float, language: str = "english", exclude_track_id: str = ""):
     """Build the JSON payload returned to the frontend."""
     color = EMOTION_COLORS.get(emotion, "#60a5fa")
+
     # Pick the correct language track set; fall back to English
     lang_tracks = LANGUAGE_EMOTION_TRACKS.get(language.lower(), LANGUAGE_EMOTION_TRACKS["english"])
     tracks = lang_tracks.get(emotion, lang_tracks.get("neutral", []))
-    track_id, song_name, artist = random.choice(tracks) if tracks else ("", "Unknown", "Unknown")
 
+    # Exclude previously played track to ensure variety
+    if tracks:
+        available = [t for t in tracks if t[0] != exclude_track_id]
+        if not available:
+            available = tracks  # fallback if all exhausted
+        track_id, song_name, artist = random.choice(available)
+    else:
+        track_id, song_name, artist = "", "Unknown", "Unknown"
+
+    # Offline songs - also rotate with exclusion
     offline_songs = MUSIC_DATA.get(emotion, [])
     offline_song = random.choice(offline_songs) if offline_songs else None
 
@@ -116,13 +123,15 @@ def next_track():
     data = request.get_json(force=True)
     emotion = data.get("emotion", "neutral")
     language = data.get("language", "english")
-    result = emotion_response(emotion, 1.0, language)
+    exclude = data.get("exclude", "")
+    result = emotion_response(emotion, 1.0, language, exclude_track_id=exclude)
     return jsonify(result)
 
 @app.route("/api/audio/<path:song_title>")
 def serve_audio(song_title):
     """
-    Search `MUSIC_DATA` by title and return the actual file if it exists.
+    Search MUSIC_DATA by title and return the actual file if it exists.
+    Falls back to master_test_song.mp3 if the specific file is missing.
     """
     for emo, songs in MUSIC_DATA.items():
         for s in songs:
@@ -132,6 +141,12 @@ def serve_audio(song_title):
                     dir_name = os.path.dirname(os.path.abspath(path))
                     file_name = os.path.basename(path)
                     return send_from_directory(dir_name, file_name)
+                # Try fallback: master_test_song.mp3 in local_music
+                fallback = os.path.join("local_music", "master_test_song.mp3")
+                if os.path.exists(fallback):
+                    return send_from_directory(
+                        os.path.abspath("local_music"), "master_test_song.mp3"
+                    )
     return "Not found", 404
 
 if __name__ == "__main__":

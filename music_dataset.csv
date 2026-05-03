@@ -2,18 +2,42 @@ emotion,song_title,artist,path
 angry,Break Stuff,Limp Bizkit,local_music/angry_1.mp3
 angry,Killing in the Name,Rage Against The Machine,local_music/angry_2.mp3
 angry,Down with the Sickness,Disturbed,local_music/angry_3.mp3
+angry,Back in Black,AC/DC,local_music/master_test_song.mp3
+angry,Chop Suey,System of a Down,local_music/master_test_song.mp3
+angry,Enter Sandman - Angry,Metallica,local_music/master_test_song.mp3
 disgust,Toxic,Britney Spears,local_music/disgust_1.mp3
 disgust,Bad Guy,Billie Eilish,local_music/disgust_2.mp3
+disgust,Creep,Radiohead,local_music/master_test_song.mp3
+disgust,Wicked Game,Chris Isaak,local_music/master_test_song.mp3
+disgust,Snuff,Slipknot,local_music/master_test_song.mp3
+disgust,I Wanna Be Yours,Arctic Monkeys,local_music/master_test_song.mp3
 fear,Thriller,Michael Jackson,local_music/fear_1.mp3
 fear,Somebody's Watching Me,Rockwell,local_music/fear_2.mp3
+fear,Enter Sandman,Metallica,local_music/master_test_song.mp3
+fear,Fear of the Dark,Iron Maiden,local_music/master_test_song.mp3
+fear,Monster,Imagine Dragons,local_music/master_test_song.mp3
+fear,Paint It Black,The Rolling Stones,local_music/master_test_song.mp3
 happy,Happy,Pharrell Williams,local_music/happy_1.mp3
 happy,Walking on Sunshine,Katrina & The Waves,local_music/happy_2.mp3
 happy,Don't Stop Me Now,Queen,local_music/happy_3.mp3
+happy,Uptown Funk,Mark Ronson ft. Bruno Mars,local_music/master_test_song.mp3
+happy,Can't Stop the Feeling,Justin Timberlake,local_music/master_test_song.mp3
+happy,Shake It Off,Taylor Swift,local_music/master_test_song.mp3
 neutral,Weightless,Marconi Union,local_music/neutral_1.mp3
 neutral,Clair de Lune,Claude Debussy,local_music/neutral_2.mp3
 neutral,Gymnopédie No.1,Erik Satie,local_music/neutral_3.mp3
+neutral,Let Her Go,Passenger,local_music/master_test_song.mp3
+neutral,The Night We Met,Lord Huron,local_music/master_test_song.mp3
+neutral,When I Was Your Man,Bruno Mars,local_music/master_test_song.mp3
 sad,Someone Like You,Adele,local_music/sad_1.mp3
 sad,Fix You,Coldplay,local_music/sad_2.mp3
 sad,The Sound of Silence,Simon & Garfunkel,local_music/sad_3.mp3
+sad,Hurt,Johnny Cash,local_music/master_test_song.mp3
+sad,All I Want,Kodaline,local_music/master_test_song.mp3
+sad,Skinny Love,Bon Iver,local_music/master_test_song.mp3
 surprise,Bohemian Rhapsody,Queen,local_music/surprise_1.mp3
 surprise,Take On Me,a-ha,local_music/surprise_2.mp3
+surprise,Africa,Toto,local_music/master_test_song.mp3
+surprise,Mr. Brightside,The Killers,local_music/master_test_song.mp3
+surprise,golden hour,JVKE,local_music/master_test_song.mp3
+surprise,Twist and Shout,The Beatles,local_music/master_test_song.mp3

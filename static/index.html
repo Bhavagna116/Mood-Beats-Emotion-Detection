@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>🎭 Live Mood Beats</title>
     <meta name="description" content="Real-time Emotion Prediction & Personalized Music">
+    <meta name="theme-color" content="#000000">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,7 +17,7 @@
         <header>
             <div class="mood-badge" id="globalMoodBadge">neutral</div>
             <h1>🎭 Live Mood Beats</h1>
-            <div class="subtitle">Real-time Emotion Prediction & Personalized Music</div>
+            <div class="subtitle">Real-time Emotion Prediction &amp; Personalized Music</div>
         </header>
 
         <div class="layout">
@@ -28,7 +32,7 @@
                 <div id="tab-live" class="tab-content active">
                     <h3>Live Stream</h3>
                     <div class="video-container" id="videoContainer">
-                        <video id="videoElement" autoplay playsinline></video>
+                        <video id="videoElement" autoplay playsinline muted></video>
                         <img id="processedFrame" class="hidden" alt="Live Emotion Processing">
                     </div>
                     <div class="controls">
@@ -49,13 +53,25 @@
                         <h4 style="margin:0; color:white;">Click to Upload Photo</h4>
                         <p>Supported: JPG, JPEG, PNG</p>
                     </div>
-                    <input type="file" id="fileInput" accept="image/*">
-                    <div class="video-container hidden" id="photoResultContainer">
-                        <img id="photoResultFrame" alt="Processed Photo">
+                    <input type="file" id="fileInput" accept="image/*" capture="user">
+                    <!-- Photo result: fixed size, no blowup -->
+                    <div class="video-container hidden" id="photoResultContainer" style="aspect-ratio:auto; height:280px;">
+                        <img id="photoResultFrame" alt="Processed Photo" style="width:100%;height:100%;object-fit:contain;">
                     </div>
                     <div class="controls hidden" id="photoControls">
                         <button class="btn" id="clearPhotoBtn">❌ Clear Photo</button>
                     </div>
+                </div>
+
+                <!-- Emotion visibility strip -->
+                <div class="emotion-strip" id="emotionStrip">
+                    <div class="emotion-chip" id="chip-angry"   style="background:#FF4B2B22; color:#FF4B2B;">😡 Angry</div>
+                    <div class="emotion-chip" id="chip-disgust" style="background:#2ECC7122; color:#2ECC71;">🤢 Disgust</div>
+                    <div class="emotion-chip" id="chip-fear"    style="background:#9B59B622; color:#9B59B6;">😨 Fear</div>
+                    <div class="emotion-chip" id="chip-happy"   style="background:#F1C40F22; color:#F1C40F;">😊 Happy</div>
+                    <div class="emotion-chip" id="chip-neutral" style="background:#60a5fa22; color:#60a5fa;">😐 Neutral</div>
+                    <div class="emotion-chip" id="chip-sad"     style="background:#3498DB22; color:#3498DB;">😢 Sad</div>
+                    <div class="emotion-chip" id="chip-surprise"style="background:#E67E2222; color:#E67E22;">😲 Surprise</div>
                 </div>
             </div>
 
@@ -72,7 +88,6 @@
 
                 <!-- Music Display -->
                 <div id="musicContainer">
-                    <!-- Default loading state -->
                     <div class="music-card">
                         <div class="song-label">🎵 Waiting for mood</div>
                         <div class="song-title">Ready to play...</div>

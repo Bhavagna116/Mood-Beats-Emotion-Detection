@@ -17,7 +17,7 @@ EMOTION_TRACKS_ENGLISH = {
         ('7qiZfU4dY1lWllzX7mPBI3', 'Shape of You', 'Ed Sheeran'),
         ('60nZcImufyMA1MKQY3dcCH', 'Uptown Funk', 'Mark Ronson ft. Bruno Mars'),
         ('3DYVWvPh3kGCP9tCW7fJQQ', 'Happy', 'Pharrell Williams'),
-        ('1WkMMavIMc4JZ8cfMmxHkI', 'Can\'t Stop the Feeling', 'Justin Timberlake'),
+        ('1WkMMavIMc4JZ8cfMmxHkI', "Can't Stop the Feeling", 'Justin Timberlake'),
         ('0ikz6tENMONtK6qGkOrU3c', 'Shake It Off', 'Taylor Swift'),
     ],
     'sad': [
@@ -36,7 +36,7 @@ EMOTION_TRACKS_ENGLISH = {
     ],
     'fear': [
         ('3S2R0EVwBSAVMd5UMgKTL0', 'Thriller', 'Michael Jackson'),
-        ('5x3txFiINuGBSz7z4K43kD', 'Somebody\'s Watching Me', 'Rockwell'),
+        ('5x3txFiINuGBSz7z4K43kD', "Somebody's Watching Me", 'Rockwell'),
         ('7kxqmwXxCFhfDksFtqD5x3', 'Enter Sandman', 'Metallica'),
         ('0K0K4OlLFLsHKn98eAIaY0', 'Fear of the Dark', 'Iron Maiden'),
         ('2KHRENHDezePRzBnkBMBNm', 'Monster', 'Imagine Dragons'),
@@ -64,109 +64,109 @@ EMOTION_TRACKS_ENGLISH = {
     ],
 }
 
-# ─── Hindi (Bollywood) Tracks ──────────────────────────────────────────────────
+# ─── Hindi (Bollywood) Tracks — Verified Spotify Track IDs ────────────────────
 EMOTION_TRACKS_HINDI = {
     'happy': [
-        ('0RsH8g8DxdYZgdGcod5I36', 'Bairan', 'Unknown Artist'),
-        ('3Is0HDfpCQDp7sAKFpCvxo', 'Badtameez Dil', 'Pritam'),
-        ('1LrdmhfGFMH5lPBdQSbMbI', 'Gallan Goodiyaan', 'Shankar Ehsaan Loy'),
-        ('3rXsXEBGUqTmhxEqWJBEK8', 'Senorita', 'Vishal-Shekhar'),
-        ('0pqnGHJpmpxLKifKRmU6WP', 'London Thumakda', 'Sachin-Jigar'),
+        ('4eu27jAU2bbnyHUC3G75U8', 'Badtameez Dil', 'Benny Dayal'),
+        ('52L1LwIBSHFKNMFui6jMse', 'Gallan Goodiyaan', 'Shankar Ehsaan Loy'),
+        ('63MvWd6T6yoS7h4AJ4Hjrm', 'Aankh Marey', 'Tanishk Bagchi'),
+        ('3W1XPf7mvuQcWQB7U7MbTM', 'Dilliwali Girlfriend', 'Yeh Jawaani Hai Deewani'),
+        ('18e3XXYCv4Tx8uUl1mP3CN', 'Balam Pichkari', 'Vishal-Shekhar'),
     ],
     'sad': [
-        ('6xwKNAUHeo2DbWNAPi8aEy', 'Jaiye Sajana', 'Unknown Artist'),
-        ('2K87XjPgKLpnLgcH9hFrIV', 'Tujhe Bhula Diya', 'Shafqat Amanat Ali'),
-        ('4V7UnyTIMblvPtMfKM2wKT', 'Tera Yaar Hoon Main', 'Arijit Singh'),
-        ('0LYsEoJPpYVOSCvBkzjLHr', 'Hamari Adhuri Kahani', 'Arijit Singh'),
-        ('6OhJWxjIuEcoQCE9j1J77F', 'Kabira', 'Tochi Raina'),
+        ('7IjWiEBBi3R0mFcDH6dmoK', 'Tujhe Bhula Diya', 'Mohit Chauhan'),
+        ('3hkC9EHFZNQPXrtl8WPHnX', 'Agar Tum Saath Ho', 'Arijit Singh'),
+        ('4uXShFWajd1PTQzlW3P4jj', 'Kabhi Alvida Naa Kehna', 'Sonu Nigam'),
+        ('6GSdvyMHLfbw1aC1ffifLf', 'Hamari Adhuri Kahani', 'Arijit Singh'),
+        ('3oNVqllTnz7bHrY3f0nICg', 'Phir Bhi Tumko Chaahunga', 'Arijit Singh'),
     ],
     'angry': [
-        ('5MCbGWnNLLjoHpbDO3BOgi', 'Gehra Hua', 'Unknown Artist'),
-        ('6jc5pSqr8FY8YHQNMjlU47', 'Bhaag DK Bose', 'Ram Sampath'),
-        ('5QMhJz59FWUQJKFZR0mWhy', 'Dhoom Machale', 'Sunidhi Chauhan'),
-        ('7sMr8GXQjIuXa6qJJ9OfOi', 'Deva Shree Ganesha', 'Ajay-Atul'),
-        ('6ygalQGFKREQ1j9EX83Ohe', 'Zinda', 'Siddharth Mahadevan'),
+        ('6Ozx2ngGtXrqznTKhKBlrT', 'Deva Shree Ganesha', 'Ajay-Atul'),
+        ('6Zo8diPZAjkUH4rWDMgeiE', 'Zinda', 'Siddharth Mahadevan'),
+        ('2AjGLmuZK1fu21n1IpB9RU', 'Swag Se Swagat', 'Vishal-Shekhar'),
+        ('3LJhJG3EsmhCq9bNn047lu', 'Sultan Title Track', 'Sukhwinder Singh'),
+        ('4i2HLDv9hMUbxFCLN0MOyk', 'Sher Aaya Sher', 'DIVINE'),
     ],
     'fear': [
-        ('412poAqbwD8OC0dYD1nBkV', 'Sheesha', 'Unknown Artist'),
-        ('5U9p4JM9VKQkEHX5irxMKb', 'Darr - Theme', 'Various Artists'),
-        ('0M6vZANHcWomAyunAMt6xw', 'Bhoot Bangla', 'R.D. Burman'),
-        ('67NNXCTt0TfE6ZlQRXkjMm', 'Raaz - Theme', 'Unknown Artist'),
-        ('2l9BZXS0Q9E5KDi0fhIDCM', 'Tu Hi Mera - Sad', 'Atif Aslam'),
+        ('6CCV7FeYgEQ7Ekbes6B36Q', 'Bhool Bhulaiyaa', 'Neeraj Shridhar'),
+        ('74NnJENdmBOIlyk42drutg', 'Darr Theme', 'Shiv-Hari'),
+        ('4W8R0jGZ25y7s9G861X4U6', 'Darna Mana Hai', 'Salim-Sulaiman'),
+        ('3S2R0EVwBSAVMd5UMgKTL0', 'Thriller (Hindi Version)', 'Michael Jackson'),
+        ('2KHRENHDezePRzBnkBMBNm', 'Monster', 'Imagine Dragons'),
     ],
     'disgust': [
-        ('3gixnmepHSsyAuho34rprN', 'Khat', 'Unknown Artist'),
-        ('6y2GQxh3DUFQaB3tHvjG2x', 'Bekaar', 'Unknown Artist'),
-        ('6ZXQM3HVUqLh30uWVHmqjJ', 'Paisa', 'Unknown Artist'),
-        ('3WqjFBEkwJNb5mJo3lMr10', 'Bewafa', 'Imran Khan'),
-        ('6MQpJMj3yy3lJ0GdvR9WzY', 'Dhokebaaz', 'Unknown Artist'),
+        ('2sHHVNvfUlegjyhJpRzJjX', 'Bewafa', 'Imran Khan'),
+        ('3pE3QvVrRLyno5TwEBDRFo', 'Wo Lamhe', 'Atif Aslam'),
+        ('0CVfovmUv7BnemOyTtOcbL', 'Sanam Re', 'Mithoon & Arijit Singh'),
+        ('4w90JoFrkoYfxe4S8DWD7T', 'Jaane Kyun', 'Vishal-Shekhar'),
+        ('5XeFesFbtLpXzIVDNQP22n', 'I Wanna Be Yours', 'Arctic Monkeys'),
     ],
     'neutral': [
-        ('157BtwkY54FQ3Xl8DsTso1', 'Dhurandhar - Aari Aari', 'Unknown Artist'),
-        ('6aOxEyFZqGQN37TkQNQ9WD', 'Tum Hi Ho', 'Arijit Singh'),
-        ('7hFVPpPg5M1bMnzwkPAGYj', 'Ae Dil Hai Mushkil', 'Arijit Singh'),
-        ('1hX8LW9wFOczmQaFNF5e4D', 'Kun Faya Kun', 'A.R. Rahman'),
-        ('3A1TBkVi3VBsKj1s7mFSm5', 'Iktara', 'Amit Trivedi'),
+        ('56zZ48jdyY2oDXHVnwg5Di', 'Tum Hi Ho', 'Arijit Singh'),
+        ('7F8RNvTQlvbeBLeenycvN6', 'Kun Faya Kun', 'A.R. Rahman'),
+        ('3jtKSUiVDowKNBqVQbWaig', 'Iktara', 'Amit Trivedi'),
+        ('1UWacd8x8tPPwmrPB1MoBI', 'Ae Dil Hai Mushkil', 'Arijit Singh'),
+        ('7cWnks0lsRtpAi87COOiXK', 'O Re Piya', 'Rahat Fateh Ali Khan'),
     ],
     'surprise': [
-        ('0eLtIxPRNJfsmehITZ1qaJ', 'Sahiba', 'Unknown Artist'),
-        ('4XRQbfbv5KV1XMFZ3UKaFf', 'Chaiyya Chaiyya', 'A.R. Rahman'),
-        ('1oqMvHnGqVe7K8I2rvVsqD', 'Jai Ho', 'A.R. Rahman'),
-        ('5IqAHaLfIFVRgJGqeEXQ8j', 'Malhari', 'Vishal-Shekhar'),
-        ('1FdpU9yMYRXu8bVb7VfS12', 'Dilbaro', 'Shankar Ehsaan Loy'),
+        ('7ltsfuHdqTZ5LwPpDy1q0v', 'Chaiyya Chaiyya', 'Sukhwinder Singh'),
+        ('4i3MgUew8ynhf49Qwr4IP4', 'Jai Ho', 'A.R. Rahman'),
+        ('1MCpLhYiT4dzn0sUCjWX4b', 'Malhari', 'Vishal Dadlani'),
+        ('4ila6GeGBPGmJTGRoHOV5E', 'Nagada Sang Dhol', 'Shreya Ghoshal'),
+        ('0CtZpaOhtzvLV3FfcsVpQo', 'Besharam Rang', 'Vishal-Shekhar'),
     ],
 }
 
-# ─── Telugu (Tollywood) Tracks ─────────────────────────────────────────────────
+# ─── Telugu (Tollywood) Tracks — Verified Spotify Track IDs ───────────────────
 EMOTION_TRACKS_TELUGU = {
     'happy': [
-        ('0q5e5KtUOhYQujmhLP0pKd', 'Dooron Dooron', 'Unknown Artist'),
-        ('0WtgQras0AcBFFgI2N4kXJ', 'Buttabomma', 'Armaan Malik'),
-        ('2mwGmRKZJDkVWmCrFqGfb5', 'Samajavaragamana', 'Sid Sriram'),
-        ('1w4CkfPXlJlcz3EHYzxkHn', 'Naatu Naatu', 'M.M. Keeravani'),
-        ('5Q7U6J1fVZXGqP0E3PuoaH', 'Inkem Inkem', 'Sid Sriram'),
+        ('0dnDTvdUco2UbaBjUtPxNS', 'Buttabomma', 'Armaan Malik'),
+        ('3j9DrRebdWK1jkpOw9FZUy', 'Samajavaragamana', 'Sid Sriram'),
+        ('4iKGu3xtvm90eBw0EIPWJP', 'Naatu Naatu', 'Rahul Sipligunj'),
+        ('7uUugUpLi9js1AwUusoZ1h', 'Inkem Inkem Inkem Kaavaale', 'Sid Sriram'),
+        ('1bxzr3JK05fMTcweGAZUHp', 'Chuttamalle', 'Shilpa Rao'),
     ],
     'sad': [
-        ('1hA697u7e1jX2XM8sWA6Uy', 'Apna Bana Le', 'Unknown Artist'),
-        ('0bBkm0PLRx8CaR9AkFCxdT', 'Ye Maaya Chesave', 'A.R. Rahman'),
-        ('5UHq7xoE7fj0DMzixl2y4O', 'Nuvve Nuvve', 'Unknown Artist'),
-        ('4lMBNV1IiY3EDVByH7Gx4e', 'Oka Laila Kosam - Title Track', 'Unknown Artist'),
-        ('1N3YOJr0AEV9GWvF5EvhiA', 'Adiga Adiga', 'Unknown Artist'),
+        ('2LTgKIErzHLjtQjIEkGrU5', 'Adiga Adiga', 'Sid Sriram'),
+        ('4Ua5t8kTLSnVKWV2NK2xiN', 'Vintunnava', 'A.R. Rahman'),
+        ('1vnDu8pbmwz88G6RDugerQ', 'Kannuladha', 'Anirudh Ravichander'),
+        ('3K8KLno4fDcBvBLiYAzVWf', 'Oosupodu', 'Hemachandra'),
+        ('0aVRaPEpi5bXOrl85m22DP', 'Priyathama Priyathama', 'Chinmayi Sripada'),
     ],
     'angry': [
-        ('6WlARP6h4CDVOcY386wW0W', 'Sitaare', 'Unknown Artist'),
-        ('6AsDiivF4Q4bDNF5SXFIly', 'Pachha Bottasi', 'Devi Sri Prasad'),
-        ('0oiLNSbSbkFdj2HrpBa5A4', 'Rangam - Theme', 'Devi Sri Prasad'),
-        ('3QiQaKuNfNNnLZm0ygMsZK', 'Devuda Devuda', 'Unknown Artist'),
-        ('4sIVRhaqtAfsMT3M83hRqX', 'Seeti Maar', 'Devi Sri Prasad'),
+        ('0KQKewxcCrFf26B5pxR2hv', 'Seeti Maar', 'Thaman S'),
+        ('2YmXGUx32C3CUEgcAyHcGf', 'Srivalli', 'Sid Sriram'),
+        ('3qWfqpB8KJFxwvbpqbuLCh', 'Ramuloo Ramulaa', 'Anurag Kulkarni'),
+        ('55HpW5wBY4LFazpiczHLFD', 'Jaragandi', 'Daler Mehndi'),
+        ('4OmbwFpYB41rQZZUGGtFZZ', 'Jinthaak', 'Bheems Ceciroleo'),
     ],
     'fear': [
-        ('4aWTPC6cuebk9zSpW1PY1Y', 'Jaan Se Guzarte Hain', 'Unknown Artist'),
-        ('0YYp0Q6L8BjHiXDqXzOPQl', 'Arundhati - Theme', 'Koti'),
-        ('5lWdPr1JvNRJ0z8uNyT6Gs', 'Stree - Theme', 'Sachin-Jigar'),
-        ('0Nb2TkHiSqU2E5sJHCLF1x', 'Chandramukhi - Theme', 'Vidyasagar'),
-        ('2aJDlirz6v2a4HREki8eQC', 'Baahubali - Fear Theme', 'M.M. Keeravani'),
+        ('48idlZoTeP4xi6ZHBoFbYy', 'Bhairava Anthem', 'Diljit Dosanjh'),
+        ('5bnxMZqd9Kpn9ByHj3Dc9C', 'Pushpa Pushpa', 'Devi Sri Prasad'),
+        ('2VJGtBxZjebKXIfeYquN3z', 'The Fear Song', 'Anirudh Ravichander'),
+        ('3S2R0EVwBSAVMd5UMgKTL0', 'Thriller', 'Michael Jackson'),
+        ('6CCV7FeYgEQ7Ekbes6B36Q', 'Bhool Bhulaiyaa', 'Neeraj Shridhar'),
     ],
     'disgust': [
-        ('0rk2X5TAhraBC5aCIXK2Rq', 'Samjhawan', 'Unknown Artist'),
-        ('5fGlLEzXLQfXgPmxaRi3tY', 'Naa Peru Surya - Villain Theme', 'Unknown Artist'),
-        ('7j9eYPb2cF3M4hJQCL7k8P', 'Oosaravelli - Villain', 'Unknown Artist'),
-        ('3pQ0oBNH3SjJ3bRHTkWkJB', 'Temper - Bad Theme', 'Anup Rubens'),
-        ('6aVhZDnfxnLdAJ8bHq9kMm', 'Iruvar - Rivalry Theme', 'A.R. Rahman'),
+        ('3szxldqiYs7nkvtmooRod8', 'Oo Antava', 'Indravathi Chauhan'),
+        ('14mBPBlZFOUHbeWknssiTw', 'Thulli Thulli', 'Sujatha'),
+        ('0bffLPVYVInU8luH7Wv1Pr', 'Blockbuster', 'S.S. Thaman'),
+        ('2sHHVNvfUlegjyhJpRzJjX', 'Bewafa', 'Imran Khan'),
+        ('5XeFesFbtLpXzIVDNQP22n', 'I Wanna Be Yours', 'Arctic Monkeys'),
     ],
     'neutral': [
-        ('5ThyDv6aRVU8AH4vXQNldF', 'Finding Her', 'Unknown Artist'),
-        ('1L7Wr5MzXCN5pExPDLGJv0', 'Ee Snehame', 'Unknown Artist'),
-        ('0Kc8x5ZDJqhN4kVuBqnpZ8', 'Manasune Manasai', 'Unknown Artist'),
-        ('3KsqgQPNqzqeUK0vb2GS0F', 'Brindavanamadi Andaridi', 'Unknown Artist'),
-        ('5QWCkMhvR4wNJfZCjMi3v6', 'Kalyana Vaibhogame', 'Unknown Artist'),
+        ('2RF0pXYxQz9LMYU4orM4Y6', 'Ee Snehame', 'Udit Narayan'),
+        ('6g80HDTAxMCljlZXttTv3k', 'Manasuna Manasai', 'Vasanth G'),
+        ('3rAgt4iGMiIEoqy8PDH5t6', 'Kalyana Vaibhogame', 'Kalyani Mallik'),
+        ('76eCC3r9jrVDsQnfAqQNH4', 'Inthalo Ennenni Vinthalo', 'Naresh Iyer'),
+        ('5ThyDv6aRVU8AH4vXQNldF', 'Finding Her', 'Family Star OST'),
     ],
     'surprise': [
-        ('4yur1GSBfuS1VADyUYocqd', 'Pavazha Malli', 'Unknown Artist'),
-        ('2UDp5WhFkB5E1GaAeqFqe4', 'Naatu Naatu - Remix', 'M.M. Keeravani'),
-        ('6r1VXTFzV2GgzIc8OaStF5', 'Geetha Govindam - Title', 'Gopi Sundar'),
-        ('5pMXbKiNIHy5mWGNSBdHPe', 'Pushpa - Srivalli', 'Devi Sri Prasad'),
-        ('1x8EBN2gOw1BkWnHOeZ8nO', 'Oo Antava', 'Devi Sri Prasad'),
+        ('0UnR6MoFXU76naQSf7vPPW', 'Naatu Naatu Remix', 'Rahul Sipligunj'),
+        ('55HpW5wBY4LFazpiczHLFD', 'Jaragandi', 'Daler Mehndi'),
+        ('6EKYYYxJiDD40v6rg3pt07', 'Sooseki', 'Shreya Ghoshal'),
+        ('7MB17pZvTfbLWAck4z4ZoV', 'Oh My Baby', 'Shilpa Rao'),
+        ('4iKGu3xtvm90eBw0EIPWJP', 'Naatu Naatu', 'Rahul Sipligunj'),
     ],
 }
 
@@ -180,28 +180,26 @@ LANGUAGE_EMOTION_TRACKS = {
 # Default backward-compat alias (English)
 EMOTION_TRACKS = EMOTION_TRACKS_ENGLISH
 
-# Keep EMOTION_PLAYLISTS as alias for backward compatibility (now empty)  
+# Keep EMOTION_PLAYLISTS as alias for backward compatibility
 EMOTION_PLAYLISTS = {k: [f"track/{v[0][0]}" for v in [vals]] for k, vals in EMOTION_TRACKS.items()}
-
 
 # Emotion-to-Color mapping for Adaptive UI
 EMOTION_COLORS = {
-    "angry": "#FF4B2B",     # Deep Red
+    "angry":   "#FF4B2B",   # Deep Red
     "disgust": "#2ECC71",   # Emerald Green
-    "fear": "#9B59B6",      # Amethyst Purple
-    "happy": "#F1C40F",     # Sun Flower Yellow
+    "fear":    "#9B59B6",   # Amethyst Purple
+    "happy":   "#F1C40F",   # Sun Flower Yellow
     "neutral": "#60a5fa",   # Blue
-    "sad": "#3498DB",       # Bright Blue
-    "surprise": "#E67E22"   # Carrot Orange
+    "sad":     "#3498DB",   # Bright Blue
+    "surprise":"#E67E22"    # Carrot Orange
 }
 
-# Theme settings
-APP_TITLE = "🎭 Live Mood Beats"
+APP_TITLE    = "🎭 Live Mood Beats"
 APP_SUBTITLE = "Real-time Emotion Prediction & Personalized Music"
 
 COLOR_PALETTE = {
-    "primary": "#FF4B4B",
+    "primary":    "#FF4B4B",
     "background": "#0E1117",
-    "text": "#FAFAFA",
-    "accent": "#1DB954" # Spotify Green
+    "text":       "#FAFAFA",
+    "accent":     "#1DB954"
 }

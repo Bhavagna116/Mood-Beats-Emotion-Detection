@@ -155,9 +155,10 @@ h1 {
     flex-shrink: 0;
   }
 
-  /* Video container – use auto height so video fits without awkward crop */
+  /* Video container – fixed height on mobile to prevent overflow */
   .video-container {
-    aspect-ratio: 4/3;
+    aspect-ratio: unset;
+    height: 240px;
     border-radius: 12px;
   }
 
@@ -310,7 +311,7 @@ h3 {
   width: 100%;
   border-radius: 16px;
   overflow: hidden;
-  background: #000;
+  background: #111;
   aspect-ratio: 16/9;
   border: 2px solid var(--glass-border);
   transition: border-color var(--transition-speed) ease;
@@ -318,13 +319,25 @@ h3 {
 
 .video-container.active-stream {
   border-color: var(--accent-color);
-  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  box-shadow: 0 0 24px color-mix(in srgb, var(--accent-color) 40%, transparent);
 }
 
-#videoElement, #processedFrame {
+#videoElement {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Processed frame overlays the live video — no flash hide/show */
+#processedFrame {
+  position: absolute;
+  top: 0; left: 0;
   width: 100%;
   height: 100%;
   object-fit: contain;
+  z-index: 2;
+  background: transparent;
 }
 
 /* ── PHOTO RESULT: keep the displayed image contained, not blown up ───────── */

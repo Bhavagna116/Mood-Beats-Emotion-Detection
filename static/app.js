@@ -69,6 +69,12 @@ document.getElementById('startBtn').addEventListener('click', async () => {
         const stream = await navigator.mediaDevices.getUserMedia(constraints);
         video.srcObject = stream;
 
+        // Hide frozen label when restarting camera
+        const frozenLabel = document.getElementById('frozenLabel');
+        if (frozenLabel) frozenLabel.classList.add('hidden');
+        processedFrame.classList.add('hidden');
+        processedFrame.src = '';
+
         await new Promise(resolve => {
             video.onloadedmetadata = () => {
                 canvas.width  = video.videoWidth  || 640;
@@ -112,32 +118,72 @@ document.getElementById('startBtn').addEventListener('click', async () => {
 // ── Stop Camera ───────────────────────────────────────────────────────────────
 document.getElementById('stopBtn').addEventListener('click', stopCamera);
 
-function stopCamera() {
-    // Mark stopped FIRST so any in-flight processFrame call exits immediately
+async function stopCamera() {
+    if (!isStreaming) return;
+
+    // 1. Pause the frame loop immediately so no more auto-frames fire
     isStreaming  = false;
     isProcessing = false;
+    if (frameLoopId !== null) { clearTimeout(frameLoopId); frameLoopId = null; }
 
-    // Cancel the pending setTimeout
-    if (frameLoopId !== null) {
-        clearTimeout(frameLoopId);
-        frameLoopId = null;
+    // 2. Capture & analyse one final frame before releasing camera
+    let capturedFinal = false;
+    if (video.readyState >= 2 && canvas.width > 0 && canvas.height > 0) {
+        try {
+            // Draw the current video frame to canvas
+            ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+            const frameData = canvas.toDataURL('image/jpeg', 0.85);
+
+            // Show a brief "Capturing..." indicator
+            videoContainer.classList.add('capturing');
+
+            const response = await fetch('/api/detect/frame', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ frame: frameData, language: currentLanguage })
+            });
+
+            if (response.ok) {
+                const result = await response.json();
+
+                // Freeze the annotated processed frame on screen
+                if (result.processed_image) {
+                    processedFrame.src = result.processed_image;
+                    processedFrame.classList.remove('hidden');
+                    capturedFinal = true;
+                }
+
+                // Update mood badge, emotion chips, and music
+                updateUI(result);
+            }
+        } catch (err) {
+            console.warn('Final frame capture failed:', err);
+        } finally {
+            videoContainer.classList.remove('capturing');
+        }
     }
 
-    // Release camera hardware
+    // 3. Now release the camera hardware
     const stream = video.srcObject;
-    if (stream) {
-        stream.getTracks().forEach(track => {
-            track.stop();
-        });
-    }
+    if (stream) stream.getTracks().forEach(t => t.stop());
     video.srcObject = null;
-    video.load();   // resets the video element fully
+    video.load();
 
-    // Reset UI
+    // 4. UI state: keep processed frame visible; hide live video
     videoContainer.classList.remove('active-stream');
-    video.classList.remove('hidden');
-    processedFrame.classList.add('hidden');
-    processedFrame.src = '';
+    const frozenLabel = document.getElementById('frozenLabel');
+    if (capturedFinal) {
+        // Show the frozen last frame; hide the (now blank) live video element
+        video.classList.add('hidden');
+        processedFrame.classList.remove('hidden');
+        if (frozenLabel) frozenLabel.classList.remove('hidden');
+    } else {
+        // Nothing captured — just reset cleanly
+        video.classList.remove('hidden');
+        processedFrame.classList.add('hidden');
+        processedFrame.src = '';
+        if (frozenLabel) frozenLabel.classList.add('hidden');
+    }
 }
 
 // ── Frame Loop (setTimeout chain, NOT setInterval) ───────────────────────────
